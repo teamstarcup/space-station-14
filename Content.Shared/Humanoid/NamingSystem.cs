@@ -30,6 +30,11 @@ namespace Content.Shared.Humanoid
                 case SpeciesNaming.First:
                     return Loc.GetString("namepreset-first",
                         ("first", GetFirstName(speciesProto, gender)));
+                //Start of Nyano code for Oni naming
+                case SpeciesNaming.XnoY:
+                    return Loc.GetString("namepreset-x-no-y",
+                        ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
+                //End of Nyano code for Oni naming
                 case SpeciesNaming.TheFirstofLast:
                     return Loc.GetString("namepreset-thefirstoflast",
                         ("first", GetFirstName(speciesProto, gender)), ("last", GetLastName(speciesProto)));
