@@ -57,7 +57,7 @@
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckMantleRD
   name: research director's mantle
-  description: For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from cargo; this mantle will keep you comfy.
+  description: For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from logistics; this mantle will keep you comfy. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/rdmantle.rsi
@@ -84,4 +84,4 @@
   - type: Sprite
     sprite: Clothing/Neck/mantles/mantle.rsi
   - type: Clothing
-    sprite: Clothing/Neck/mantles/mantle.rsi 
+    sprite: Clothing/Neck/mantles/mantle.rsi

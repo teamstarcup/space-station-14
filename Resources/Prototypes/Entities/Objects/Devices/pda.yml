@@ -436,10 +436,21 @@
     - DoorBumpOpener
 
 - type: entity
-  name: quartermaster PDA
+  parent: ChaplainPDA
+  id: VisitorChaplainPDA
+  suffix: Visitor
+  components:
+  - type: Pda
+    id: VisitorIDCard
+  - type: Tag #  Ignore Chameleon tags
+    tags:
+    - DoorBumpOpener
+
+- type: entity
+  name: head of logistics PDA # DeltaV - Logistics Department replacing Cargo
   parent: BasePDA
   id: QuartermasterPDA
-  description: PDA for the guy that orders the guns.
+  description: PDA for the guy that directs logistics. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Pda
     id: QuartermasterIDCard
@@ -463,8 +474,8 @@
 - type: entity
   parent: BasePDA
   id: CargoPDA
-  name: cargo PDA
-  description: PDA for the guys that order the pizzas.
+  name: logistics PDA # DeltaV - Logistics Department replacing Cargo
+  description: PDA for the guys that order the pizzas. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Pda
     id: CargoIDCard
