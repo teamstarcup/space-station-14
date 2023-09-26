@@ -7,12 +7,12 @@
   components:
   - type: StorageFill
     contents:
-    - id: ClothingMaskBreath
-    - id: EmergencyOxygenTankFilled
-    - id: EmergencyMedipen
-    - id: Flare
-    - id: FoodSnackNutribrick
-    - id: DrinkWaterBottleFull
+      - id: ClothingMaskBreath
+      - id: EmergencyOxygenTankFilled
+      - id: EmergencyMedipen
+      - id: Flare
+      - id: FoodPSB # DeltaV - replace nutribrick with PSB
+      - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
     - state: internals
@@ -51,7 +51,7 @@
     - id: ExtendedEmergencyOxygenTankFilled
     - id: EmergencyMedipen
     - id: Flare
-    - id: FoodSnackNutribrick
+    - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
@@ -92,7 +92,7 @@
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
     - id: Flare
-    - id: FoodSnackNutribrick
+    - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
@@ -110,7 +110,7 @@
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
     - id: Flare
-    - id: FoodSnackNutribrick
+    - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
@@ -133,7 +133,7 @@
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
     - id: Flare
-    - id: FoodSnackNutribrick
+    - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
@@ -179,7 +179,7 @@
     - id: EmergencyFunnyOxygenTankFilled
     - id: EmergencyMedipen
     - id: Flare
-    - id: FoodSnackNutribrick
+    - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
   - type: Tag
     tags:
