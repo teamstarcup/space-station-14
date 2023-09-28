@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMailCarrier
+  name: courier's uniform # Delta V - Mail Carrier to Courier replacement
+  description: Enemy of dogs everywhere.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mailman.rsi
+  - type: Clothing
+    sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mailman.rsi
+#  - type: ClothingAddFaction
+#    faction: Mailman
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformSkirtMailCarrier
+  name: courier's jumpskirt # Delta V - Mail Carrier to Courier replacement
+  description: Enemy of dogs everywhere.
+  components:
+  - type: Sprite
+    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mailman.rsi
+  - type: Clothing
+    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mailman.rsi
+#  - type: ClothingAddFaction
+#    faction: Mailman

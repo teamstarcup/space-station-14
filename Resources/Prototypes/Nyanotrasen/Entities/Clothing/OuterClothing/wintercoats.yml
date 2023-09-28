@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterCoatMail
+  name: courier's winter coat # Delta V - Mail Carrier to Courier replacement
+  description: It'll keep away the cold but not the dogs.
+  components:
+    - type: Sprite
+      sprite: Nyanotrasen/Clothing/OuterClothing/WinterCoats/mail_winter_coat.rsi
+    - type: Clothing
+      sprite: Nyanotrasen/Clothing/OuterClothing/WinterCoats/mail_winter_coat.rsi
