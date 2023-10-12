@@ -9,4 +9,5 @@
     sprite: DeltaV/Markers/jobs.rsi
     layers:
       - state: green
-      - state: nyanomailcarrier
+      - sprite: DeltaV/Markers/jobs.rsi
+        state: courier # Delta V - Mail Carrier to Courier replacement
