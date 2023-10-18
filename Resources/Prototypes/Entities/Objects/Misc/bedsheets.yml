@@ -251,7 +251,7 @@
 - type: entity
   id: BedsheetQM
   parent: BedsheetBase
-  name: QM's bedsheet
+  name: LO's bedsheet # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     state: sheetqm

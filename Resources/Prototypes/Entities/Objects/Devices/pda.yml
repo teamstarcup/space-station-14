@@ -436,18 +436,7 @@
     - DoorBumpOpener
 
 - type: entity
-  parent: ChaplainPDA
-  id: VisitorChaplainPDA
-  suffix: Visitor
-  components:
-  - type: Pda
-    id: VisitorIDCard
-  - type: Tag #  Ignore Chameleon tags
-    tags:
-    - DoorBumpOpener
-
-- type: entity
-  name: head of logistics PDA # DeltaV - Logistics Department replacing Cargo
+  name: logistics officer PDA # DeltaV - Logistics Department replacing Cargo
   parent: BasePDA
   id: QuartermasterPDA
   description: PDA for the guy that directs logistics. # DeltaV - Logistics Department replacing Cargo

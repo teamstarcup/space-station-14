@@ -369,7 +369,7 @@
 - type: entity
   parent: AirlockCommand
   id: AirlockQuartermasterLocked
-  suffix: Head of Logistics, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
   components:
   - type: ContainerFill
     containers:
@@ -763,7 +763,7 @@
 - type: entity
   parent: AirlockCommandGlass
   id: AirlockQuartermasterGlassLocked
-  suffix: Head of Logistics, Locked # DeltaV - Logistics Department replacing Cargo
+  suffix: Logistics Officer, Locked # DeltaV - Logistics Department replacing Cargo
   components:
   - type: ContainerFill
     containers:
