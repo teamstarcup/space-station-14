@@ -152,6 +152,8 @@ namespace Content.Server.GameTicking
                     return;
                 }
 
+                session.ContentData()!.Whitelisted = await _db.GetWhitelistStatusAsync(session.UserId); // Nyanotrasen - Whitelist
+
                 SpawnPlayer(session, EntityUid.Invalid);
             }
 

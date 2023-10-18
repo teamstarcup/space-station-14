@@ -35,6 +35,7 @@
   - !type:DepartmentTimeRequirement
     department: Security
     time: 18000 # 5h
+  - !type:WhitelistRequirement # DeltaV - Commander is an "hrp" role
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]
 

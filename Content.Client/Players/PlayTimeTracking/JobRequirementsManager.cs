@@ -16,7 +16,7 @@ using Robust.Shared.Utility;
 
 namespace Content.Client.Players.PlayTimeTracking;
 
-public sealed class JobRequirementsManager : ISharedPlaytimeManager
+public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
 {
     [Dependency] private readonly IBaseClient _client = default!;
     [Dependency] private readonly IClientNetManager _net = default!;
@@ -41,6 +41,7 @@ public sealed class JobRequirementsManager : ISharedPlaytimeManager
         _net.RegisterNetMessage<MsgRoleBans>(RxRoleBans);
         _net.RegisterNetMessage<MsgPlayTime>(RxPlayTime);
         _net.RegisterNetMessage<MsgJobWhitelist>(RxJobWhitelist);
+        _net.RegisterNetMessage<MsgWhitelist>(RxWhitelist);
 
         _client.RunLevelChanged += ClientOnRunLevelChanged;
     }
@@ -126,7 +127,7 @@ public sealed class JobRequirementsManager : ISharedPlaytimeManager
         var reasons = new List<string>();
         foreach (var requirement in requirements)
         {
-            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason))
+            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason, _whitelisted))
                 continue;
 
             reasons.Add(jobReason.ToMarkup());
