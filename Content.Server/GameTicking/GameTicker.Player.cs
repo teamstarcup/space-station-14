@@ -33,7 +33,7 @@ namespace Content.Server.GameTicking
                 if (args.NewStatus != SessionStatus.Disconnected)
                 {
                     mind.Session = session;
-                    _pvsOverride.AddSessionOverride(GetNetEntity(mindId.Value), session);
+                    _pvsOverride.AddSessionOverride(mindId.Value, session);
                 }
 
                 DebugTools.Assert(mind.Session == session);
@@ -52,6 +52,7 @@ namespace Content.Server.GameTicking
                     {
                         var data = new ContentPlayerData(session.UserId, args.Session.Name);
                         data.Mind = mindId;
+                        data.Whitelisted = await _db.GetWhitelistStatusAsync(session.UserId); // Nyanotrasen - Whitelist
                         session.Data.ContentDataUncast = data;
                     }
 
@@ -151,8 +152,6 @@ namespace Content.Server.GameTicking
                     Log.Debug($"Database load cancelled while waiting to spawn {session}");
                     return;
                 }
-
-                session.ContentData()!.Whitelisted = await _db.GetWhitelistStatusAsync(session.UserId); // Nyanotrasen - Whitelist
 
                 SpawnPlayer(session, EntityUid.Invalid);
             }
