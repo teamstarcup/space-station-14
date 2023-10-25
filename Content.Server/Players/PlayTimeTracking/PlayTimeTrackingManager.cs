@@ -137,6 +137,12 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
                 data.NeedSendTimers = false;
             }
 
+            if (data.NeedRefreshWhitelist) // Nyanotrasen - Whitelist status
+            {
+                SendWhitelistCached(player);
+                data.NeedRefreshWhitelist = false;
+            }
+
             data.IsDirty = false;
         }
 
@@ -322,10 +328,13 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
             data.TrackerTimes.Add(timer.Tracker, timer.TimeSpent);
         }
 
+        session.ContentData()!.Whitelisted = await _db.GetWhitelistStatusAsync(session.UserId); // Nyanotrasen - Whitelist
+
         data.Initialized = true;
 
         QueueRefreshTrackers(session);
         QueueSendTimers(session);
+        QueueSendWhitelist(session); // Nyanotrasen - Whitelist status
     }
 
     public void ClientDisconnected(ICommonSession session)
@@ -444,6 +453,7 @@ public sealed partial class PlayTimeTrackingManager : ISharedPlaytimeManager, IP
         public bool IsDirty;
         public bool NeedRefreshTackers;
         public bool NeedSendTimers;
+        public bool NeedRefreshWhitelist; // Nyanotrasen - Whitelist status
 
         // Active tracking info
         public readonly HashSet<string> ActiveTrackers = new();
