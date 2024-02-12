@@ -135,6 +135,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: DamageOnInteractProtection
@@ -161,6 +162,9 @@
   - type: HeldSpeedModifier
   - type: Item
     size: Huge
+  - type: Tag
+    tags:
+    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: DamageOnInteractProtection
