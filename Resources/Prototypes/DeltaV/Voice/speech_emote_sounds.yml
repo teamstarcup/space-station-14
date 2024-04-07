@@ -30,8 +30,6 @@
       collection: HarpyPurrs
     Ring:
       collection: HarpyRings
-    HonkHarpy:
-      collection: HarpyHonks
     Pew:
       collection: HarpyPews
     Bang:
@@ -56,6 +54,12 @@
       collection: VulpkaninBarks
     Whine:
       collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Honk:
+      collection: HarpyHonks
+    Weh:
+      collection: Weh
 
 - type: emoteSounds
   id: MaleVulpakin
