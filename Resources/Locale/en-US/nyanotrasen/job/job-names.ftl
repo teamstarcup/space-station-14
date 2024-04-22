@@ -1,4 +1,4 @@
-job-name-mail-carrier = Courier
+job-name-mail-carrier = Mail Carrier
 
 # Role timers
 JobMailCarrier = Courier
