@@ -159,12 +159,7 @@ namespace Content.Server.Carrying
 
         private void OnParentChanged(EntityUid uid, CarryingComponent component, ref EntParentChangedMessage args)
         {
-            var xform = Transform(uid);
-            if (xform.MapID != args.OldMapId)
-                return;
-
-            // Do not drop the carried entity if the new parent is a grid
-            if (xform.ParentUid == xform.GridUid)
+            if (Transform(uid).MapUid != args.OldMapId)
                 return;
 
             DropCarried(uid, component.Carried);
