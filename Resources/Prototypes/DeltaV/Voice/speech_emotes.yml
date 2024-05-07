@@ -1,150 +1,146 @@
-# Harpy
-- type: emote
-  id: Ring
-  category: Vocal
-  chatMessages: [rings.]
-  chatTriggers:
-    - ring.
-    - rings.
-    - rings!
-    - ringing.
-    - ringed.
+# species
+- type: emoteSounds
+  id: SoundsHarpy
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: HarpyScreams
+    Laugh:
+      collection: HarpyLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Sigh:
+      collection: MaleSigh
+    Crying:
+      collection: HarpyCry
+    Whistle:
+      collection: Whistles
+    Hiss:
+      collection: HarpyHisses
+    Meow:
+      collection: HarpyMeows
+    Mew:
+      collection: HarpyMews
+    Growl:
+      collection: HarpyGrowls
+    Purr:
+      collection: HarpyPurrs
+    HarpyRing:
+      collection: HarpyRings
+    HarpyHonk:
+      collection: HarpyHonks
+    HarpyPew:
+      collection: HarpyPews
+    HarpyBang:
+      collection: HarpyBangs
+    HarpyBeep:
+      collection: HarpyBeeps
+    HarpyRev:
+      collection: HarpyRevs
+    Click:
+      collection: HarpyClicks
+    Chitter:
+      collection: HarpyChitter
+    Squeak:
+      collection: HarpySqueak
+    HarpyCaw:
+      collection: HarpyCaws
+    Chirp:
+      collection: HarpyChirps
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Awoo:
+      collection: VulpkaninHowls
+    Honk:
+      collection: HarpyHonks
+    Weh:
+      collection: Weh
 
-- type: emote
-  id: Pew
-  category: Vocal
-  chatMessages: [pews.]
-  chatTriggers:
-    - pew.
-    - pews.
-    - pew!
+- type: emoteSounds
+  id: MaleVulpkanin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MaleScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: MaleSigh
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Growl:
+      collection: VulpkaninGrowls
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Awoo:
+      collection: VulpkaninHowls
 
-- type: emote
-  id: Bang
-  category: Vocal
-  chatMessages: [bangs.]
-  chatTriggers:
-    - bangs.
-    - bang.
-    - bang!
-    - banging.
-    - banged.
-
-#- type: emote
-#  id: Beep
-#  category: Vocal
-#  chatMessages: [beeps.]
-#  chatTriggers:
-#    - beeps.
-#    - beep.
-#    - beep!
-#    - beeping.
-#    - beeped.
-
-- type: emote
-  id: Rev
-  category: Vocal
-  chatMessages: [revs.]
-  chatTriggers:
-    - revs.
-    - rev.
-    - rev!
-    - revving
-    - revved
-
-- type: emote
-  id: Click
-  category: Vocal
-  chatMessages: [clicks.]
-  chatTriggers:
-    - clicks.
-    - click.
-    - click!
-    - clicking.
-    - clicked.
-
-- type: emote
-  id: Caw
-  category: Vocal
-  chatMessages: [caws.]
-  chatTriggers:
-    - caws.
-    - caw.
-    - caw!
-    - cawing
-    - cawed
-
-- type: emote
-  id: Chirp
-  category: Vocal
-  chatMessages: [chirps.]
-  chatTriggers:
-    - chirps.
-    - chirp.
-    - chirp!
-    - chirping.
-    - chirped.
-
-#Vulpkanin
-- type: emote
-  id: Bark
-  category: Vocal
-  chatMessages: [barks.]
-  chatTriggers:
-    - bark.
-    - bark!
-    - barks.
-    - barks!
-    - barked.
-    - barked!
-    - barking.
-
-- type: emote
-  id: Snarl
-  category: Vocal
-  chatMessages: [snarls.]
-  chatTriggers:
-    - snarl.
-    - snarl!
-    - snarls.
-    - snarls!
-    - snarled.
-    - snarled!
-    - snarling.
-
-- type: emote
-  id: Whine
-  category: Vocal
-  chatMessages: [whines.]
-  chatTriggers:
-    - whine.
-    - whine!
-    - whines.
-    - whines!
-    - whined.
-    - whined!
-    - whining.
-
-- type: emote
-  id: Howl
-  category: Vocal
-  chatMessages: [howls.]
-  chatTriggers:
-    - howl.
-    - howl!
-    - howls.
-    - howls!
-    - howling.
-    - howled.
-
-- type: emote
-  id: Awoo
-  category: Vocal
-  chatMessages: [awoos.]
-  chatTriggers:
-    - awoo.
-    - awoo!
-    - awoos.
-    - awoos!
-    - awooing.
-    - awooed.
+- type: emoteSounds
+  id: FemaleVulpkanin
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FemaleScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Yawn:
+      collection: FemaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: CluwneHorn
+    Sigh:
+      collection: FemaleSigh
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Growl:
+      collection: VulpkaninGrowls
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls
+    Awoo:
+      collection: VulpkaninHowls

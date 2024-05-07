@@ -28,15 +28,17 @@
       collection: HarpyGrowls
     Purr:
       collection: HarpyPurrs
-    Ring:
+    HarpyRing:
       collection: HarpyRings
-    Pew:
+    HarpyHonk:
+      collection: HarpyHonks
+    HarpyPew:
       collection: HarpyPews
-    Bang:
+    HarpyBang:
       collection: HarpyBangs
-    Beep:
+    HarpyBeep:
       collection: HarpyBeeps
-    Rev:
+    HarpyRev:
       collection: HarpyRevs
     Click:
       collection: HarpyClicks
@@ -44,7 +46,7 @@
       collection: HarpyChitter
     Squeak:
       collection: HarpySqueak
-    Caw:
+    HarpyCaw:
       collection: HarpyCaws
     Chirp:
       collection: HarpyChirps
