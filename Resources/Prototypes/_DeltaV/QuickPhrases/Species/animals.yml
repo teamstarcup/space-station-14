@@ -158,7 +158,7 @@
   id: SpeciesGoatPhrase
   parent: BaseAnimalSpeciesPhrase
   text: phrase-species-goat
-  
+
 - type: quickPhrase
   id: SpeciesChickenPhrase
   parent: BaseAnimalSpeciesPhrase
