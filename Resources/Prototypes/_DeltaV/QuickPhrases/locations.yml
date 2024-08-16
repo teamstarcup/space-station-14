@@ -136,6 +136,8 @@
 
 # Engineering
 
+# Engineering
+
 - type: quickPhrase
   parent: BaseEngineeringLocationPhrase
   id: LocationEngineeringPhrase
@@ -392,6 +394,8 @@
   parent: BaseServiceLocationPhrase
   id: LocationTheaterPhrase
   text: station-beacon-theater
+
+# Civilian
 
 - type: quickPhrase
   parent: BaseServiceLocationPhrase
