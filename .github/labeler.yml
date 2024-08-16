@@ -10,7 +10,13 @@
 
 "Changes: UI":
 - changed-files:
-  - any-glob-to-any-file: '**/*.xaml*'
+  - any-glob-to-any-file:
+    - "**/*.xaml*"
+
+"Changes: YML":
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.yml"
 
 "Changes: Shaders":
 - changed-files:
