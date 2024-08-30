@@ -2,64 +2,90 @@
 - type: emote
   id: Hiss
   category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChasis
   chatMessages: [hisses.]
   chatTriggers:
-    - hiss.
-    - hisses.
-    - hisses!
-    - hissing.
-    - hissed.
+    - hiss
+    - hisses
+    - hissing
+    - hissed
 
 - type: emote
   id: Meow
   category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChasis
   chatMessages: [meows.]
   chatTriggers:
-    - meow.
-    - meow!
-    - meows.
-    - meows!
-    - meowing.
-    - meowed.
-    - miau.
-    - miaus.
-    - miaus!
-    - nya.
-    - nyas.
-    - nyas!
-    - mraows.
-    - mraows!
+    - meow
+    - meows
+    - meowing
+    - meowed
+    - miau
+    - miaus
+    - nya
+    - nyas
+    - mraow
+    - mraows
 
 - type: emote
   id: Mew
   category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChasis
   chatMessages: [mews.]
   chatTriggers:
-    - mew.
-    - mew!
-    - mews.
-    - mews!
-    - mewing.
-    - mewed.
+    - mew
+    - mews
+    - mewing
+    - mewed
 
 - type: emote
   id: Growl
   category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChasis
   chatMessages: [growls.]
   chatTriggers:
-    - growl.
-    - growls.
-    - growls!
-    - growling.
-    - growled.
+    - growl
+    - growls
+    - growling
+    - growled
 
 - type: emote
   id: Purr
   category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChasis
   chatMessages: [purrs.]
   chatTriggers:
-    - purr.
-    - purrs.
-    - purrs!
-    - purring.
-    - purred.
+    - purr
+    - purrs
+    - purring
+    - purred

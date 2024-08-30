@@ -41,7 +41,9 @@
     stripTimeReduction: 1
   - type: Speech
     speechSounds: Alto
-  - type: DamageOnHighSpeedImpact
+    speechVerb: Felinid
+    allowedEmotes: ['Meow', 'Hiss', 'Mew', 'Purr', 'Growl']
+  - type: DamageOnHighSpeedImpact # Landing on all fours!
     damage:
       types:
         Blunt: 1
@@ -66,7 +68,7 @@
   name: Urist McHands
   parent: MobHumanDummy
   id: MobFelinidDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: A dummy felinid meant to be used in character setup.
   components:
   - type: HumanoidAppearance
