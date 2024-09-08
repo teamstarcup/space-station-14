@@ -133,4 +133,5 @@ public enum SpeciesNaming : byte
     LastNoFirst,
     //End of Nyano code for Oni naming
     TheFirstofLast,
+    LastFirst, // DeltaV
 }

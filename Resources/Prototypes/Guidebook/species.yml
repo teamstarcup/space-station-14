@@ -11,6 +11,12 @@
     - Reptilian
     - SlimePerson
     - Vox
+    # DeltaV additions
+    - Vulpkanin
+    - Harpy
+    - Felinid
+    - Oni
+    - Rodentia
 
 - type: guideEntry
   id: Arachnid
