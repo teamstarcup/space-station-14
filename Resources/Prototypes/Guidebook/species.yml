@@ -11,6 +11,15 @@
     - Reptilian
     - SlimePerson
     - Vox
+<<<<<<< HEAD
+=======
+    # DeltaV additions
+    - Vulpkanin
+    - Harpy
+    - Felinid
+    - Oni
+    - Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
 
 - type: guideEntry
   id: Arachnid

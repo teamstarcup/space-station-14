@@ -2,7 +2,11 @@
   id: GauzeLefteyePatch
   bodyPart: Eyes
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -16,7 +20,11 @@
   id: GauzeLefteyePad
   bodyPart: Eyes
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -30,7 +38,11 @@
   id: GauzeRighteyePatch
   bodyPart: Eyes
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -44,7 +56,11 @@
   id: GauzeRighteyePad
   bodyPart: Eyes
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -58,7 +74,11 @@
   id: GauzeBlindfold
   bodyPart: Eyes
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Arachnid, Felinid, Oni, Harpy, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Harpy, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -72,7 +92,11 @@
   id: GauzeShoulder
   bodyPart: Chest
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -86,7 +110,11 @@
   id: GauzeStomach
   bodyPart: Chest
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -100,7 +128,11 @@
   id: GauzeUpperArmRight
   bodyPart: RArm
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -114,7 +146,11 @@
   id: GauzeLowerArmRight
   bodyPart: RArm, RHand
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -128,7 +164,11 @@
   id: GauzeLeftArm
   bodyPart: LArm, LHand
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -142,7 +182,11 @@
   id: GauzeLowerLegLeft
   bodyPart: LFoot
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -156,7 +200,11 @@
   id: GauzeUpperLegLeft
   bodyPart: LLeg
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -170,7 +218,11 @@
   id: GauzeUpperLegRight
   bodyPart: RLeg
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -184,7 +236,11 @@
   id: GauzeLowerLegRight
   bodyPart: RFoot
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Arachnid, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -198,7 +254,11 @@
   id: GauzeBoxerWrapRight
   bodyPart: RHand
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:
@@ -212,7 +272,11 @@
   id: GauzeBoxerWrapLeft
   bodyPart: LHand
   markingCategory: Overlay
+<<<<<<< HEAD
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid]
+=======
+  speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin, Rodentia] # Delta V - Felinid, Oni, Vulpkanin, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   coloring:
     default:
       type:

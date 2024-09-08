@@ -2,7 +2,11 @@
   id: ScarEyeRight
   bodyPart: Head
   markingCategory: Head
+<<<<<<< HEAD
   speciesRestriction: [Human, Dwarf]
+=======
+  speciesRestriction: [Human, Dwarf, Felinid, Harpy, Oni, Rodentia]  # Delta V - Felinid, Oni, Harpy, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
@@ -12,7 +16,11 @@
   id: ScarEyeLeft
   bodyPart: Head
   markingCategory: Head
+<<<<<<< HEAD
   speciesRestriction: [Human, Dwarf]
+=======
+  speciesRestriction: [Human, Dwarf, Felinid, Harpy, Oni, Rodentia] # Delta V - Felinid, Oni, Harpy, Rodentia
+>>>>>>> 690cbe995a (Rodentia Species (#1511))
   followSkinColor: true
   sprites:
   - sprite: Mobs/Customization/scars.rsi
