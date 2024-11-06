@@ -12,3 +12,6 @@ trait-mobster-accent-desc = Fugeddaboutit! Yous talk numhallly, capiche?
 
 trait-irish-accent-name = Irish accent
 trait-irish-accent-desc = Ya sap! Seems you got a pet hate fer rubbish!
+
+trait-hushed-name = Hushed
+trait-hushed-desc = You are unable to speak louder than a whisper.
