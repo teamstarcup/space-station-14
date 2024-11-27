@@ -76,25 +76,25 @@
           - "reagent-effect-painkiller-normal3"
           - "reagent-effect-painkiller-normal4"
         probability: 0.085
-      - !type:GenericStatusEffect
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          min: 14.5 # overdose knocks you out
-        key: ForcedSleep
-        component: ForcedSleeping
-        refresh: false
-        type: Add
-      - !type:GenericStatusEffect
-        probability: 0.08
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Stubantazine
-          min: 5 # taking with other painkillers will knock you out
-        key: ForcedSleep
-        component: ForcedSleeping
-        refresh: false
-        type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.1
+       #conditions:
+       #- !type:ReagentThreshold
+         #min: 14.5 # overdose knocks you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.08
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Stubantazine
+         #min: 5 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -137,26 +137,26 @@
           - "reagent-effect-painkiller-strong5"
           - "reagent-effect-painkiller-strong6"
         probability: 0.1
-      - !type:GenericStatusEffect
-        probability: 0.1
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Stubantazine
-          min: 4 # taking with other painkillers will knock you out
-        key: ForcedSleep
-        component: ForcedSleeping
-        refresh: false
-        type: Add
-      - !type:GenericStatusEffect
-        probability: 0.15
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Soretizone
-          min: 2 # taking with other painkillers will knock you out
-        key: ForcedSleep
-        component: ForcedSleeping
-        refresh: false
-        type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.1
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Stubantazine
+         #min: 4 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.15
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Soretizone
+         #min: 2 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
