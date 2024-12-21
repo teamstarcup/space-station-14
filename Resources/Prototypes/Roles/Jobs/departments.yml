@@ -8,6 +8,7 @@
   - Quartermaster
   - SalvageSpecialist
   - Courier # DeltaV
+  - CargoAssistant # DeltaV
 
 - type: department
   id: Civilian
