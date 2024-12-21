@@ -13,3 +13,17 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobCargoAssistant
+  groups:
+  - GroupTankHarness
+  - CargoAssistantHead
+  - CargoAssistantJumpsuit
+  - CargoAssistantBackpack
+  - CargoAssistantOuterClothing
+  - CargoAssistantShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
