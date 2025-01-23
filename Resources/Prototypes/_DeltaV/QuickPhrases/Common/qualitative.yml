@@ -73,7 +73,6 @@
   id: OnPhrase
   parent: BaseQualitativePhrase
   text: phrase-on
-
 - type: quickPhrase
   id: OffPhrase
   parent: BaseQualitativePhrase
