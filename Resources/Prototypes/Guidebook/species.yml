@@ -11,6 +11,14 @@
     - Reptilian
     - SlimePerson
     - Vox
+    # DeltaV additions
+    - Vulpkanin
+    - Harpy
+    - Felinid
+    - Oni
+    - Rodentia
+    - Chitinid
+    - IPC
 
 - type: guideEntry
   id: Arachnid
@@ -51,3 +59,8 @@
   id: Vox
   name: species-name-vox
   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
+
+- type: guideEntry
+  id: IPC
+  name: species-name-ipc
+  text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
