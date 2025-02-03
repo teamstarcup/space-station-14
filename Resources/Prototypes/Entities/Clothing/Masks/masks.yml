@@ -715,6 +715,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - IPCMaskWearable # EE - IPCs
 
 # Entity tables
 - type: entityTable

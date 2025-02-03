@@ -1,5 +1,15 @@
 using Content.Server.Humanoid;
 using Content.Shared.Administration.Logs;
+using Content.Server.Jobs;
+using Content.Server.Materials;
+using Content.Server.Popups;
+using Content.Server.Power.EntitySystems;
+using Content.Shared._EE.Silicon.Components; // Goobstation
+using Content.Server.Psionics; // DeltaV
+using Content.Server.Traits.Assorted; // DeltaV
+using Content.Shared.Atmos;
+using Content.Shared.CCVar;
+using Content.Shared.Chemistry.Components;
 using Content.Shared.Cloning;
 using Content.Shared.Cloning.Events;
 using Content.Shared.Database;
@@ -86,6 +96,11 @@ public sealed class CloningSystem : EntitySystem
 
         var cloningEv = new CloningEvent(settings, clone.Value);
         RaiseLocalEvent(original, ref cloningEv); // used for datafields that cannot be directly copied
+            if (HasComp<SiliconComponent>(bodyToClone))
+                return false; // Goobstation: Don't clone IPCs.
+
+            // Begin Nyano-code: allow paradox anomalies to be cloned.
+            var pref = humanoid.LastProfileLoaded;
 
         // Add equipment first so that SetEntityName also renames the ID card.
         if (settings.CopyEquipment != null)
