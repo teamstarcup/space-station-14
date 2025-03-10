@@ -6,3 +6,11 @@
   category: Disabilities
   components:
   - type: Pain
+
+- type: trait
+  id: Dysgraphia
+  name: trait-dysgraphia-name
+  description: trait-dysgraphia-desc
+  category: Disabilities
+  components:
+  - type: BlockWriting
