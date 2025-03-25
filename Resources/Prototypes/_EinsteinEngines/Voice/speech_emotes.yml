@@ -7,6 +7,7 @@
 - type: emote
   id: Boop
   name: chat-emote-name-boop
+  icon: _DeltaV/Interface/Emotes/ecg.png # DeltaV - Added icon
   category: Vocal
   whitelist:
     components:
