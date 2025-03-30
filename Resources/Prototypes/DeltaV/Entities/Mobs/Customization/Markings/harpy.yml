@@ -64,7 +64,7 @@
         - !type:SimpleColoring
   sprites:
     - sprite: DeltaV/Mobs/Customization/Harpy/harpy_tails36x32.rsi
-      state: finch_tail 
+      state: finch_tail
 
 - type: marking
   id: HarpyChestDefault
