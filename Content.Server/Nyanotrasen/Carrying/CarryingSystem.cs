@@ -39,7 +39,7 @@ namespace Content.Server.Carrying
 {
     public sealed class CarryingSystem : EntitySystem
     {
-        [Dependency] private readonly HandVirtualItemSystem _virtualItemSystem = default!;
+        [Dependency] private readonly VirtualItemSystem  _virtualItemSystem = default!;
         [Dependency] private readonly CarryingSlowdownSystem _slowdown = default!;
         [Dependency] private readonly DoAfterSystem _doAfterSystem = default!;
         [Dependency] private readonly StandingStateSystem _standingState = default!;
@@ -148,7 +148,7 @@ namespace Content.Server.Carrying
         /// </summary>
         private void OnThrow(EntityUid uid, CarryingComponent component, BeforeThrowEvent args)
         {
-            if (!TryComp<HandVirtualItemComponent>(args.ItemUid, out var virtItem) || !HasComp<CarriableComponent>(virtItem.BlockingEntity))
+            if (!TryComp<VirtualItemComponent>(args.ItemUid, out var virtItem) || !HasComp<CarriableComponent>(virtItem.BlockingEntity))
                 return;
 
             args.ItemUid = virtItem.BlockingEntity;
@@ -159,7 +159,12 @@ namespace Content.Server.Carrying
 
         private void OnParentChanged(EntityUid uid, CarryingComponent component, ref EntParentChangedMessage args)
         {
-            if (Transform(uid).MapUid != args.OldMapId)
+            var xform = Transform(uid);
+            if (xform.MapUid != args.OldMapId)
+                return;
+
+            // Do not drop the carried entity if the new parent is a grid
+            if (xform.ParentUid == xform.GridUid)
                 return;
 
             DropCarried(uid, component.Carried);
