@@ -1,77 +1,84 @@
-﻿- files: ["thunderdome.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "-Sector11 by MashedByMachines. Converted from MP3 to OGG."
-  source: "https://www.newgrounds.com/audio/listen/312622"
-
-- files: ["endless_space.ogg"]
-  license: "CC-BY-3.0"
-  copyright: "Endless Space by SolusLunes. Converted from MP3 to OGG."
-  source: "https://www.newgrounds.com/audio/listen/67583"
-
-- files: ["space_asshole.ogg"]
+- files: ["astral_1.ogg"]
+  license: "CC BY-SA 3.0"
+  copyright: "Astral 1 by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/astral-1"
+- files: ["autumn_voyage_arrangement.ogg"]
   license: "Custom"
-  copyright: "Space Asshole by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
-  source: "https://idlethumbs.bandcamp.com/track/space-asshole"
-  # The source is a direct link to the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
-
-- files: ["the_wizard.ogg"]
+  copyright: "Autumn Voyage Arrangement by The Noble Demon, originally from Runescape; not released under a formal license, but broad permission has been given by the artist to use her arrangements in projects so long as attribution is given"
+  source: "https://www.youtube.com/watch?v=6-JweRvQHmU"
+- files: ["brinstar_red_soil_arrangement_revision.ogg"]
   license: "Custom"
-  copyright: "The Wizard by Chris Remo is used with special permission from the author, under the condition that the project remains non-commercial and open source. The author also requested that a link to his bandcamp be included: https://chrisremo.bandcamp.com/"
-  source: "https://idlethumbs.bandcamp.com/track/the-wizard"
-  # The source is a direct link the the track, but not the "main" bandcamp of the author. Hence the link is also included separately in the copyright.
-  # Got permission from Chris for this song as well on 02/25/25, requires same attributions
-
-- files: ["absconditus.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Absconditus by ZhayTee. Converted from MP3 to OGG."
-  source: "https://bandcamp.zhaytee.net/track/absconditus"
-
-- files: ["atomicamnesiammx.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Atomic Amnesia MMX by Philip Dyer. Converted from MP3 to OGG."
-  source: "https://soundcloud.com/3kliksphilip/atomic-amnesia-mmx-1"
-
-- files: ["singuloose.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Singuloose by Janis Schiedková. Converted from MP3 to OGG."
-  source: "https://soundcloud.com/js_m/singuloose"
-
-- files: ["title2.ogg"]
+  copyright: "Brinstar Red Soil Arrangement [Revision] by The Noble Demon, originally from Super Metroid; not released under a formal license, but broad permission has been given by the artist to use her arrangements in projects so long as attribution is given"
+  source: "https://music.apple.com/us/song/brinstar-red-soil-revision-from-super-metroid-cover/1762551411"
+- files: ["contact.ogg"]
   license: "Custom"
-  copyright: "Originally composed by Jonathan Dunn for Robocop 2 Gameboy published by Ocean Software. Remixed by Eric Shumaker for his video Dilbert 3. As of October 9th, 2008 nobody owns the rights to this song and copyright action has never been taken against anyone using this song in their projects."
-  source: "https://www.youtube.com/watch?v=4o6_8Unj2mQ"
-
-- files: ["title3.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted from MP3 to OGG."
-  source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
-
-- files: ["comet_haley.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Comet Haley by Stellardrone. Converted from MP3 to OGG."
-  source: "https://stellardrone.bandcamp.com/track/comet-halley"
-
-- files: ["mod.flip-flap.ogg"]
+  copyright: "Contact by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+  source: "https://traelmyx.bandcamp.com/track/contact"
+- files: ["hades.ogg"]
   license: "Custom"
-  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in this directory) and is free for non-commercial use. It was converted from MOD to WAV using Schism Tracker, in 16 Bit, Non-Interpolated mode, no output equalizer settings, Ramp volume at start of sample enabled. From there it was converted to OGG Vorbis with `ffmpeg -i flip-flap.wav -q 2.9 flip-flap-renc.ogg` (quality scale chosen to match size of the OGG file being replaced). Non-interpolated mode was chosen as the module has a high enough sample rate to balance it out, but seems muffled in other interpolation modes. If 'Ramp volume at start of sample' is not enabled, a clicking phenomenon results."
-  source: "http://aminet.net/package/mods/xceed/Flipflap"
-
-- files: ["Spac_Stac.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Spac Stac by Hayabusa. Converted from MP3 to OGG."
-  source: "https://www.youtube.com/watch?v=grUBe-SZgr0"
-
-- files: ["pwmur.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "phoron will make us rich by Sunbeamstress/Lauren Loveless."
-  source: "https://soundcloud.com/sunbeamstress/phoron-will-make-us-rich"
-
-- files: ["lasers_rip_apart_the_bulkhead.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "lasers rip apart the bulkhead by Sunbeamstress/Lauren Loveless."
-  source: "https://soundcloud.com/sunbeamstress/lasers-rip-apart-the-bulkhead"
-
-- files: ["every_light_is_blinking_at_once.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "every light is blinking at once by Sunbeamstress/Lauren Loveless."
-  source: "https://soundcloud.com/sunbeamstress/every-light-is-blinking-at-once"
+  copyright: "Hades by Ben Prunty is from Chromatic T-Rex, which is not released under any formal license but has permission granted to use for free: https://www.benpruntymusic.com/faq"
+  source: "https://benprunty.bandcamp.com/track/hades"
+- files: ["haircuts_for_women.ogg"]
+  license: "CC BY-SA 3.0"
+  copyright: "Haircuts for Women by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/haircuts-for-women"
+- files: ["id_like_to_paint_too.ogg"]
+  license: "Custom"
+  copyright: "I'd Like to Paint, Too by Darius is licensed under the HLRC License, as described at https://msx.horse/res.php"
+  source: "https://lapfox.bandcamp.com/track/id-like-to-paint-too-2"
+- files: ["mainland.ogg"]
+  license: "Custom"
+  copyright: "Mainland by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+  source: "Contact by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+- files: ["maridia_rocky_underwater_area_arrangement_revision.ogg"]
+  license: "Custom"
+  copyright: "Maridia Rocky Underwater Area Arrangement [Revision] by The Noble Demon, originally from Super Metroid; not released under a formal license, but broad permission has been given by the artist to use her arrangements in projects so long as attribution is given"
+  source: "https://www.youtube.com/watch?v=NLCvCnhUprc"
+- files: ["moonsong_arrangement.ogg"]
+  license: "Custom"
+  copyright: "Moonsong Arrangement by The Noble Demon, originally from Cave Story; not released under a formal license, but broad permission has been given by the artist to use her arrangements in projects so long as attribution is given"
+  source: "https://music.apple.com/us/song/moonsong-from-cave-story-cover/1667986535"
+- files: ["my_mind_is_glowing.ogg"]
+  license: "Custom"
+  copyright: "My Mind Is Glowing by Ben Prunty is from Chromatic T-Rex, which is not released under any formal license but has permission granted to use for free: https://www.benpruntymusic.com/faq"
+  source: "https://benprunty.bandcamp.com/track/my-mind-is-glowing"
+- files: ["never_want_to_be_a_hero.ogg"]
+  license: "Custom"
+  copyright: "Never Want to Be a Hero by Kitsune² is licensed under the HLRC License, as described at https://msx.horse/res.php"
+  source: "https://lapfox.bandcamp.com/track/never-want-to-be-a-hero"
+- files: ["nyan_cat_ringtone_remix.ogg"]
+  license: "Custom"
+  copyright: "nyan cat ringtone remix by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage; original composition by daniwellP"
+  source: "https://traelmyx.bandcamp.com/track/nyan-cat-ringtone-remix"
+- files: ["onward.ogg"]
+  license: "Custom"
+  copyright: "Onward by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+  source: "https://traelmyx.bandcamp.com/track/onward"
+- files: ["PHUNKSLASH96.ogg"]
+  license: "Custom"
+  copyright: "PHUNKSLASH96 by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+  source: "https://traelmyx.bandcamp.com/track/phunkslash96"
+- files: ["rainbow_road.ogg"]
+  license: "CC BY-SA 3.0"
+  copyright: "Rainbow Road by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/rainbow-road"
+- files: ["retrograde.ogg"]
+  license: "CC BY-SA 3.0"
+  copyright: "Retrograde by Patricia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/retrograde"
+- files: ["serotonergic.ogg"]
+  license: "CC BY-NC-SA 3.0"
+  copyright: "Serotonergic by Neurotangent"
+  source: "https://neurotangent.bandcamp.com/track/serotonergic"
+- files: ["the_panther.ogg"]
+  license: "CC BY-SA 3.0"
+  copyright: "The Panther by Patrixia Taxxon"
+  source: "https://patriciataxxon.bandcamp.com/track/the-panther"
+- files: ["vacillate.ogg"]
+  license: "CC BY-NC-SA 3.0"
+  copyright: "vacillate by Oliver Buckland"
+  source: "https://oliver-buckland.bandcamp.com/track/vacillate"
+- files: ["voltaic_fluctuations"]
+  license: "Custom"
+  copyright: "Voltaic Fluctuations by Ben Prunty is from Chromatic T-Rex, which is not released under any formal license but has permission granted to use for free: https://www.benpruntymusic.com/faq"
+  source: "https://benprunty.bandcamp.com/track/voltaic-fluctuations"
