@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McFelinid
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   id: MobFelinidBase
   abstract: true
   components:
@@ -9,6 +9,9 @@
     scale: 0.8, 0.8
   - type: HumanoidAppearance
     species: Felinid
+    hideLayersOnEquip:
+    - Hair
+    - Snout
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
@@ -64,6 +67,13 @@
       Female: FemaleFelinid
       Unsexed: MaleFelinid
   - type: Felinid
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
 
 - type: entity
   save: false
@@ -75,3 +85,10 @@
   components:
   - type: HumanoidAppearance
     species: Felinid
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

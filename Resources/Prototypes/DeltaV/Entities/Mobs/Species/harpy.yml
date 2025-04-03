@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McHarpy
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   id: MobHarpyBase
   abstract: true
   components:
@@ -83,6 +83,9 @@
         visible: false
   - type: HumanoidAppearance
     species: Harpy
+    hideLayersOnEquip:
+    - Hair
+    - Snout
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
@@ -134,6 +137,12 @@
           32:
             sprite: DeltaV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
   - type: HarpyVisuals
   - type: UltraVision
   - type: Tag
@@ -213,3 +222,10 @@
     icon: DeltaV/Interface/Actions/harpy_sing.png
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female

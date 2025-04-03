@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseMobHuman
+  parent: BaseMobSpeciesOrganic
   name: Urist McOni
   id: MobOniBase
   abstract: true
@@ -8,6 +8,9 @@
     speechSounds: Baritone
   - type: HumanoidAppearance
     species: Oni
+    hideLayersOnEquip:
+    - Hair
+    - Snout
   - type: Sprite
     scale: 1.2, 1.2
   - type: PlayerToolModifier
@@ -42,6 +45,13 @@
         - MobLayer
   - type: Stamina
     critThreshold: 115
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
 
 - type: entity
   save: false
@@ -50,3 +60,11 @@
   id: MobOniDummy
   categories: [ HideSpawnMenu ]
   description: A dummy oni meant to be used in character setup.
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
