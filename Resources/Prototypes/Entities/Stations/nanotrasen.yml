@@ -25,7 +25,6 @@
     - BaseStationSiliconLawCrewsimov
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
-    - BaseStationDeliveries
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform
