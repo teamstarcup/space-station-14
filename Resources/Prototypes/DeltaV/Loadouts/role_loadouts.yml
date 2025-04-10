@@ -1,14 +1,15 @@
 # Logistics
-# Courier
-- type: loadoutGroup
-  id: CourierHead
-  name: loadout-group-courier-head
-  loadouts:
+- type: roleLoadout
+  id: JobCourier
+  groups:
+  - GroupTankHarness
   - CourierHead
-
-- type: loadoutGroup
-  id: CourierJumpsuit
-  name: loadout-group-courier-jumpsuit
-  loadouts:
+  - CourierNeck
   - CourierJumpsuit
-  - CourierJumpskirt
+  - CourierOuterClothing
+  - CourierPDA
+  - CourierBackpack
+  - CourierShoes
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool

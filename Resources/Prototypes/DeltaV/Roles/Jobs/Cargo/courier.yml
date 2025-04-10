@@ -14,7 +14,7 @@
 - type: startingGear
   id: CourierGear
   equipment:
-    id: MailCarrierPDA
+    id: CourierPDA
     ears: ClothingHeadsetCargo
     belt: CourierBag
   innerclothingskirt: ClothingUniformSkirtCourier

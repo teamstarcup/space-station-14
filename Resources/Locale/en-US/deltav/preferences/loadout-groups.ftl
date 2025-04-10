@@ -2,11 +2,12 @@
 
 # Logistics
 loadout-group-courier-head = Courier head
+loadout-group-courier-neck = Courier neck
 loadout-group-courier-jumpsuit = Courier jumpsuit
 loadout-group-courier-shoes = Courier shoes
-loadout-group-courier-outer-clothing = Courier outer clothing
-loadout-group-courier-id = Courier ID
+loadout-group-courier-outerclothing = Courier outer clothing
+loadout-group-courier-backpack = Courier backpack
 
 loadout-group-mail-carrier-head = Mail Carrier head
 loadout-group-mail-carrier-jumpsuit = Mail Carrier jumpsuit
-loadout-group-mail-carrier-outer-clothing = Mail Carrier outer clothing
+loadout-group-mail-carrier-outerclothing = Mail Carrier outer clothing

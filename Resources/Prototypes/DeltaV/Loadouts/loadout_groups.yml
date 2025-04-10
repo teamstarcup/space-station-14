@@ -1,9 +1,51 @@
 # Logistics
-- type: roleLoadout
-  id: JobCourier
-  groups:
+## Courier
+- type: loadoutGroup
+  id: CourierHead
+  name: loadout-group-courier-head
+  minLimit: 0
+  loadouts:
   - CourierHead
+  - MailCarrierHead
+
+- type: loadoutGroup
+  id: CourierNeck
+  name: loadout-group-courier-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBrown
+  - ScarfBlue
+
+- type: loadoutGroup
+  id: CourierJumpsuit
+  name: loadout-group-courier-jumpsuit
+  loadouts:
   - CourierJumpsuit
-  - CommonBackpack
-  - CargoTechnicianShoes
-  - Trinkets
+  - CourierJumpskirt
+  - MailCarrierJumpsuit
+  - MailCarrierJumpskirt
+
+- type: loadoutGroup
+  id: CourierOuterClothing
+  name: loadout-group-courier-outerclothing
+  minLimit: 0
+  loadouts:
+  - CargoTechnicianWintercoat
+  - MailCarrierWintercoat
+
+- type: loadoutGroup
+  id: CourierBackpack
+  name: loadout-group-courier-backpack
+  loadouts:
+  - CargoTechnicianBackpack
+  - CargoTechnicianSatchel
+  - CargoTechnicianDuffel
+  - ClothingBackpackClippy
+
+- type: loadoutGroup
+  id: CourierShoes
+  name: loadout-group-courier-shoes
+  loadouts:
+  - BlackShoes
+  - CargoWinterBoots
+  - RollerSkates
