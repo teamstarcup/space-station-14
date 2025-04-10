@@ -40,7 +40,6 @@
   - CargoTechnicianBackpack
   - CargoTechnicianSatchel
   - CargoTechnicianDuffel
-  - ClothingBackpackClippy
 
 - type: loadoutGroup
   id: CourierShoes
@@ -49,3 +48,10 @@
   - BlackShoes
   - CargoWinterBoots
   - RollerSkates
+
+- type: loadoutGroup
+  id: CourierPDA
+  name: loadout-group-courier-id
+  loadouts:
+  - CourierPDA
+  - MailCarrierPDA

@@ -10,3 +10,16 @@
       state: nyanomailcarrier
   - type: PresetIdCard
     job: Courier
+
+- type: entity
+  parent: CourierIDCard
+  id: MailCarrierIDCard
+  name: mail carrier ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - sprite: DeltaV/Objects/Misc/id_cards.rsi
+      state: nyanomailcarrier
+  - type: IdCard
+    jobTitle: job-alt-title-mail-carrier
