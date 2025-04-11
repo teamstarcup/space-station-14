@@ -248,7 +248,7 @@
     contents:
     - id: Bible
     - id: ClothingHeadHatWitch1 #DeltaV - Compensates for items that don't exist here
-    - id: ClothingOuterCoatMNKBlackTopCoat #DeltaV - Compensates for items that don't exist here
+#    - id: ClothingOuterCoatMNKBlackTopCoat #DeltaV - Compensates for items that don't exist here # starcup - commenting out for now
 
 - type: entity
   parent: BaseMail
@@ -280,8 +280,8 @@
         orGroup: Box
       - id: BoxBuildABuddySlime
         orGroup: Box
-      - id: BoxBuildABuddyVulpkanin
-        orGroup: Box
+#      - id: BoxBuildABuddyVulpkanin # starcup - commenting out for now
+#        orGroup: Box
       - id: DrinkSpaceGlue
       - id: PaperMailNFBuildABuddy
 
@@ -598,9 +598,9 @@
       orGroup: Muffin2
     - id: FoodBakedMuffin
       orGroup: Muffin2
-    - id: FoodMothMoffin
-      orGroup: Muffin2
-      prob: 0.5
+#    - id: FoodMothMoffin # starcup - commenting out for now
+#      orGroup: Muffin2
+#      prob: 0.5
       # Muffin 3
     - id: FoodBakedMuffinBerry
       orGroup: Muffin3
@@ -1694,7 +1694,7 @@
     contents:
     - id: ClothingOuterWinterCoat
       orGroup: Coat
-    - id: ClothingOuterWinterCoatLong
-      orGroup: Coat
-    - id: ClothingOuterWinterCoatPlaid
-      orGroup: Coat
+#    - id: ClothingOuterWinterCoatLong # starcup - commenting out for now
+#      orGroup: Coat
+#    - id: ClothingOuterWinterCoatPlaid # starcup - commenting out for now
+#      orGroup: Coat
