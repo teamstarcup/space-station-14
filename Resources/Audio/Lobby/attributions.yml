@@ -1,5 +1,5 @@
 - files: ["astral_1.ogg"]
-  license: "CC BY-SA 3.0"
+  license: "CC BY-SA 4.0"
   copyright: "Astral 1 by Patricia Taxxon"
   source: "https://patriciataxxon.bandcamp.com/track/astral-1"
 - files: ["autumn_voyage_arrangement.ogg"]
@@ -19,7 +19,7 @@
   copyright: "Hades by Ben Prunty is from Chromatic T-Rex, which is not released under any formal license but has permission granted to use for free: https://www.benpruntymusic.com/faq"
   source: "https://benprunty.bandcamp.com/track/hades"
 - files: ["haircuts_for_women.ogg"]
-  license: "CC BY-SA 3.0"
+  license: "CC BY-SA 4.0"
   copyright: "Haircuts for Women by Patricia Taxxon"
   source: "https://patriciataxxon.bandcamp.com/track/haircuts-for-women"
 - files: ["id_like_to_paint_too.ogg"]
@@ -29,7 +29,7 @@
 - files: ["mainland.ogg"]
   license: "Custom"
   copyright: "Mainland by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
-  source: "Contact by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
+  source: "https://traelmyx.bandcamp.com/track/mainland"
 - files: ["maridia_rocky_underwater_area_arrangement_revision.ogg"]
   license: "Custom"
   copyright: "Maridia Rocky Underwater Area Arrangement [Revision] by The Noble Demon, originally from Super Metroid; not released under a formal license, but broad permission has been given by the artist to use her arrangements in projects so long as attribution is given"
@@ -59,23 +59,23 @@
   copyright: "PHUNKSLASH96 by TRAELMYX is licensed for free use in web-based projects, as described at https://traelmyx.carrd.co/#usage"
   source: "https://traelmyx.bandcamp.com/track/phunkslash96"
 - files: ["rainbow_road.ogg"]
-  license: "CC BY-SA 3.0"
+  license: "CC BY-SA 4.0"
   copyright: "Rainbow Road by Patricia Taxxon"
   source: "https://patriciataxxon.bandcamp.com/track/rainbow-road"
 - files: ["retrograde.ogg"]
-  license: "CC BY-SA 3.0"
+  license: "CC BY-SA 4.0"
   copyright: "Retrograde by Patricia Taxxon"
   source: "https://patriciataxxon.bandcamp.com/track/retrograde"
 - files: ["serotonergic.ogg"]
-  license: "CC BY-NC-SA 3.0"
+  license: "CC BY-NC-SA 4.0"
   copyright: "Serotonergic by Neurotangent"
   source: "https://neurotangent.bandcamp.com/track/serotonergic"
 - files: ["the_panther.ogg"]
-  license: "CC BY-SA 3.0"
+  license: "CC BY-SA 4.0"
   copyright: "The Panther by Patrixia Taxxon"
   source: "https://patriciataxxon.bandcamp.com/track/the-panther"
 - files: ["vacillate.ogg"]
-  license: "CC BY-NC-SA 3.0"
+  license: "CC BY-NC-SA 4.0"
   copyright: "vacillate by Oliver Buckland"
   source: "https://oliver-buckland.bandcamp.com/track/vacillate"
 - files: ["voltaic_fluctuations"]
