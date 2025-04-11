@@ -610,9 +610,9 @@
       orGroup: Muffin3
     - id: FoodBakedMuffin
       orGroup: Muffin3
-    - id: FoodMothMoffin
-      orGroup: Muffin3
-      prob: 0.5
+#    - id: FoodMothMoffin # starcup - commenting out for now
+#      orGroup: Muffin3
+#      prob: 0.5
       # Muffin 4
     - id: FoodBakedMuffinBerry
       orGroup: Muffin4
