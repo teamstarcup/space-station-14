@@ -19,6 +19,7 @@
     borderColor: "#e39751"
     accentVColor: "#050c4d"
   - type: Icon
+    sprite: DeltaV/Objects/Devices/pda.rsi
     state: pda-mailcarrier
   - type: CartridgeLoader # DeltaV - Courier Performance
     preinstalled:

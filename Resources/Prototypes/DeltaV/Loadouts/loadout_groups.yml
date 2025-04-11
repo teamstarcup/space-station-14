@@ -7,14 +7,14 @@
   loadouts:
   - CourierHead
   - MailCarrierHead
-
-- type: loadoutGroup
-  id: CourierNeck
-  name: loadout-group-courier-neck
-  minLimit: 0
-  loadouts:
-  - ScarfBrown
-  - ScarfBlue
+# starcup - commenting out for now
+#- type: loadoutGroup
+#  id: CourierNeck
+#  name: loadout-group-courier-neck
+#  minLimit: 0
+#  loadouts:
+#  - ScarfBrown
+#  - ScarfBlue
 
 - type: loadoutGroup
   id: CourierJumpsuit

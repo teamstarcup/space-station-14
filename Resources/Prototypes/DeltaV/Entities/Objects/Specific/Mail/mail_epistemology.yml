@@ -1,11 +1,12 @@
-- type: entity
-  parent: BaseMail
-  id: MailEpistemologyBluespace
-  suffix: bluespace
-  components:
-  - type: Mail
-    contents:
-    - id: MaterialBluespace1
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailEpistemologyBluespace
+#  suffix: bluespace
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: MaterialBluespace1
 
 - type: entity
   parent: BaseMail
@@ -33,12 +34,12 @@
     - id: ResearchDisk10000
       orGroup: Disk
       prob: 0.1
-
-- type: entity
-  parent: BaseMail
-  id: MailEpistemologyTinfoilHat
-  suffix: tinfoilhat
-  components:
-  - type: Mail
-    contents:
-    - id: ClothingHeadTinfoil
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailEpistemologyTinfoilHat
+#  suffix: tinfoilhat
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: ClothingHeadTinfoil

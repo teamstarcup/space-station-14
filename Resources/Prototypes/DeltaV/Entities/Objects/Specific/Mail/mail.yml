@@ -175,23 +175,23 @@
   - type: Mail
     contents:
     - id: FoodPiePumpkin
-
-- type: entity
-  parent: BaseMail
-  id: MailDVCosplayFakeWizard
-  suffix: cosplay-wizard, fake as fuck
-  components:
-  - type: Mail
-    contents:
-    - id: ClothingOuterWizardFake
-    - id: ClothingHeadHatWizardFake
-    - id: ClothingShoesWizardFake
-    - id: FoodBurgerSpell
-      orGroup: FakeWizard
-      prob: 0.3
-    - id: FoodKebabSkewer
-      orGroup: FakeWizard
-      prob: 0.1
+# starcup - commenting out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailDVCosplayFakeWizard
+#  suffix: cosplay-wizard, fake as fuck
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: ClothingOuterWizardFake
+#    - id: ClothingHeadHatWizardFake
+#    - id: ClothingShoesWizardFake
+#    - id: FoodBurgerSpell
+#      orGroup: FakeWizard
+#      prob: 0.3
+#    - id: FoodKebabSkewer
+#      orGroup: FakeWizard
+#      prob: 0.1
 
 
 
@@ -322,9 +322,9 @@
     - id: FoodCakeVanilla
       orGroup: Cake
     # Uncommon
-    - id: FoodMothMothmallow
-      orGroup: Cake
-      prob: 0.5
+#    - id: FoodMothMothmallow # starcup - commented out for now
+#      orGroup: Cake
+#      prob: 0.5
     - id: FoodCakeSlime
       orGroup: Cake
       prob: 0.5
@@ -362,33 +362,33 @@
     - id: RGBStaff
       orGroup: Staff
       prob: 0.1
-
-- type: entity
-  parent: BaseMail
-  id: MailNFCosplayMaid
-  suffix: cosplay-maid, extended
-  components:
-  - type: Mail
-    contents:
-      - id: UniformMaid
-        orGroup: Uniform
-      - id: ClothingUniformJumpskirtJanimaid
-        orGroup: Uniform
-      - id: ClothingUniformJumpskirtJanimaidmini
-        orGroup: Uniform
-      - id: MegaSprayBottle
-      - id: ClothingHandsGlovesColorWhite
-
-- type: entity
-  parent: BaseMail
-  id: MailNFCosplayNurse
-  suffix: cosplay-nurse, extended
-  components:
-  - type: Mail
-    contents:
-      - id: ClothingUniformJumpskirtNurse
-      - id: ClothingHeadNurseHat
-      - id: Syringe
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailNFCosplayMaid
+#  suffix: cosplay-maid, extended
+#  components:
+#  - type: Mail
+#    contents:
+#      - id: UniformMaid
+#        orGroup: Uniform
+#      - id: ClothingUniformJumpskirtJanimaid
+#        orGroup: Uniform
+#      - id: ClothingUniformJumpskirtJanimaidmini
+#        orGroup: Uniform
+#      - id: MegaSprayBottle
+#      - id: ClothingHandsGlovesColorWhite
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailNFCosplayNurse
+#  suffix: cosplay-nurse, extended
+#  components:
+#  - type: Mail
+#    contents:
+#      - id: ClothingUniformJumpskirtNurse
+#      - id: ClothingHeadNurseHat
+#      - id: Syringe
 
 - type: entity
   parent: BaseMail
@@ -541,12 +541,12 @@
   components:
   - type: Mail
     contents:
-    - id: KatanaDulled
-      orGroup: Sword
-      prob: 0.95
-    - id: ClaymoreDulled
-      orGroup: Sword
-      prob: 0.95
+#    - id: KatanaDulled # starcup - commented out for now
+#      orGroup: Sword
+#      prob: 0.95
+#    - id: ClaymoreDulled # starcup - commented out for now
+#      orGroup: Sword
+#      prob: 0.95
     - id: FoamCutlass
       orGroup: Sword
       prob: 0.95
@@ -562,9 +562,9 @@
     - id: Cutlass
       orGroup: Sword
       prob: 0.1
-    - id: Kanabou # ah yes, swords
-      orGroup: Sword
-      prob: 0.1
+#    - id: Kanabou # ah yes, swords # starcup - commented out for now
+#      orGroup: Sword
+#      prob: 0.1
     - id: ClothingBeltSheathFilled # Little dangerous between the reflect and the damage
       orGroup: Sword
       prob: 0.001
@@ -586,9 +586,9 @@
       orGroup: Muffin1
     - id: FoodBakedMuffin
       orGroup: Muffin1
-    - id: FoodMothMoffin
-      orGroup: Muffin1
-      prob: 0.5
+#    - id: FoodMothMoffin # starcup - commented out for now
+#      orGroup: Muffin1
+#      prob: 0.5
       # Muffin 2
     - id: FoodBakedMuffinBerry
       orGroup: Muffin2
@@ -691,17 +691,17 @@
       orGroup: Plushie
     - id: PlushieSnake
       orGroup: Plushie
-    - id: PlushieMothRandom
-      orGroup: Plushie
+#    - id: PlushieMothRandom # starcup - commented out for now
+#      orGroup: Plushie
     - id: PlushieMoth
       prob: 0.5
       orGroup: Plushie
-    - id: PlushieMothMusician
-      prob: 0.5
-      orGroup: Plushie
-    - id: PlushieMothBartender
-      prob: 0.5
-      orGroup: Plushie
+#    - id: PlushieMothMusician # starcup - commented out for now
+#      prob: 0.5
+#      orGroup: Plushie
+#    - id: PlushieMothBartender # starcup - commented out for now
+#      prob: 0.5
+#      orGroup: Plushie
 
 # Random snacks, replaces MailChocolate (lousy animal organs)
 - type: entity
@@ -1242,15 +1242,15 @@
     - id: FoodKoibean
       orGroup: Produce
       amount: 5
-    - id: FoodGhostPepper #DeltaV
-      orGroup: Produce
-      amount: 5
-    - id: FoodCosmicRevenant #DeltaV
-      orGroup: Produce
-      amount: 5
-    - id: FoodCrystalThistle #DeltaV
-      orGroup: Produce
-      amount: 5
+#    - id: FoodGhostPepper #DeltaV # starcup - commented out for now
+#      orGroup: Produce
+#      amount: 5
+#    - id: FoodCosmicRevenant #DeltaV # starcup - commented out for now
+#      orGroup: Produce
+#      amount: 5
+#    - id: FoodCrystalThistle #DeltaV # starcup - commented out for now
+#      orGroup: Produce
+#      amount: 5
     - id: FoodLily
       orGroup: Produce
       amount: 5
@@ -1391,18 +1391,18 @@
   components:
   - type: Mail
     contents:
-      - id: ClothingKimonoPink
-        orGroup: Clothes
-      - id: ClothingKimonoBlue
-        orGroup: Clothes
-      - id: ClothingKimonoPurple
-        orGroup: Clothes
-      - id: ClothingKimonoSky
-        orGroup: Clothes
-      - id: ClothingKimonoGreen
-        orGroup: Clothes
-      - id: ClothingUniformMartialGi
-        orGroup: Clothes
+#      - id: ClothingKimonoPink # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingKimonoBlue # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingKimonoPurple # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingKimonoSky # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingKimonoGreen # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingUniformMartialGi # starcup - commented out for now
+#        orGroup: Clothes
       - id: ClothingNeckBling
         orGroup: Clothes
       - id: ClothingShoesBling
@@ -1415,10 +1415,10 @@
         orGroup: Clothes
       - id: ClothingHeadHatCone
         orGroup: Clothes
-      - id: ClothingMaskOniRed
-        orGroup: Clothes
-      - id: ClothingMaskOniBlue
-        orGroup: Clothes
+#      - id: ClothingMaskOniRed # starcup - commented out for now
+#        orGroup: Clothes
+#      - id: ClothingMaskOniBlue # starcup - commented out for now
+#        orGroup: Clothes
       - id: ClothingHeadHatRichard
         orGroup: Clothes
       - id: ClothingHeadHatAnimalHeadslime
@@ -1429,12 +1429,12 @@
         orGroup: Clothes
       - id: ClothingEyesGlassesOutlawGlasses
         orGroup: Clothes
-      - id: ClothingUniformJumpsuitGalaxyBlue
-        orGroup: Clothes
-        prob: 0.25
-      - id: ClothingUniformJumpsuitGalaxyRed
-        orGroup: Clothes
-        prob: 0.25
+#      - id: ClothingUniformJumpsuitGalaxyBlue # starcup - commented out for now
+#        orGroup: Clothes
+#        prob: 0.25
+#      - id: ClothingUniformJumpsuitGalaxyRed # starcup - commented out for now
+#        orGroup: Clothes
+#        prob: 0.25
 
 - type: entity
   parent: BaseMail
@@ -1499,34 +1499,35 @@
       - id: ClothingHeadHatTacticalMaidHeadband
       - id: MegaSprayBottle
       - id: ClothingHandsTacticalMaidGloves
-
-- type: entity
-  parent: BaseMailLarge
-  id: MailNFKendoKit
-  suffix: kendo kit
-  components:
-  - type: Mail
-    contents: # A lot of stuff here, seems spammy.
-    - id: ClothingUniformKendoHakama
-      amount: 2
-    - id: ClothingOuterArmorKendoBogu
-      amount: 2
-    - id: ClothingHeadHelmetKendoMen
-      amount: 2
-    - id: Shinai
-      amount: 2
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMailLarge
+#  id: MailNFKendoKit
+#  suffix: kendo kit
+#  components:
+#  - type: Mail
+#    contents: # A lot of stuff here, seems spammy.
+#    - id: ClothingUniformKendoHakama
+#      amount: 2
+#    - id: ClothingOuterArmorKendoBogu
+#      amount: 2
+#    - id: ClothingHeadHelmetKendoMen
+#      amount: 2
+#    - id: Shinai
+#      amount: 2
 
 # Base Nyano Mail
-- type: entity
-  parent: BaseMail
-  id: MailSake
-  suffix: osake
-  components:
-  - type: Mail
-    contents:
-    - id: DrinkSakeCup
-      amount: 2
-    - id: DrinkTokkuri
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailSake
+#  suffix: osake
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: DrinkSakeCup
+#      amount: 2
+#    - id: DrinkTokkuri
 
 - type: entity
   parent: BaseMail
@@ -1555,52 +1556,51 @@
   - type: Mail
     contents:
     - id: CrayonBox
-
-- type: entity
-  parent: BaseMail
-  id: MailCosplayArc
-  suffix: cosplay-arc
-  components:
-  - type: Mail
-    openSound: /Audio/Nyanotrasen/Voice/Felinid/cat_wilhelm.ogg
-    contents:
-    - id: ClothingCostumeArcDress
-
-- type: entity
-  parent: BaseMail
-  id: MailCosplayGeisha
-  suffix: cosplay-geisha
-  components:
-  - type: Mail
-    contents:
-      - id: UniformGeisha
-      - id: DrinkTeapot
-      - id: DrinkTeacup
-        amount: 3
-
-- type: entity
-  parent: BaseMail
-  id: MailCosplaySchoolgirl
-  suffix: cosplay-schoolgirl
-  components:
-  - type: Mail
-    contents:
-    - id: UniformSchoolgirlBlack
-      orGroup: Color
-    - id: UniformSchoolgirlBlue
-      orGroup: Color
-    - id: UniformSchoolgirlCyan
-      orGroup: Color
-    - id: UniformSchoolgirlGreen
-      orGroup: Color
-    - id: UniformSchoolgirlOrange
-      orGroup: Color
-    - id: UniformSchoolgirlPink
-      orGroup: Color
-    - id: UniformSchoolgirlPurple
-      orGroup: Color
-    - id: UniformSchoolgirlRed
-      orGroup: Color
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailCosplayArc
+#  suffix: cosplay-arc
+#  - type: Mail
+#    openSound: /Audio/Nyanotrasen/Voice/Felinid/cat_wilhelm.ogg
+#    contents:
+#    - id: ClothingCostumeArcDress
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailCosplayGeisha
+#  suffix: cosplay-geisha
+#  components:
+#  - type: Mail
+#    contents:
+#      - id: UniformGeisha
+#      - id: DrinkTeapot
+#      - id: DrinkTeacup
+#        amount: 3
+# starcup - commented out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailCosplaySchoolgirl
+#  suffix: cosplay-schoolgirl
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: UniformSchoolgirlBlack
+#      orGroup: Color
+#    - id: UniformSchoolgirlBlue
+#      orGroup: Color
+#    - id: UniformSchoolgirlCyan
+#      orGroup: Color
+#    - id: UniformSchoolgirlGreen
+#      orGroup: Color
+#    - id: UniformSchoolgirlOrange
+#      orGroup: Color
+#    - id: UniformSchoolgirlPink
+#      orGroup: Color
+#    - id: UniformSchoolgirlPurple
+#      orGroup: Color
+#    - id: UniformSchoolgirlRed
+#      orGroup: Color
 
 - type: entity
   parent: BaseMail

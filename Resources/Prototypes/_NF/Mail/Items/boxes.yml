@@ -180,33 +180,33 @@
         amount: 1
       - id: RightFootSlime
         amount: 1
-
-- type: entity
-  name: Build-a-Buddy kit
-  suffix: Vulpkanin
-  parent: BoxBuildABuddyHuman
-  id: BoxBuildABuddyVulpkanin
-  description: "\"Valerie the Vulpkanin\" Build-a-Buddy kit. Some assembly required."
-  components:
-  - type: StorageFill
-    contents:
-      - id: HeadVulpkanin
-        amount: 1
-      - id: TorsoVulpkanin
-        amount: 1
-      - id: LeftArmVulpkanin
-        amount: 1
-      - id: RightArmVulpkanin
-        amount: 1
-      - id: LeftHandVulpkanin
-        amount: 1
-      - id: RightHandVulpkanin
-        amount: 1
-      - id: LeftLegVulpkanin
-        amount: 1
-      - id: RightLegVulpkanin
-        amount: 1
-      - id: LeftFootVulpkanin
-        amount: 1
-      - id: RightFootVulpkanin
-        amount: 1
+# starcup - commenting out until vulpkanin are merged
+#- type: entity
+#  name: Build-a-Buddy kit
+#  suffix: Vulpkanin
+#  parent: BoxBuildABuddyHuman
+#  id: BoxBuildABuddyVulpkanin
+#  description: "\"Valerie the Vulpkanin\" Build-a-Buddy kit. Some assembly required."
+#  components:
+#  - type: StorageFill
+#    contents:
+#      - id: HeadVulpkanin
+#        amount: 1
+#      - id: TorsoVulpkanin
+#        amount: 1
+#      - id: LeftArmVulpkanin
+#        amount: 1
+#      - id: RightArmVulpkanin
+#        amount: 1
+#      - id: LeftHandVulpkanin
+#        amount: 1
+#      - id: RightHandVulpkanin
+#        amount: 1
+#      - id: LeftLegVulpkanin
+#        amount: 1
+#      - id: RightLegVulpkanin
+#        amount: 1
+#      - id: LeftFootVulpkanin
+#        amount: 1
+#      - id: RightFootVulpkanin
+#        amount: 1

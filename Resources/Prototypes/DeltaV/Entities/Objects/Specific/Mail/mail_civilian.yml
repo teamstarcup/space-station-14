@@ -42,40 +42,40 @@
     - id: XylophoneInstrument
       orGroup: Instrument
     # Uncommon
-    - id: Rickenbacker4003Instrument
-      orGroup: Instrument
-      prob: 0.25
+#    - id: Rickenbacker4003Instrument # starcup - commenting out for now
+#      orGroup: Instrument
+#      prob: 0.25
     # Rare
-    - id: Rickenbacker4001Instrument
-      orGroup: Instrument
-      prob: 0.1
+#    - id: Rickenbacker4001Instrument # starcup - commenting out for now
+#      orGroup: Instrument
+#      prob: 0.1
 
 # Base Nyano Mail
-
-- type: entity
-  parent: BaseMail
-  id: MailBotanistChemicalBottles
-  suffix: botanist chemicals
-  components:
-  - type: Mail
-    contents:
-    - id: RobustHarvestChemistryBottle
-      orGroup: Chemical
-      prob: 0.6
-    - id: WeedSpray
-      orGroup: Chemical
-      prob: 0.4
-
-- type: entity
-  parent: BaseMail
-  id: MailBotanistMutagen
-  suffix: mutagen
-  components:
-  - type: Mail
-    isFragile: true
-    isPriority: true
-    contents:
-    - id: UnstableMutagenChemistryBottle
+# starcup - commenting out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailBotanistChemicalBottles
+#  suffix: botanist chemicals
+#  components:
+#  - type: Mail
+#    contents:
+#    - id: RobustHarvestChemistryBottle
+#      orGroup: Chemical
+#      prob: 0.6
+#    - id: WeedSpray
+#      orGroup: Chemical
+#      prob: 0.4
+# starcup - commenting out for now
+#- type: entity
+#  parent: BaseMail
+#  id: MailBotanistMutagen
+#  suffix: mutagen
+#  components:
+#  - type: Mail
+#    isFragile: true
+#    isPriority: true
+#    contents:
+#    - id: UnstableMutagenChemistryBottle
 
 - type: entity
   parent: BaseMail
