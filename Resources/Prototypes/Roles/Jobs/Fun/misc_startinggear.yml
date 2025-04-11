@@ -26,14 +26,7 @@
     shoes: ClothingShoesBootsCombat
     gloves: ClothingHandsGlovesColorBlack
     id: SyndiPDA
-    pocket1: DoubleEmergencyOxygenTankFilled
-    pocket2: BaseUplinkRadio40TC
-    belt: ClothingBeltMilitaryWebbing
-#  inhand: # DeltaV - Prevent commander spawning with the declaration of war
-#    right hand: NukeOpsDeclarationOfWar
-  innerclothingskirt: ClothingUniformJumpskirtOperative
-  satchel: ClothingBackpackDuffelSyndicateOperative
-  duffelbag: ClothingBackpackDuffelSyndicateOperative
+    ears: ClothingHeadsetAltSyndicate
 
 # Syndicate Footsoldier Gear - No Headset
 - type: startingGear
