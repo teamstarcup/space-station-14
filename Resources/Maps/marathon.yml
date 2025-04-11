@@ -44591,7 +44591,7 @@ entities:
     - type: Transform
       pos: -5.5,-50.5
       parent: 30
-- proto: CargoMailTeleporter
+- proto: MailTeleporter # starcup: replace with delta mail teleporter
   entities:
   - uid: 23196
     components:
