@@ -100,7 +100,6 @@ names-ai-dataset-71 = Metalhead
 names-ai-dataset-72 = M.I.M.I
 names-ai-dataset-73 = MK ULTRA
 names-ai-dataset-74 = Monarch
-names-ai-dataset-74 = MoMMI
 names-ai-dataset-75 = Mugsy3000
 # A play on both NT as in NanoTrasen and NT as in windows NT, of which version 6.0 is windows vista
 names-ai-dataset-78 = NT v6.0
