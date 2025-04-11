@@ -35,16 +35,6 @@
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
-#Nuclear Operative Medic Gear
-- type: startingGear
-  id: SyndicateOperativeMedicFull
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitOperative
-    back: ClothingBackpackDuffelSyndicateOperativeMedic
-    mask: ClothingMaskGasSyndicate
-    eyes: ClothingEyesHudMedical
-    ears: ClothingHeadsetAltSyndicate
-
 # Syndicate Footsoldier Gear - No Headset
 - type: startingGear
   id: SyndicateFootsoldierGearRuin
