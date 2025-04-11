@@ -29,11 +29,6 @@
   text: "/ServerInfo/Guidebook/Mobs/Diona.xml"
 
 - type: guideEntry
-  id: Dwarf
-  name: species-name-dwarf
-  text: "/ServerInfo/Guidebook/Mobs/Dwarf.xml"
-
-- type: guideEntry
   id: Human
   name: species-name-human
   text: "/ServerInfo/Guidebook/Mobs/Human.xml"
