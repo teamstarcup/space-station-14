@@ -17,6 +17,3 @@
     id: CourierPDA
     ears: ClothingHeadsetCargo
     belt: CourierBag
-  innerclothingskirt: ClothingUniformSkirtCourier
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled

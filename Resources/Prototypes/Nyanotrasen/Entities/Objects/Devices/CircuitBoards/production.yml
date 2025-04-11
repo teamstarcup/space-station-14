@@ -7,9 +7,8 @@
       state: supply
     - type: MachineBoard
       prototype: MailTeleporter
-      requirements:
-        Capacitor: 1
-        MatterBin: 1
-      materialRequirements:
+      stackRequirements:
         Steel: 4
         Cable: 4
+        Capacitor: 1
+        MatterBin: 1
