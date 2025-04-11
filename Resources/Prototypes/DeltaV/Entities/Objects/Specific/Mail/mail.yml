@@ -622,9 +622,9 @@
       orGroup: Muffin4
     - id: FoodBakedMuffin
       orGroup: Muffin4
-    - id: FoodMothMoffin
-      orGroup: Muffin4
-      prob: 0.5
+#    - id: FoodMothMoffin # starcup - commenting out for now
+#      orGroup: Muffin4
+#      prob: 0.5
 
 - type: entity
   parent: BaseMail
