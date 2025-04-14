@@ -38,6 +38,35 @@
     id: CargoAssistantIDCard
     state: pda-cargo-assistant
 
+- type: entity
+  parent: BasePDA
+  id: AdminAssistantPDA
+  name: administrative assistant PDA
+  description: Theres pen scribbles all over the edges, and a few sticky notes stuck on it.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: PdaBorderColor
+    borderColor: "#1B67A5"
+  - type: Pda
+    id: AdminAssistantIDCard
+    penSlot:
+      startingItem: LuxuryPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+
 ## Alternate Job Titles
 
 - type: entity
