@@ -75,6 +75,7 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
+  - AdministrativeAssistant # DeltaV
   primary: false
   weight: 100
 
