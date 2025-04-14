@@ -1,0 +1,15 @@
+# Logistics
+- type: roleLoadout
+  id: JobCourier
+  groups:
+  - GroupTankHarness
+  - CourierHead
+#  - CourierNeck # starcup - commented out for now
+  - CourierJumpsuit
+  - CourierOuterClothing
+  - CourierPDA
+  - CourierBackpack
+  - CourierShoes
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
