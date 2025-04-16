@@ -89,7 +89,6 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
-  - SeniorEngineer # CD
 
 - type: department
   id: Medical
@@ -103,7 +102,6 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
-  - SeniorPhysician # CD
 
 - type: department
   id: Security
@@ -117,7 +115,6 @@
   - SecurityOfficer
   - Detective
   - Warden
-  - SeniorOfficer # CD
 
 - type: department
   id: Science
@@ -128,7 +125,6 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
-  - SeniorResearcher # CD
 
 - type: department
   id: Silicon
