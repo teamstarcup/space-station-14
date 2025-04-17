@@ -2,8 +2,8 @@
 
 - type: trait
   id: ScottishAccent
-  name: trait-scottish-accent-name
-  description: trait-scottish-accent-desc
+  name: trait-scottish-accent-starcup-name # starcup: new accent names
+  description: trait-scottish-starcup-accent-desc # starcup: new accent descs
   category: SpeechTraits
   cost: 2 # Changed weight to 2 in accordance with other accents
   components:
@@ -11,8 +11,8 @@
 
 - type: trait
   id: MobsterAccent
-  name: trait-mobster-accent-name
-  description: trait-mobster-accent-desc
+  name: trait-mobster-accent-starcup-name # starcup: new accent names
+  description: trait-mobster-starcup-accent-desc # starcup: new accent descs
   category: SpeechTraits
   cost: 2 # Changed weight to 2 in accordance with other accents
   components:
@@ -20,8 +20,8 @@
 
 - type: trait
   id: IrishAccent
-  name: trait-irish-accent-name
-  description: trait-irish-accent-desc
+  name: trait-irish-accent-starcup-name # starcup: new accent names
+  description: trait-irish-starcup-accent-desc # starcup: new accent descs
   category: SpeechTraits
   cost: 2 # Changed weight to 2 in accordance with other accents
   components:
