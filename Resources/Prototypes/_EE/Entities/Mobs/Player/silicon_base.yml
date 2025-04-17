@@ -216,8 +216,8 @@
           type: HumanoidMarkingModifierBoundUserInterface
         enum.StrippingUiKey.Key:
           type: StrippableBoundUserInterface
-        enum.SurgeryUIKey.Key: # Shitmed
-          type: SurgeryBui
+#        enum.SurgeryUIKey.Key: # Shitmed
+#          type: SurgeryBui
     - type: Emoting
     - type: Grammar
       attributes:
@@ -306,7 +306,7 @@
       priority: 1
       lightningExplode: false
     - type: ComplexInteraction
-    - type: Carriable
-    - type: Targeting
-    - type: SurgeryTarget
-    - type: LayingDown
+    #- type: Carriable
+    #- type: Targeting
+    #- type: SurgeryTarget
+    #- type: LayingDown

@@ -149,8 +149,6 @@
     guides:
     - VoltageNetworks
     - Power
-  - type: BatteryDrinkerSource # EE IPCs
-    maxAmount: 10000
 
 # APC under construction
 - type: entity
