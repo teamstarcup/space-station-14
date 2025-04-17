@@ -8,26 +8,6 @@
   components:
     - type: ScottishAccent
 
-# "New" Accents for more character variety
-
-- type: trait
-  id: FrenchAccent
-  name: trait-french-accent-name
-  description: trait-french-accent-desc
-  category: SpeechTraits
-  cost: 2 # Changed weight to 2 in accordance with other accents
-  components:
-   - type: FrenchAccent
-
-- type: trait
-  id: SpanishAccent
-  name: trait-spanish-accent-name
-  description: trait-spanish-accent-desc
-  category: SpeechTraits
-  cost: 2 # Changed weight to 2 in accordance with other accents
-  components:
-    - type: SpanishAccent
-
 - type: trait
   id: MobsterAccent
   name: trait-mobster-accent-name

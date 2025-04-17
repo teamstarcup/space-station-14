@@ -16,15 +16,15 @@
     - type: ReplacementAccent
       accent: dwarf
 
-- type: trait
-  id: Liar
-  name: trait-liar-name
-  description: trait-liar-desc
-  category: SpeechTraits
-  cost: 0 # Delta-V change- removed cost for liar to 0, as was discussed
-  components:
-    - type: ReplacementAccent
-      accent: liar
+#- type: trait (starcup: removed)
+#  id: Liar
+#  name: trait-liar-name
+#  description: trait-liar-desc
+#  category: SpeechTraits
+#  cost: 0 # Delta-V change- removed cost for liar to 0, as was discussed
+#  components:
+#    - type: ReplacementAccent
+#      accent: liar
 
 - type: trait
   id: SocialAnxiety
@@ -51,6 +51,15 @@
 # 2 Cost
 
 - type: trait
+  id: FrenchAccent
+  name: trait-french-accent-name
+  description: trait-french-accent-desc
+  category: SpeechTraits
+  cost: 2 # Changed weight to 2 in accordance with other accents
+  components:
+   - type: FrenchAccent
+
+- type: trait
   id: SouthernAccent
   name: trait-southern-name
   description: trait-southern-desc
@@ -59,42 +68,42 @@
   components:
   - type: SouthernAccent
 
-- type: trait
-  id: PirateAccent
-  name: trait-pirate-accent-name
-  description: trait-pirate-accent-desc
-  category: SpeechTraits
-  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
-  components:
-  - type: PirateAccent
+#- type: trait (starcup: removed)
+#  id: PirateAccent
+#  name: trait-pirate-accent-name
+#  description: trait-pirate-accent-desc
+#  category: SpeechTraits
+#  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
+#  components:
+#  - type: PirateAccent
 
-- type: trait
-  id: CowboyAccent
-  name: trait-cowboy-name
-  description: trait-cowboy-desc
-  category: SpeechTraits
-  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
-  components:
-  - type: ReplacementAccent
-    accent: cowboy
+#- type: trait (starcup: removed)
+#  id: CowboyAccent
+#  name: trait-cowboy-name
+#  description: trait-cowboy-desc
+#  category: SpeechTraits
+#  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
+#  components:
+#  - type: ReplacementAccent
+#    accent: cowboy
 
-- type: trait
-  id: GermanAccent
-  name: trait-german-name
-  description: trait-german-desc
-  category: SpeechTraits
-  cost: 1
-  components:
-  - type: GermanAccent
+#- type: trait (starcup: removed)
+#  id: GermanAccent
+#  name: trait-german-name
+#  description: trait-german-desc
+#  category: SpeechTraits
+#  cost: 1
+#  components:
+#  - type: GermanAccent
 
-- type: trait
-  id: ItalianAccent
-  name: trait-italian-name
-  description: trait-italian-desc
-  category: SpeechTraits
-  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
-  components:
-  - type: ReplacementAccent
-    accent: italian
+#- type: trait (starcup: removed)
+#  id: ItalianAccent
+#  name: trait-italian-name
+#  description: trait-italian-desc
+#  category: SpeechTraits
+#  cost: 2 # Delta-V change- weighted up accents to 2 as discussed for accent stacking being off
+#  components:
+#  - type: ReplacementAccent
+#    accent: italian
 
 
