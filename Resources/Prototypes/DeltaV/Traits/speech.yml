@@ -4,7 +4,6 @@
   id: ScottishAccent
   name: trait-scottish-accent-name
   description: trait-scottish-accent-desc
-  traitGear: BagpipeInstrument
   category: SpeechTraits
   cost: 2 # Changed weight to 2 in accordance with other accents
   components:
