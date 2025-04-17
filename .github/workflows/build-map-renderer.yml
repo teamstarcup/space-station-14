@@ -51,7 +51,7 @@ jobs:
     name: Build & Test Debug
     needs:
       - build
-    runs-on: ubuntu-latest
+    runs-on: mustang
     steps:
       - name: CI succeeded
         run: exit 0
