@@ -1,0 +1,7 @@
+- type: trait
+  id: InPain
+  name: trait-inpain-name
+  description: trait-inpain-desc
+  category: Disabilities
+  components:
+  - type: Pain
