@@ -7,7 +7,7 @@ using Content.Shared.Damage;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared.Tools;
-using Content.Shared._Shitmed.Targeting;
+//using Content.Shared._Shitmed.Targeting;
 using Content.Shared.Body.Systems;
 using SharedToolSystem = Content.Shared.Tools.Systems.SharedToolSystem;
 
@@ -101,14 +101,14 @@ public sealed class WeldingHealableSystem : SharedWeldingHealableSystem
                 return true;
 
         // In case the healer is a humanoid entity with targeting, we run the check on the targeted parts.
-        if (!TryComp(user, out TargetingComponent? targeting))
-            return false;
-        var (targetType, targetSymmetry) = _bodySystem.ConvertTargetBodyPart(targeting.Target);
-        foreach (var part in _bodySystem.GetBodyChildrenOfType(damageable, targetType, symmetry: targetSymmetry))
-            if (TryComp<DamageableComponent>(part.Id, out var damageablePart))
-                foreach (var type in healable.Damage.DamageDict)
-                    if (damageablePart.Damage.DamageDict[type.Key].Value > 0)
-                        return true;
+        //if (!TryComp(user, out TargetingComponent? targeting))
+            //return false;
+        //var (targetType, targetSymmetry) = _bodySystem.ConvertTargetBodyPart(targeting.Target);
+        //foreach (var part in _bodySystem.GetBodyChildrenOfType(damageable, targetType, symmetry: targetSymmetry))
+            //if (TryComp<DamageableComponent>(part.Id, out var damageablePart))
+                //foreach (var type in healable.Damage.DamageDict)
+                    //if (damageablePart.Damage.DamageDict[type.Key].Value > 0)
+                        //return true;
 
         return false;
     }
