@@ -12,8 +12,6 @@ public sealed class MobsterAccentSystem : EntitySystem
     private static readonly Regex RegexUpperOr = new(@"(?<=\w)O[Rr](?=\w)");
     private static readonly Regex RegexLowerAr = new(@"(?<=\w)a[Rr](?=\w)");
     private static readonly Regex RegexUpperAr = new(@"(?<=\w)A[Rr](?=\w)");
-    private static readonly Regex RegexFirstWord = new(@"^(\S+)");
-    private static readonly Regex RegexLastWord = new(@"(\S+)$");
 
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ReplacementAccentSystem _replacement = default!;
@@ -45,47 +43,8 @@ public sealed class MobsterAccentSystem : EntitySystem
         msg = RegexLowerAr.Replace(msg, "ah");
         msg = RegexUpperAr.Replace(msg, "AH");
 
-        // Prefix
-        if (_random.Prob(0.15f))
-        {
-            //Checks if the first word of the sentence is all caps
-            //So the prefix can be allcapped and to not resanitize the captial
-            var firstWordAllCaps = !RegexFirstWord.Match(msg).Value.Any(char.IsLower);
-            var pick = _random.Next(1, 2);
-
-            // Reverse sanitize capital
-            var prefix = Loc.GetString($"accent-mobster-prefix-{pick}");
-            if (!firstWordAllCaps)
-                msg = msg[0].ToString().ToLower() + msg.Remove(0, 1);
-            else
-                prefix = prefix.ToUpper();
-            msg = prefix + " " + msg;
-        }
-
         // Sanitize capital again, in case we substituted a word that should be capitalized
         msg = msg[0].ToString().ToUpper() + msg.Remove(0, 1);
-
-        // Suffixes
-        if (_random.Prob(0.4f))
-        {
-            //Checks if the last word of the sentence is all caps
-            //So the suffix can be allcapped
-            var lastWordAllCaps = !RegexLastWord.Match(msg).Value.Any(char.IsLower);
-            var suffix = "";
-            if (component.IsBoss)
-            {
-                var pick = _random.Next(1, 4);
-                suffix = Loc.GetString($"accent-mobster-suffix-boss-{pick}");
-            }
-            else
-            {
-                var pick = _random.Next(1, 3);
-                suffix = Loc.GetString($"accent-mobster-suffix-minion-{pick}");
-            }
-            if (lastWordAllCaps)
-                suffix = suffix.ToUpper();
-            msg += suffix;
-        }
 
         return msg;
     }
