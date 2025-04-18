@@ -1,6 +1,7 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+  # begin starcup additions
     - /Audio/Lobby/astral_1.ogg
     - /Audio/Lobby/autumn_voyage_arrangement.ogg
     - /Audio/Lobby/brinstar_red_soil_arrangement_revision.ogg
@@ -22,3 +23,4 @@
     - /Audio/Lobby/the_panther.ogg
     - /Audio/Lobby/vacillate.ogg
     - /Audio/Lobby/voltaic_fluctuations.ogg
+# end starcup additions
