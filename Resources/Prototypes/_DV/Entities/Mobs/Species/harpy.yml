@@ -219,6 +219,6 @@
   components:
   - type: InstantAction
     checkCanInteract: false
-    icon: DeltaV/Interface/Actions/harpy_sing.png
+    icon: _DV/Interface/Actions/harpy_sing.png
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key

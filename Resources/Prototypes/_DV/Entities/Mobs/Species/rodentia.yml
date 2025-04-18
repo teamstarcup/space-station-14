@@ -74,7 +74,7 @@
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
       - map: [ "clownedon" ] # Dynamically generated
-        sprite: "DeltaV/Effects/creampie.rsi"
+        sprite: "_DV/Effects/creampie.rsi"
         state: "creampie_rodentia"
         visible: false
   - type: MeleeWeapon
