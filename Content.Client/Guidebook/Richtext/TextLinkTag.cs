@@ -11,6 +11,8 @@ namespace Content.Client.Guidebook.RichText;
 [UsedImplicitly]
 public sealed class TextLinkTag : IMarkupTag
 {
+    [Dependency] private readonly IUriOpener _uriOpener = null!;  // starcup: IUriOpener dependency for web hyperlinks
+
     public string Name => "textlink";
 
     public Control? Control;
@@ -49,6 +51,14 @@ public sealed class TextLinkTag : IMarkupTag
 
         if (Control == null)
             return;
+
+        // begin starcup: handle web hyperlinks
+        if (link.StartsWith("http://") || link.StartsWith("https://"))
+        {
+            _uriOpener.OpenUri(link);
+            return;
+        }
+        // end starcup
 
         var current = Control;
         while (current != null)
