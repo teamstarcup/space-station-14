@@ -35,6 +35,8 @@
     RLeg: MobHumanRLeg
     LFoot: MobHumanLFoot
     RFoot: MobHumanRFoot
+    Tail: MobHumanoidAnyMarking # Nyanotrasen - Felinid
+    HeadSide: MobHumanoidAnyMarking # Einstein Engines - Oni
 
 - type: markingPoints
   id: MobHumanMarkingLimits

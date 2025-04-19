@@ -11,6 +11,7 @@
   - type: HumanoidAppearance
     species: Arachnid
   - type: Hunger
+  - type: Carriable # Carrying system from nyanotrasen.
   - type: Thirst
   - type: Sericulture
     action: ActionSericulture
@@ -128,7 +129,7 @@
   - type: HumanoidAppearance
     species: Arachnid
   - type: Inventory
-    speciesId: arachnid 
+    speciesId: arachnid
 
 
 #>88w88<

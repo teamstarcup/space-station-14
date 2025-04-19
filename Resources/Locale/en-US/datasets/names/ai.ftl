@@ -90,7 +90,7 @@ names-ai-dataset-64 = Knight
 names-ai-dataset-65 = Louie
 
 # Named after the Manchester Mark 1, the successor of which was actually named the Ferranti Mark 1, rather than Manchester Mark 2
-names-ai-dataset-66 = Manchester Mark 2 
+names-ai-dataset-66 = Manchester Mark 2
 
 names-ai-dataset-67 = MARK13
 names-ai-dataset-68 = Maria
@@ -103,7 +103,6 @@ names-ai-dataset-74 = Monarch
 names-ai-dataset-75 = Mugsy3000
 names-ai-dataset-76 = Multivac
 names-ai-dataset-77 = NCH
-
 # A play on both NT as in NanoTrasen and NT as in windows NT, of which version 6.0 is windows vista
 names-ai-dataset-78 = NT v6.0
 
