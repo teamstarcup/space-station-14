@@ -1,0 +1,6 @@
+- type: guideEntry
+  id: starcupRuleset
+  name: guide-entry-starcup-rules
+  text: "/ServerInfo/Guidebook/_starcup/StarcupShipsArticles.xml"
+  priority: -2
+  ruleEntry: true
