@@ -1,0 +1,6 @@
+#Nyano
+
+- type: flavor
+  id: vanilla
+  flavorType: Complex
+  description: flavor-complex-vanilla
