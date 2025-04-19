@@ -2,7 +2,7 @@
 
 - type: entity
   parent: BaseMail
-  id: MailBooksAll # See Resources/Prototypes/Nyanotrasen/Entities/Markers/Spawners/Random/books.yml
+  id: MailBooksAll
   suffix: books
   components:
   - type: Mail
