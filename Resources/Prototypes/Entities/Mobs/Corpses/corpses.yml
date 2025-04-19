@@ -36,7 +36,7 @@
     prototypes:
     - CargoTechGear
     - SalvageSpecialistGear
-    - CourierGear # DeltaV - Courier, see Resources/Prototypes/DeltaV/Roles/Jobs/Cargo/courier.yml
+    - CourierGear # DeltaV
 
 - type: entity
   parent: SalvageHumanCorpse

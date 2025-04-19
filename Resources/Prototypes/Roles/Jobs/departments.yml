@@ -7,7 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
-  - Courier # Nyanotrasen - MailCarrier, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Cargo/mail-carrier.yml
+  - Courier # DeltaV
 
 - type: department
   id: Civilian
