@@ -35,8 +35,8 @@ using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
 // Begin CD - Character Records
 using System.Globalization;
-using Content.Client._CD.Records.UI;
-using Content.Shared._CD.Records;
+using Content.Client._CosmaticDrift.Records.UI;
+using Content.Shared._CosmaticDrift.Records;
 // End CD - Character Records
 
 namespace Content.Client.Lobby.UI
