@@ -1,18 +1,26 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/Lobby/thunderdome.ogg
-    - /Audio/Lobby/absconditus.ogg
-    - /Audio/Lobby/space_asshole.ogg
-    - /Audio/Lobby/the_wizard.ogg
-    - /Audio/Lobby/endless_space.ogg
-    - /Audio/Lobby/singuloose.ogg
-    - /Audio/Lobby/comet_haley.ogg
-    - /Audio/Lobby/title2.ogg
-    - /Audio/Lobby/title3.ogg
-    - /Audio/Lobby/mod.flip-flap.ogg
-    - /Audio/Lobby/Spac_Stac.ogg
-    - /Audio/Lobby/pwmur.ogg
-    - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
-    - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Lobby/atomicamnesiammx.ogg
+  # begin starcup additions
+    - /Audio/Lobby/astral_1.ogg
+    - /Audio/Lobby/autumn_voyage_arrangement.ogg
+    - /Audio/Lobby/brinstar_red_soil_arrangement_revision.ogg
+    - /Audio/Lobby/contact.ogg
+    - /Audio/Lobby/hades.ogg
+    - /Audio/Lobby/haircuts_for_women.ogg
+    - /Audio/Lobby/id_like_to_paint_too.ogg
+    - /Audio/Lobby/mainland.ogg
+    - /Audio/Lobby/maridia_rocky_underwater_area_arrangement_revision.ogg
+    - /Audio/Lobby/moonsong_arrangement.ogg
+    - /Audio/Lobby/my_mind_is_glowing.ogg
+    - /Audio/Lobby/never_want_to_be_a_hero.ogg
+    - /Audio/Lobby/nyan_cat_ringtone_remix.ogg
+    - /Audio/Lobby/onward.ogg
+    - /Audio/Lobby/PHUNKSLASH96.ogg
+    - /Audio/Lobby/rainbow_road.ogg
+    - /Audio/Lobby/retrograde.ogg
+    - /Audio/Lobby/serotonergic.ogg
+    - /Audio/Lobby/the_panther.ogg
+    - /Audio/Lobby/vacillate.ogg
+    - /Audio/Lobby/voltaic_fluctuations.ogg
+# end starcup additions
