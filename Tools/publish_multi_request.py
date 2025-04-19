@@ -29,7 +29,7 @@ def main():
 
     session = requests.Session()
     # begin starcup: perform retries for failed uploads
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504], method_whitelist=False)
+    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504], allowed_methods=['POST'])
     session.mount('https://', HTTPAdapter(max_retries=retries))
     # end starcup
     
