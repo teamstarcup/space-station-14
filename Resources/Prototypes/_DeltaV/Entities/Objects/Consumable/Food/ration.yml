@@ -6,7 +6,7 @@
   name: psb wrapper
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Food/ration.rsi
+    sprite: _DeltaV/Objects/Consumable/Food/ration.rsi
     state: psb-trash
   - type: Item
 
@@ -17,7 +17,7 @@
   description: The PSB is a densely packed, nutrient rich, artificially flavored and colored food bar specifically made to accomodate all species during food shortages.
   components:
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Food/ration.rsi
+    sprite: _DeltaV/Objects/Consumable/Food/ration.rsi
     state: psb
   - type: Item
     size: Tiny
@@ -64,7 +64,7 @@
   components:
   - type: Item
   - type: Sprite
-    sprite: _DV/Objects/Consumable/Food/ration.rsi
+    sprite: _DeltaV/Objects/Consumable/Food/ration.rsi
   - type: SolutionContainerManager
     solutions:
       food:
