@@ -17,7 +17,7 @@ using Content.Shared.Interaction.Components;
 using Content.Shared.Inventory;
 using Content.Shared.Item;
 using Content.Shared.Lock;
-using Content.Shared._DV.Item.PseudoItem;
+using Content.Shared._DeltaV.Item.PseudoItem;
 using Content.Shared.Materials;
 using Content.Shared.Placeable;
 using Content.Shared.Popups;
