@@ -2,25 +2,25 @@
   id: LobbyMusic
   files:
   # begin starcup additions
-    - /Audio/Lobby/astral_1.ogg
-    - /Audio/Lobby/autumn_voyage_arrangement.ogg
-    - /Audio/Lobby/brinstar_red_soil_arrangement_revision.ogg
-    - /Audio/Lobby/contact.ogg
-    - /Audio/Lobby/hades.ogg
-    - /Audio/Lobby/haircuts_for_women.ogg
-    - /Audio/Lobby/id_like_to_paint_too.ogg
-    - /Audio/Lobby/mainland.ogg
-    - /Audio/Lobby/maridia_rocky_underwater_area_arrangement_revision.ogg
-    - /Audio/Lobby/moonsong_arrangement.ogg
-    - /Audio/Lobby/my_mind_is_glowing.ogg
-    - /Audio/Lobby/never_want_to_be_a_hero.ogg
-    - /Audio/Lobby/nyan_cat_ringtone_remix.ogg
-    - /Audio/Lobby/onward.ogg
-    - /Audio/Lobby/PHUNKSLASH96.ogg
-    - /Audio/Lobby/rainbow_road.ogg
-    - /Audio/Lobby/retrograde.ogg
-    - /Audio/Lobby/serotonergic.ogg
-    - /Audio/Lobby/the_panther.ogg
-    - /Audio/Lobby/vacillate.ogg
-    - /Audio/Lobby/voltaic_fluctuations.ogg
+    - /Audio/_starcup/Lobby/astral_1.ogg
+    - /Audio/_starcup/Lobby/autumn_voyage_arrangement.ogg
+    - /Audio/_starcup/Lobby/brinstar_red_soil_arrangement_revision.ogg
+    - /Audio/_starcup/Lobby/contact.ogg
+    - /Audio/_starcup/Lobby/hades.ogg
+    - /Audio/_starcup/Lobby/haircuts_for_women.ogg
+    - /Audio/_starcup/Lobby/id_like_to_paint_too.ogg
+    - /Audio/_starcup/Lobby/mainland.ogg
+    - /Audio/_starcup/Lobby/maridia_rocky_underwater_area_arrangement_revision.ogg
+    - /Audio/_starcup/Lobby/moonsong_arrangement.ogg
+    - /Audio/_starcup/Lobby/my_mind_is_glowing.ogg
+    - /Audio/_starcup/Lobby/never_want_to_be_a_hero.ogg
+    - /Audio/_starcup/Lobby/nyan_cat_ringtone_remix.ogg
+    - /Audio/_starcup/Lobby/onward.ogg
+    - /Audio/_starcup/Lobby/PHUNKSLASH96.ogg
+    - /Audio/_starcup/Lobby/rainbow_road.ogg
+    - /Audio/_starcup/Lobby/retrograde.ogg
+    - /Audio/_starcup/Lobby/serotonergic.ogg
+    - /Audio/_starcup/Lobby/the_panther.ogg
+    - /Audio/_starcup/Lobby/vacillate.ogg
+    - /Audio/_starcup/Lobby/voltaic_fluctuations.ogg
 # end starcup additions
