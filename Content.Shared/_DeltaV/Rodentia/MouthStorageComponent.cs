@@ -1,9 +1,9 @@
-using Content.Shared._DeltaV.Storage.EntitySystems;
+using Content.Shared._DeltaV.Rodentia;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
-namespace Content.Shared._DeltaV.Storage.Components;
+namespace Content.Shared._DeltaV.Rodentia;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 [Access(typeof(SharedMouthStorageSystem))]

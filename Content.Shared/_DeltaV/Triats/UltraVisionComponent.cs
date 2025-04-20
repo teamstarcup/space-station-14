@@ -1,5 +1,5 @@
 using Robust.Shared.GameStates;
-namespace Content.Shared.Abilities;
+namespace Content.Shared._DeltaV.Traits;
 
 [RegisterComponent]
 [NetworkedComponent]
