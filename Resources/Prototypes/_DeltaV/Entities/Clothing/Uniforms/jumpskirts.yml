@@ -20,6 +20,16 @@
   - type: Clothing
     sprite: _DeltaV/Clothing/Uniforms/Jumpskirt/courier.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtCargoTechRomper
+  name: cargo tech romper
+  description: A flexible and professional skirt. It has a pair of skorts underneath for the hardest working skirt-wearers of Logistics.
+  components:
+  - type: Sprite
+    sprite: _DeltaV/Clothing/Uniforms/Jumpskirt/cargotechromper.rsi
+  - type: Clothing
+    sprite: _DeltaV/Clothing/Uniforms/Jumpskirt/cargotechromper.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -28,6 +38,6 @@
   description: A suit worn by the Administrative Assistant. Smells of burnt coffee.
   components:
   - type: Sprite
-    sprite: DeltaV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi
+    sprite: _DeltaV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi
   - type: Clothing
-    sprite: DeltaV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi
+    sprite: _DeltaV/Clothing/Uniforms/Jumpskirt/admin_assistant.rsi
