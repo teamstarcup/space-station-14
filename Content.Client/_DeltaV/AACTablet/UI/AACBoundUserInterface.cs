@@ -1,9 +1,9 @@
-using Content.Shared.DeltaV.AACTablet;
-using Content.Shared.DeltaV.QuickPhrase;
+using Content.Shared._DeltaV.AACTablet;
+using Content.Shared._DeltaV.QuickPhrase;
 using Robust.Shared.Prototypes;
 using Robust.Client.UserInterface;
 
-namespace Content.Client.DeltaV.AACTablet.UI;
+namespace Content.Client._DeltaV.AACTablet.UI;
 
 public sealed class AACBoundUserInterface : BoundUserInterface
 {
