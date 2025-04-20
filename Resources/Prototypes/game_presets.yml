@@ -74,7 +74,7 @@
   - extended
   - shittersafari
   name: extended-title
-  showInVote: false #2boring2vote
+  showInVote: true  # starcup: enable voting extended
   description: extended-description
   rules:
   - BasicStationEventScheduler
@@ -88,7 +88,7 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: false #4boring4vote
+  showInVote: true  # starcup: enable voting greenshift
   description: greenshift-description
   rules:
   - SpaceTrafficControlFriendlyEventScheduler
@@ -165,7 +165,7 @@
   name: death-match-title
   description: death-match-description
   maxPlayers: 15
-  showInVote: true
+  showInVote: false  # starcup: disable voting deathmatch
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
