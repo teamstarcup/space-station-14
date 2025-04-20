@@ -1,4 +1,4 @@
-using Content.Shared.Abilities;
+using Content.Shared._DeltaV.Overlays;
 using Content.Shared._DeltaV.CCVars;
 using Robust.Client.Graphics;
 using Robust.Shared.Configuration;
@@ -23,14 +23,14 @@ public sealed partial class UltraVisionSystem : EntitySystem
         SubscribeLocalEvent<UltraVisionComponent, LocalPlayerAttachedEvent>(OnPlayerAttached);
         SubscribeLocalEvent<UltraVisionComponent, LocalPlayerDetachedEvent>(OnPlayerDetached);
 
-        Subs.CVar(_cfg, DCCVars.NoVisionFilters, OnNoVisionFiltersChanged);
+        Subs.CVar(_cfg, DeltavCCVars.NoVisionFilters, OnNoVisionFiltersChanged);
 
         _overlay = new();
     }
 
     private void OnUltraVisionInit(EntityUid uid, UltraVisionComponent component, ComponentInit args)
     {
-        if (uid == _playerMan.LocalEntity && !_cfg.GetCVar(DCCVars.NoVisionFilters))
+        if (uid == _playerMan.LocalEntity && !_cfg.GetCVar(DeltavCCVars.NoVisionFilters))
             _overlayMan.AddOverlay(_overlay);
     }
 
@@ -42,7 +42,7 @@ public sealed partial class UltraVisionSystem : EntitySystem
 
     private void OnPlayerAttached(EntityUid uid, UltraVisionComponent component, LocalPlayerAttachedEvent args)
     {
-        if (!_cfg.GetCVar(DCCVars.NoVisionFilters))
+        if (!_cfg.GetCVar(DeltavCCVars.NoVisionFilters))
             _overlayMan.AddOverlay(_overlay);
     }
 

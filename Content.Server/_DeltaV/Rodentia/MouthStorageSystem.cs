@@ -1,10 +1,8 @@
 using Content.Server.Speech;
 using Content.Server.Speech.EntitySystems;
-using Content.Shared._DeltaV.Storage.Components;
-using Content.Shared._DeltaV.Storage.EntitySystems;
-using Content.Shared.Storage;
+using Content.Shared._DeltaV.Rodentia;
 
-namespace Content.Server._DeltaV.Storage.EntitySystems;
+namespace Content.Server._DeltaV.Rodentia;
 
 public sealed class MouthStorageSystem : SharedMouthStorageSystem
 {

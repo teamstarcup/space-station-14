@@ -4,7 +4,7 @@ using Content.Shared.Nutrition;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Nutrition.EntitySystems;
 
-namespace Content.Shared._DV.Felinid;
+namespace Content.Shared._DeltaV.Felinid;
 
 /// <summary>
 /// Makes eating <see cref="FelinidFoodComponent"/> enable a felinids hairball action.

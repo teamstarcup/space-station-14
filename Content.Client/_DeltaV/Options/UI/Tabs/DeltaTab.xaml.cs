@@ -17,6 +17,6 @@ public sealed partial class DeltaTab : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        Control.AddOptionCheckBox(DCCVars.NoVisionFilters, DisableFiltersCheckBox);
+        Control.AddOptionCheckBox(DeltavCCVars.NoVisionFilters, DisableFiltersCheckBox);
     }
 }
