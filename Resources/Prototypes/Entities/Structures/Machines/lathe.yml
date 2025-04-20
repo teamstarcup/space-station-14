@@ -597,6 +597,13 @@
       staticPacks:
       - OreSmelting
       - RGlassSmelting
+# Begin DeltaV additions
+    - type: MaterialStorageMagnetPickup # Adds magnet pull from Frontier
+      magnetEnabled: True
+      range: 0.30
+    - type: PlaceableSurface # Allow ore bags to dump into it directly
+      isPlaceable: false # but not place on it if you just click it with a random item
+# End DeltaV additions
 
 - type: entity
   parent: OreProcessor
