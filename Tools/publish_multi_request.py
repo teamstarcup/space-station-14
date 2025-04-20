@@ -5,7 +5,6 @@ import requests
 import os
 import subprocess
 from typing import Iterable
-from requests.adapters import HTTPAdapter, Retry  # starcup: retry http requests
 
 
 PUBLISH_TOKEN = os.environ["PUBLISH_TOKEN"]
@@ -28,10 +27,6 @@ def main():
     fork_id = args.fork_id
 
     session = requests.Session()
-    # begin starcup: perform retries for failed uploads
-    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504], allowed_methods=['POST'])
-    session.mount('https://', HTTPAdapter(max_retries=retries))
-    # end starcup
     
     session.headers = {
         "Authorization": f"Bearer {PUBLISH_TOKEN}",
