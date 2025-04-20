@@ -1,7 +1,7 @@
 using Content.Shared.Actions;
 using Content.Shared.CombatMode;
 using Content.Shared.Damage;
-using Content.Shared._DeltaV.Storage.Components;
+using Content.Shared._DeltaV.Rodentia;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Nutrition;
@@ -11,7 +11,7 @@ using Content.Shared.Storage.EntitySystems;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
 
-namespace Content.Shared._DeltaV.Storage.EntitySystems;
+namespace Content.Shared._DeltaV.Rodentia;
 
 public abstract class SharedMouthStorageSystem : EntitySystem
 {
