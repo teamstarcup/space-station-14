@@ -1,4 +1,4 @@
-using Content.Shared.Abilities;
+using Content.Shared._DeltaV.Overlays;
 using Content.Shared._DeltaV.CCVars;
 using Robust.Client.Graphics;
 using Robust.Shared.Configuration;
@@ -23,14 +23,14 @@ public sealed partial class DogVisionSystem : EntitySystem
         SubscribeLocalEvent<DogVisionComponent, LocalPlayerAttachedEvent>(OnPlayerAttached);
         SubscribeLocalEvent<DogVisionComponent, LocalPlayerDetachedEvent>(OnPlayerDetached);
 
-        Subs.CVar(_cfg, DCCVars.NoVisionFilters, OnNoVisionFiltersChanged);
+        Subs.CVar(_cfg, DeltavCCVars.NoVisionFilters, OnNoVisionFiltersChanged);
 
         _overlay = new();
     }
 
     private void OnDogVisionInit(EntityUid uid, DogVisionComponent component, ComponentInit args)
     {
-        if (uid == _playerMan.LocalEntity && !_cfg.GetCVar(DCCVars.NoVisionFilters))
+        if (uid == _playerMan.LocalEntity && !_cfg.GetCVar(DeltavCCVars.NoVisionFilters))
             _overlayMan.AddOverlay(_overlay);
     }
 
@@ -42,7 +42,7 @@ public sealed partial class DogVisionSystem : EntitySystem
 
     private void OnPlayerAttached(EntityUid uid, DogVisionComponent component, LocalPlayerAttachedEvent args)
     {
-        if (!_cfg.GetCVar(DCCVars.NoVisionFilters))
+        if (!_cfg.GetCVar(DeltavCCVars.NoVisionFilters))
             _overlayMan.AddOverlay(_overlay);
     }
 
