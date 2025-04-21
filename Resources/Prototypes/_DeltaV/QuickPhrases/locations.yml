@@ -196,7 +196,7 @@
 - type: quickPhrase
   parent: BaseResearchLocationPhrase
   id: LocationResearchPhrase
-  text: station-beacon-research
+  text: station-beacon-research-and-development
 
 - type: quickPhrase
   parent: BaseResearchLocationPhrase

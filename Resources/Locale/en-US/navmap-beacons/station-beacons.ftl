@@ -38,9 +38,9 @@ station-beacon-artifact-lab = Artifact
 station-beacon-anomaly-gen = Anomaly
 
 station-beacon-supply = Supply
-station-beacon-cargo = Logistics
+station-beacon-cargo = Cargo
 station-beacon-cargo-bay = Cargo Bay
-station-beacon-qm = LO
+station-beacon-qm = QM
 station-beacon-salvage = Salvage
 
 station-beacon-engineering = Engineering
