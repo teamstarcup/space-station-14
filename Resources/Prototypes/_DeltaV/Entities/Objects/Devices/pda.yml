@@ -51,6 +51,9 @@
         pda-admin-assistant
   - type: PdaBorderColor
     borderColor: "#1B67A5"
+  - type: Icon
+    sprite: _DeltaV/Objects/Devices/pda.rsi
+    state: pda-admin-assistant
   - type: Pda
     id: AdminAssistantIDCard
     penSlot:
