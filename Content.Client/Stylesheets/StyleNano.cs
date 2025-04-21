@@ -156,7 +156,7 @@ namespace Content.Client.Stylesheets
         // DeltaV - AAC button variables
         public static readonly string CommandButtonClass = "CommandButton";
         public static readonly string EngineeringButtonClass = "EngineeringButton";
-        public static readonly string EpistemicsButtonClass = "EpistemicsButton";
+        public static readonly string ResearchButtonClass = "ResearchButton";
         public static readonly string JusticeButtonClass = "JusticeButton";
         public static readonly string LogisticsButtonClass = "LogisticsButton";
         public static readonly string MedicalButtonClass = "MedicalButton";
@@ -168,8 +168,8 @@ namespace Content.Client.Stylesheets
         public static readonly Color CommandColorHovered = Color.FromHex("#4F587B");
         public static readonly Color EngineeringButtonColorDefault = Color.FromHex("#77684B");
         public static readonly Color EngineeringColorHovered = Color.FromHex("#776D71");
-        public static readonly Color EpistemicsButtonColorDefault = Color.FromHex("#6F5973");
-        public static readonly Color EpistemicsColorHovered = Color.FromHex("#71638E");
+        public static readonly Color ResearchButtonColorDefault = Color.FromHex("#6F5973");
+        public static readonly Color ResearchColorHovered = Color.FromHex("#71638E");
         public static readonly Color LogisticsButtonColorDefault = Color.FromHex("#61503A");
         public static readonly Color LogisticsColorHovered = Color.FromHex("#675C64");
         public static readonly Color JusticeButtonColorDefault = Color.FromHex("#4F3D4C");
@@ -1702,14 +1702,14 @@ namespace Content.Client.Stylesheets
                     .Prop(Control.StylePropertyModulateSelf, EngineeringColorHovered),
 
                 Element<ContainerButton>()
-                    .Class(EpistemicsButtonClass)
+                    .Class(ResearchButtonClass)
                     .Pseudo(ContainerButton.StylePseudoClassNormal)
-                    .Prop(Control.StylePropertyModulateSelf, EpistemicsButtonColorDefault),
+                    .Prop(Control.StylePropertyModulateSelf, ResearchButtonColorDefault),
 
                 Element<ContainerButton>()
-                    .Class(EpistemicsButtonClass)
+                    .Class(ResearchButtonClass)
                     .Pseudo(ContainerButton.StylePseudoClassHover)
-                    .Prop(Control.StylePropertyModulateSelf, EpistemicsColorHovered),
+                    .Prop(Control.StylePropertyModulateSelf, ResearchColorHovered),
 
                 Element<ContainerButton>()
                     .Class(LogisticsButtonClass)

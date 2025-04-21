@@ -50,15 +50,9 @@
   abstract: true
 
 - type: quickPhrase
-  id: BaseEpistemicsPhrase
-  group: Epistemics
-  styleClass: EpistemicsButton
-  abstract: true
-
-- type: quickPhrase
-  id: BaseJusticePhrase
-  group: Justice
-  styleClass: JusticeButton
+  id: BaseResearchPhrase # starcup: epistemics to research
+  group: Research # starcup: epistemics to research
+  styleClass: ResearchButton # starcup: epistemics to research
   abstract: true
 
 - type: quickPhrase

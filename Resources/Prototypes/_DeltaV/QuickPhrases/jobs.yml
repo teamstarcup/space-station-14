@@ -14,13 +14,8 @@
   abstract: true
 
 - type: quickPhrase
-  parent: [ BaseEpistemicsPhrase, BaseJobPhrase ]
-  id: BaseEpistemicsJobPhrase
-  abstract: true
-
-- type: quickPhrase
-  parent: [ BaseJusticePhrase, BaseJobPhrase ]
-  id: BaseJusticeJobPhrase
+  parent: [ BaseResearchPhrase, BaseJobPhrase ]
+  id: BaseResearchJobPhrase
   abstract: true
 
 - type: quickPhrase
@@ -74,7 +69,7 @@
 
 - type: quickPhrase
   parent: BaseCommandJobPhrase
-  id: StationAIPhrase 
+  id: StationAIPhrase
   text: job-name-station-ai
 
 # Engineering
@@ -99,35 +94,30 @@
   id: TechAssistantPhrase
   text: job-name-technical-assistant
 
-# Epistemics
+# Research
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
-  id: MystagoguePhrase
+  parent: BaseResearchJobPhrase
+  id: ResearchDirectorPhrase
   text: job-name-rd
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
-  id: PsionicMantisPhrase
-  text: job-name-mantis
-
-- type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: ScientistPhrase
   text: job-name-scientist
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: ResearchAssistantPhrase
   text: job-name-research-assistant
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: RoboticistPhrase
   text: job-name-roboticist
 
 - type: quickPhrase
-  parent: BaseEpistemicsJobPhrase
+  parent: BaseResearchJobPhrase
   id: BorgPhrase
   text: job-name-borg
 
@@ -158,28 +148,6 @@
   id: CargoAssistantPhrase
   text: job-name-cargo-assistant
 
-# Justice
-
-- type: quickPhrase
-  parent: BaseJusticeJobPhrase
-  id: ChiefJusticePhrase
-  text: job-name-chief-justice
-
-- type: quickPhrase
-  parent: BaseJusticeJobPhrase
-  id: LawyerPhrase
-  text: job-name-lawyer
-
-- type: quickPhrase
-  parent: BaseJusticeJobPhrase
-  id: ProsecutorPhrase
-  text: job-name-prosecutor
-
-- type: quickPhrase
-  parent: BaseJusticeJobPhrase
-  id: ClerkPhrase
-  text: job-name-clerk
-
 # Medical
 
 - type: quickPhrase
@@ -207,11 +175,6 @@
   id: MedicalInternPhrase
   text: job-name-intern
 
-- type: quickPhrase
-  parent: BaseMedicalJobPhrase
-  id: SurgeonPhrase
-  text: job-name-surgeon
-
 # Security
 
 - type: quickPhrase
@@ -233,11 +196,6 @@
   parent: BaseSecurityJobPhrase
   id: SecurityCadetPhrase
   text: job-name-cadet
-
-- type: quickPhrase
-  parent: BaseSecurityJobPhrase
-  id: PrisonGuardPhrase
-  text: job-name-guard
 
 - type: quickPhrase
   parent: BaseSecurityJobPhrase
@@ -265,6 +223,11 @@
   parent: BaseServiceJobPhrase
   id: JanitorPhrase
   text: job-name-janitor
+
+- type: quickPhrase
+  parent: BaseServiceJobPhrase
+  id: LawyerPhrase
+  text: job-name-lawyer
 
 - type: quickPhrase
   parent: BaseServiceJobPhrase
@@ -320,20 +283,5 @@
 
 - type: quickPhrase
   parent: BaseCivilianJobPhrase
-  id: MartialArtistPhease
-  text: job-name-martialartist
-
-- type: quickPhrase
-  parent: BaseCivilianJobPhrase
   id: PrisonerPhrase
   text: job-name-prisoner
-
-- type: quickPhrase
-  parent: BaseCivilianJobPhrase
-  id: GladiatorPhrase
-  text: job-name-gladiator
-
-- type: quickPhrase
-  parent: BaseSecurityJobPhrase
-  id: CorpsmanPhrase
-  text: job-name-brigmedic
