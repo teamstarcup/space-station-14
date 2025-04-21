@@ -50,8 +50,8 @@
         !type:String
         pda-admin-assistant
   - type: PdaBorderColor
-    borderColor: "#e39751"
-    accentVColor: "#050c4d"
+    borderColor: "#000000"
+    accentVColor: "#FFFFFF"
   - type: PdaBorderColor
     borderColor: "#1B67A5"
   - type: Pda
