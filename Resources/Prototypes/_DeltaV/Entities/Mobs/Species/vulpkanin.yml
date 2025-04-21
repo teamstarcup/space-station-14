@@ -106,7 +106,7 @@
   parent: MobHumanDummy
   id: MobVulpkaninDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy vulpkanin meant to be used in character setup.
+  description: A dummy vulpekin meant to be used in character setup. # starcup: vulpkanin to vulpekin
   components:
   - type: HumanoidAppearance
     species: Vulpkanin

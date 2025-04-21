@@ -1,5 +1,5 @@
 ﻿- type: body
-  name: "vulpkanin"
+  name: "vulpekin" # starcup: vulpkanin to vulpekin
   id: Vulpkanin
   root: torso
   slots:
