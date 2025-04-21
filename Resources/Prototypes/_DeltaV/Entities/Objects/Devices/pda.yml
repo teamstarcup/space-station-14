@@ -47,7 +47,7 @@
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
         !type:String
-        pda-admin-assistant
+        pda
   - type: PdaBorderColor
     borderColor: "#1B67A5"
   - type: Icon
