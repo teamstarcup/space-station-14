@@ -26,6 +26,13 @@ def main():
     args = parser.parse_args()
     fork_id = args.fork_id
 
+    try:
+        import http.client as http_client
+    except ImportError:
+        # Python 2
+        import httplib as http_client
+    http_client.HTTPConnection.debuglevel = 1
+
     session = requests.Session()
     
     session.headers = {
