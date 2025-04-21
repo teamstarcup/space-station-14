@@ -22,6 +22,12 @@
     },
     {
       "name": "pda-mailcarrier"
+    },
+    {
+      "name": "pda-cargo-assistant"
+    },
+    {
+      "name": "pda-admin-assistant"
     }
   ]
 }
