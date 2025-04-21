@@ -1,4 +1,4 @@
-using Content.Shared.DeltaV.Pain;
+using Content.Shared._DeltaV.Pain;
 using Content.Shared.EntityEffects;
 using Robust.Shared.Prototypes;
 

@@ -1,7 +1,7 @@
 using Content.Shared.StatusEffect;
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared.DeltaV.Pain;
+namespace Content.Shared._DeltaV.Pain;
 
 public abstract class SharedPainSystem : EntitySystem
 {

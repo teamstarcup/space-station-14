@@ -1,8 +1,8 @@
-using Content.Shared.DeltaV.Pain;
+using Content.Shared._DeltaV.Pain;
 using Robust.Client.Graphics;
 using Robust.Shared.Player;
 
-namespace Content.Client.DeltaV.Overlays;
+namespace Content.Client._DeltaV.Overlays;
 
 public sealed partial class PainSystem : EntitySystem
 {

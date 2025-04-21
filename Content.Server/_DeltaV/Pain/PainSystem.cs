@@ -1,10 +1,10 @@
-using Content.Shared.DeltaV.Pain;
+using Content.Shared._DeltaV.Pain;
 using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
-namespace Content.Server.DeltaV.Pain;
+namespace Content.Server._DeltaV.Pain;
 
 public sealed class PainSystem : SharedPainSystem
 {

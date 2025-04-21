@@ -1,11 +1,11 @@
 using System.Numerics;
-using Content.Shared.DeltaV.Pain;
+using Content.Shared._DeltaV.Pain;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client.DeltaV.Overlays;
+namespace Content.Client._DeltaV.Overlays;
 
 public sealed partial class PainOverlay : Overlay
 {
