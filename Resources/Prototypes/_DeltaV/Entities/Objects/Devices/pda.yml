@@ -36,7 +36,6 @@
   components:
   - type: Pda
     id: CargoAssistantIDCard
-    state: pda-cargo-assistant
 
 - type: entity
   parent: BasePDA
