@@ -1,26 +1,11 @@
 ﻿accent-mobster-words-1 = let me
 accent-mobster-words-replace-1 = lemme
 
-accent-mobster-words-2 = should
-accent-mobster-words-replace-2 = oughta
-
 accent-mobster-words-3 = the
 accent-mobster-words-replace-3 = da
 
 accent-mobster-words-4 = them
 accent-mobster-words-replace-4 = dem
-
-accent-mobster-words-5 = attack
-accent-mobster-words-replace-5 = whack
-
-accent-mobster-words-6 = kill
-accent-mobster-words-replace-6 = whack
-
-accent-mobster-words-7 = murder
-accent-mobster-words-replace-7 = whack
-
-accent-mobster-words-8 = dead
-accent-mobster-words-replace-8 = sleepin' with da fishies
 
 accent-mobster-words-9 = hey
 accent-mobster-words-replace-9 = ey'o

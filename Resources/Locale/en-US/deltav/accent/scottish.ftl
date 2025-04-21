@@ -75,9 +75,6 @@ accent-scottish-words-replace-23 = whaur
 accent-scottish-words-24 = oh
 accent-scottish-words-replace-24 = ach
 
-accent-scottish-words-25 = little
-accent-scottish-words-replace-25 = wee
-
 accent-scottish-words-26 = small
 accent-scottish-words-replace-26 = wee
 
@@ -107,21 +104,6 @@ accent-scottish-words-replace-34 = da
 
 accent-scottish-words-35 = mom
 accent-scottish-words-replace-35 = maw
-
-accent-scottish-words-36 = newbie
-accent-scottish-words-replace-36 = greenbeard
-
-accent-scottish-words-37 = noob
-accent-scottish-words-replace-37 = greenbeard
-
-accent-scottish-words-38 = noobie
-accent-scottish-words-replace-38 = greenbeard
-
-accent-scottish-words-39 = professional
-accent-scottish-words-replace-39 = greybeard
-
-accent-scottish-words-40 = veteran
-accent-scottish-words-replace-40 = greybeard
 
 accent-scottish-words-41 = fuck
 accent-scottish-words-replace-41 = feck
@@ -195,9 +177,6 @@ accent-scottish-words-replace-63 = be
 accent-scottish-words-64 = am
 accent-scottish-words-replace-64 = be
 
-accent-scottish-words-66 = food
-accent-scottish-words-replace-66 = grub
-
 accent-scottish-words-67 = have
 accent-scottish-words-replace-67 = hae
 
@@ -233,12 +212,6 @@ accent-scottish-words-replace-77 = wis'nae
 
 accent-scottish-words-78 = wasnt
 accent-scottish-words-replace-78 = wisnae
-
-accent-scottish-words-79 = wizard
-accent-scottish-words-replace-79 = wizer
-
-accent-scottish-words-80 = fool
-accent-scottish-words-replace-80 = wazzok
 
 accent-scottish-words-81 = have
 accent-scottish-words-replace-81 = hae
@@ -321,9 +294,6 @@ accent-scottish-words-replace-107 = hou
 accent-scottish-words-108 = however
 accent-scottish-words-replace-108 = hou'er
 
-accent-scottish-words-109 = think
-accent-scottish-words-replace-109 = reckon
-
 accent-scottish-words-111 = hamlet
 accent-scottish-words-replace-111 = hammy
 
@@ -332,15 +302,6 @@ accent-scottish-words-replace-112 = hammy
 
 accent-scottish-words-113 = nukie
 accent-scottish-words-replace-113 = reddie
-
-accent-scottish-words-114 = nuclear op
-accent-scottish-words-replace-114 = reddie
-
-accent-scottish-words-115 = nuclear operative
-accent-scottish-words-replace-115 = reddie
-
-accent-scottish-words-116 = nuclear agent
-accent-scottish-words-replace-116 = reddie
 
 accent-scottish-words-121 = more
 accent-scottish-words-replace-121 = maer
@@ -359,15 +320,6 @@ accent-scottish-words-replace-126 = dorf
 
 accent-scottish-words-127 = slime
 accent-scottish-words-replace-127 = oozi
-
-accent-scottish-words-128 = rat
-accent-scottish-words-replace-128 = raki
-
-accent-scottish-words-129 = arachnid
-accent-scottish-words-replace-129 = aranaki
-
-accent-scottish-words-130 = spider
-accent-scottish-words-replace-130 = hisser
 
 accent-scottish-words-131 = isn't
 accent-scottish-words-replace-131 = be'nae
@@ -393,20 +345,11 @@ accent-scottish-words-replace-137 = rotter
 accent-scottish-words-138 = zomb
 accent-scottish-words-replace-138 = rotter
 
-accent-scottish-words-139 = clown
-accent-scottish-words-replace-139 = honki
-
-accent-scottish-words-140 = cluwn
-accent-scottish-words-replace-140 = hunki
-
 accent-scottish-words-141 = carp
 accent-scottish-words-replace-141 = fin
 
 accent-scottish-words-142 = crusher
 accent-scottish-words-replace-142 = axe
-
-accent-scottish-words-143 = coward
-accent-scottish-words-replace-143 = leaflover
 
 accent-scottish-words-144 = idiot
 accent-scottish-words-replace-144 = eejit
@@ -414,17 +357,8 @@ accent-scottish-words-replace-144 = eejit
 accent-scottish-words-145 = stupid
 accent-scottish-words-replace-145 = diteit
 
-accent-scottish-words-146 = officer
-accent-scottish-words-replace-146 = bobby
-
-accent-scottish-words-147 = seccie
-accent-scottish-words-replace-147 = bobby
-
 accent-scottish-words-148 = a
 accent-scottish-words-replace-148 = ae
-
-accent-scottish-words-149 = certain
-accent-scottish-words-replace-149 = cocksure
 
 accent-scottish-words-150 = to all
 accent-scottish-words-replace-150 = t'all
@@ -453,17 +387,11 @@ accent-scottish-words-replace-157 = hielan
 accent-scottish-words-158 = high
 accent-scottish-words-replace-158 = hie
 
-accent-scottish-words-159 = syndicate agent
-accent-scottish-words-replace-159 = snakey bastard
-
-accent-scottish-words-160 = syndicate
+accent-scottish-words-160 = syndie
 accent-scottish-words-replace-160 = snake
 
-accent-scottish-words-161 = syndicates
+accent-scottish-words-161 = syndies
 accent-scottish-words-replace-161 = snakes
 
 accent-scottish-words-162 = nukies
 accent-scottish-words-replace-162 = reddies
-
-accent-scottish-words-163 = syndicate agents
-accent-scottish-words-replace-163 = snakey bastards
