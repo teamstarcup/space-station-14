@@ -7,3 +7,12 @@ trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
 trait-deuteranopia-name = Deuteranopia
 trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
                           or being a Vulpkanin, you have red–green colour blindness.
+
+trait-hushed-name = Hushed
+trait-hushed-desc = You are unable to speak louder than a whisper.
+
+trait-inpain-name = Chronic pain
+trait-inpain-desc = You’re constantly in discomfort. You need painkillers to function.
+
+trait-dysgraphia-name = Dysgraphia
+trait-dysgraphia-desc = You are unable to write, whether because of a disability, your history, or by choice.
