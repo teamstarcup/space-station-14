@@ -50,9 +50,6 @@
         !type:String
         pda-admin-assistant
   - type: PdaBorderColor
-    borderColor: "#000000"
-    accentVColor: "#FFFFFF"
-  - type: PdaBorderColor
     borderColor: "#1B67A5"
   - type: Pda
     id: AdminAssistantIDCard
