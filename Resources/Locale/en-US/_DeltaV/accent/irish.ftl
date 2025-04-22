@@ -162,9 +162,6 @@ accent-irish-words-replace-59 = toe
 accent-irish-words-60 = the
 accent-irish-words-replace-60 = thah
 
-accent-irish-words-61 = have
-accent-irish-words-replace-61 = hae
-
 accent-irish-words-62 = are
 accent-irish-words-replace-62 = be
 
@@ -447,9 +444,6 @@ accent-irish-words-replace-190 = hanging
 accent-irish-words-191 = awesome
 accent-irish-words-replace-191 = deadly
 
-accent-irish-words-192 = bad
-accent-irish-words-replace-192 = bold
-
 accent-irish-words-193 = naughty
 accent-irish-words-replace-193 = bold
 
@@ -476,18 +470,6 @@ accent-irish-words-replace-201 = raging
 
 accent-irish-words-203 = good job
 accent-irish-words-replace-203 = slag
-
-accent-irish-words-204 = ok
-accent-irish-words-replace-204 = grand
-
-accent-irish-words-205 = okay
-accent-irish-words-replace-205 = grand
-
-accent-irish-words-206 = fine
-accent-irish-words-replace-206 = grand
-
-accent-irish-words-207 = alright
-accent-irish-words-replace-207 = grand
 
 accent-irish-words-208 = sweater
 accent-irish-words-replace-208 = jumper

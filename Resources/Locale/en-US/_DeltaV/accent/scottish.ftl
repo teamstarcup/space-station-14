@@ -387,6 +387,9 @@ accent-scottish-words-replace-157 = hielan
 accent-scottish-words-158 = high
 accent-scottish-words-replace-158 = hie
 
+accent-scottish-words-159 = highlands
+accent-scottish-words-replace-159 = hielans
+
 accent-scottish-words-160 = syndie
 accent-scottish-words-replace-160 = snake
 
