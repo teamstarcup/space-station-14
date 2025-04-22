@@ -6,6 +6,7 @@
   description: trait-blindness-desc
   traitGear: WhiteCane
   category: Disabilities
+  cost: 1 # starcup: given point value to be mutually exclusive with short-sighted
   whitelist:
     components:
       - Blindable
@@ -18,6 +19,7 @@
   description: trait-poor-vision-desc
   traitGear: ClothingEyesGlasses
   category: Disabilities
+  cost: 1 # starcup: given point value to be mutually exclusive with short-sighted
   whitelist:
     components:
       - Blindable
