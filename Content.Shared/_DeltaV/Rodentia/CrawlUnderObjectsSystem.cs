@@ -10,7 +10,7 @@ using Content.Shared.Standing;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 
-namespace Content.Shared._DV.Abilities;
+namespace Content.Shared._DeltaV.Rodentia;
 
 /// <summary>
 /// Not to be confused with laying down, <see cref="CrawlUnderObjectsComponent"/> lets you move under tables.
