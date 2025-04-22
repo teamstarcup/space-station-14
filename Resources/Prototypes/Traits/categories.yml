@@ -1,6 +1,7 @@
 - type: traitCategory
   id: Disabilities
   name: trait-category-disabilities
+  maxTraitPoints: 1 # starcup
 
 - type: traitCategory
   id: SpeechTraits
