@@ -1,7 +1,7 @@
 ﻿using Content.Shared.Chemistry.Components;
 using Robust.Shared.GameStates;
 
-namespace Content.Shared._EE.FootPrint;
+namespace Content.Shared._EinsteinEngines.FootPrint;
 
 /// <summary>
 ///     This is used for marking footsteps, handling footprint drawing.

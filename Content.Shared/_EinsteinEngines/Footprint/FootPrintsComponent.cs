@@ -2,7 +2,7 @@
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Shared._EE.FootPrint;
+namespace Content.Shared._EinsteinEngines.FootPrint;
 
 [RegisterComponent]
 public sealed partial class FootPrintsComponent : Component
