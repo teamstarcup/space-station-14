@@ -12,13 +12,13 @@
     torso:
       part: TorsoIPC
       connections:
-      - right arm
       - left arm
-      - right leg
+      - right arm
       - left leg
+      - right leg
       organs:
-        posbrain: PositronicBrain
-        pump: OrganIPCPump
+        brain: PositronicBrain
+        heart: OrganIPCPump
     right arm:
       part: RightArmIPC
       connections:
