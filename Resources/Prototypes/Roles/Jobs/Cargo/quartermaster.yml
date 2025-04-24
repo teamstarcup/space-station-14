@@ -23,6 +23,7 @@
   access:
   - Cargo
   - Salvage
+  - Mail # DeltaV
   - Quartermaster
   - Maintenance
   - External

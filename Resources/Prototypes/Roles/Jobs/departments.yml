@@ -7,6 +7,8 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  - Courier # DeltaV
+  - CargoAssistant # DeltaV
 
 - type: department
   id: Civilian
@@ -73,6 +75,7 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
+  - AdministrativeAssistant # DeltaV
   primary: false
   weight: 100
 

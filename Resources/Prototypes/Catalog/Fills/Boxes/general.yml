@@ -185,7 +185,7 @@
       - id: DrinkMREFlask
       - id: FoodSnackNutribrick
       - id: FoodSnackMREBrownie
-      - id: FoodCondimentPacketKetchup
+      - id: FoodTinMRE # DeltaV - Replaced FoodCondimentPacketKetchup with this (tinned meat)
   - type: Sprite
     layers:
       - state: box
@@ -290,7 +290,7 @@
       - EncryptionKey
 
 - type: entity
-  name: cargo encryption key box
+  name: logistics encryption key box # DeltaV - Logistics Department replacing Cargo
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyCargo
   components:

@@ -30,6 +30,7 @@
     delay: 0.5
   - type: ExplosionResistance
     damageCoefficient: 0.9
+  - type: AllowsSleepInside # DeltaV - enable sleeping inside bags
 
 - type: entity
   parent: ClothingBackpack
@@ -166,8 +167,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCargo
-  name: cargo backpack
-  description: A robust backpack for stealing cargo's loot.
+  name: logistics backpack # DeltaV - Logistics Department replacing Cargo
+  description: A robust backpack for stealing logistics's loot. # DeltaV - Logistics Department replacing Cargo
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/cargo.rsi

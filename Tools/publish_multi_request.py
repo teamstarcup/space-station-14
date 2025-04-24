@@ -5,6 +5,8 @@ import requests
 import os
 import subprocess
 from typing import Iterable
+from requests.adapters import HTTPAdapter, Retry  # starcup: retry http requests
+
 
 PUBLISH_TOKEN = os.environ["PUBLISH_TOKEN"]
 VERSION = os.environ["GITHUB_SHA"]
@@ -15,8 +17,8 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://wizards.cdn.spacestation14.com/"
-FORK_ID = "wizards"
+ROBUST_CDN_URL = "https://builds.starcup.cc/"  # starcup: configured for robust.cdn instance
+FORK_ID = "starcup"  # starcup: configured for robust.cdn instance
 
 def main():
     parser = argparse.ArgumentParser()
@@ -26,6 +28,11 @@ def main():
     fork_id = args.fork_id
 
     session = requests.Session()
+    # begin starcup: perform retries for failed uploads
+    retries = Retry(total=5, backoff_factor=1, status_forcelist=[502, 503, 504], allowed_methods=['POST'])
+    session.mount('https://', HTTPAdapter(max_retries=retries))
+    # end starcup
+    
     session.headers = {
         "Authorization": f"Bearer {PUBLISH_TOKEN}",
     }

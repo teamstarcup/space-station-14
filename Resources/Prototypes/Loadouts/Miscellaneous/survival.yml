@@ -18,6 +18,13 @@
     - Human
     - Moth
     - Reptilian
+    # Begin DeltaV additions
+    - Felinid
+    - Harpy
+    - Oni
+    - Vulpkanin
+    - Rodentia
+    # End DeltaV additions
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox
