@@ -4,4 +4,8 @@ namespace Content.Server.Objectives.Components;
 /// Sets the target for <see cref="TargetObjectiveComponent"/> to a random person.
 /// </summary>
 [RegisterComponent]
-public sealed partial class PickRandomPersonComponent : Component;
+public sealed partial class PickRandomPersonComponent : Component
+{
+    [DataField]
+    public bool NeedsOrganic; // Goobstation: Only pick non-silicon players.
+}
