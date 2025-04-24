@@ -19,3 +19,6 @@ loadout-group-cargo-assistant-jumpsuit = Cargo Assistant jumpsuit
 loadout-group-cargo-assistant-backpack = Cargo Assistant backpack
 loadout-group-cargo-assistant-outerclothing = Cargo Assistant outer clothing
 loadout-group-cargo-assistant-shoes = Cargo Assistant shoes
+
+# Species
+loadout-group-humanoid-silicon = Silicon-friendly survival box
