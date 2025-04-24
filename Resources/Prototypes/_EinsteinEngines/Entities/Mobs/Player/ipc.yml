@@ -108,6 +108,7 @@
   - type: WeldingHealable
   - type: CombatMode # DeltaV - let IPCs disarm
     canDisarm: true
+  - type: Fingerprint # starcup: give ipcs fingerprints
 
 - type: entity
   save: false
