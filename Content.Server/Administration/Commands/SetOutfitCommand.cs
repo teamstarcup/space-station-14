@@ -16,7 +16,7 @@ using Content.Shared.Station;
 using Robust.Shared.Console;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using Content.Shared._DV.Silicon.IPC; // DeltaV
+using Content.Shared._DeltaV.Silicon.IPC; // DeltaV
 using Content.Shared.Radio.Components; // Goobstation
 
 namespace Content.Server.Administration.Commands
