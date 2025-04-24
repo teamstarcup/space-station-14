@@ -4,11 +4,11 @@
     variation: 0
   sounds:
     Scream:
-      path: /Audio/_EE/Voice/IPC/robot-scream.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/robot-scream.ogg
       params:
         variation: 0.125
     Laugh:
-      path: /Audio/_EE/Voice/IPC/robot-laugh_3.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/robot-laugh_3.ogg
       params:
         variation: 0.125
     Chitter:
@@ -32,11 +32,11 @@
       params:
         variation: 0.125
     Crying:
-      path: /Audio/_EE/Voice/IPC/cry_robot_1.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/cry_robot_1.ogg
       params:
         variation: 0.125
     Whistle:
-      path: /Audio/_EE/Voice/IPC/pai_whistle.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/pai_whistle.ogg
       params:
         variation: 0.125
     RobotBeep: # disease
@@ -44,9 +44,9 @@
       params:
         variation: 0.125
     Beep: # normal
-      path: /Audio/_EE/Voice/IPC/beep_2000.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/beep_2000.ogg
     Boop:
-      path: /Audio/_EE/Voice/IPC/beep_500.ogg
+      path: /Audio/_EinsteinEngines/Voice/IPC/beep_500.ogg
     Buzz:
       path: /Audio/Machines/buzz-sigh.ogg
     Honk:
