@@ -1,12 +1,4 @@
 - type: latheRecipe
-  id: AACTablet
-  result: AACTablet
-  completetime: 2
-  materials:
-    Steel: 300
-    Glass: 100
-
-- type: latheRecipe
   id: Oilpack
   result: Oilpack1
   completetime: 1
