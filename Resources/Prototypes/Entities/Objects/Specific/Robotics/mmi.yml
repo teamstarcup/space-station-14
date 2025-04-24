@@ -96,6 +96,7 @@
       stopSearchVerbText: positronic-brain-stop-searching-verb-text
       stopSearchVerbPopup: positronic-brain-stopped-searching
       job: Borg
+    - type: Brain
     - type: BlockMovement
     - type: Examiner
     - type: BorgBrain
