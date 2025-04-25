@@ -97,7 +97,7 @@
       Unsexed: MaleVulpkanin
   - type: DogVision
   - type: Temperature
-    heatDamageThreshold: 315 # 10 lower than base
+    heatDamageThreshold: 320 # 10 lower than base # Frontier: 315<320
     coldDamageThreshold: 220 # 40 lower than base, very insulating fur
 
 - type: entity
