@@ -274,7 +274,7 @@
       prob: 0.10
       orGroup: Pizza
     - id: KnifePlastic
-  
+
 - type: entity
   name: pizza box
   parent: FoodBoxPizzaFilled
@@ -771,7 +771,7 @@
   parent: BoxCardboard
   id: FoodBoxCloth
   name: box of FlutterSoft-brand cloth
-  description: Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
+  description: Fiber is the most important doptera meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead. # starcup: moth to doptera
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/ingredients.rsi

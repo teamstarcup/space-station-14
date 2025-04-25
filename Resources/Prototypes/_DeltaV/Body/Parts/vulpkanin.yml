@@ -3,7 +3,7 @@
 - type: entity
   id: PartVulpkanin
   parent: BaseItem
-  name: "vulpkanin body part"
+  name: "vulpekin body part" # starcup: vulpkanin to vulpekin
   abstract: true
   components:
   - type: Damageable
@@ -21,7 +21,7 @@
 
 - type: entity
   id: TorsoVulpkanin
-  name: "vulpkanin torso"
+  name: "vulpekin torso" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 
 - type: entity
   id: HeadVulpkanin
-  name: "vulpkanin head"
+  name: "vulpekin head" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: LeftArmVulpkanin
-  name: "left vulpkanin arm"
+  name: "left vulpekin arm" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: RightArmVulpkanin
-  name: "right vulpkanin arm"
+  name: "right vulpekin arm" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: LeftHandVulpkanin
-  name: "left vulpkanin hand"
+  name: "left vulpekin hand" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: RightHandVulpkanin
-  name: "right vulpkanin hand"
+  name: "right vulpekin hand" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -123,7 +123,7 @@
 
 - type: entity
   id: LeftLegVulpkanin
-  name: "left vulpkanin leg"
+  name: "left vulpekin leg" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -140,7 +140,7 @@
 
 - type: entity
   id: RightLegVulpkanin
-  name: "right vulpkanin leg"
+  name: "right vulpekin leg" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -157,7 +157,7 @@
 
 - type: entity
   id: LeftFootVulpkanin
-  name: "left vulpkanin foot"
+  name: "left vulpekin foot" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -173,7 +173,7 @@
 
 - type: entity
   id: RightFootVulpkanin
-  name: "right vulpkanin foot"
+  name: "right vulpekin foot" # starcup: vulpkanin to vulpekin
   parent: PartVulpkanin
   components:
   - type: Sprite

@@ -2517,7 +2517,7 @@
 
 - type: entity
   name: cotton boll
-  description: Moth people's favorite snack, and just as fluffy as them.
+  description: Dopterae's favorite snack, and just as fluffy as them. # starcup: moth to doptera
   id: CottonBol
   parent: FoodProduceBase
   components:

@@ -447,7 +447,7 @@
   name: mothroach
   parent: MobCockroach
   id: MobMothroach
-  description: This is the adorable by-product of multiple attempts at genetically mixing mothpeople with cockroaches.
+  description: This is the adorable by-product of multiple attempts at genetically mixing dopterae with cockroaches. # starcup: moth to doptera
   components:
   - type: GhostRole
     makeSentient: true

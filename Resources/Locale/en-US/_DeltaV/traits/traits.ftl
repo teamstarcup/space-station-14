@@ -7,9 +7,10 @@ trait-ultravision-name = Ultraviolet Vision
 trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
                          or being a Harpy, you perceive the world with ultraviolet light.
 
+# starcup: rename vulpkanin to vulpekin
 trait-deuteranopia-name = Deuteranopia
 trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
-                          or being a Vulpkanin, you have red–green colour blindness.
+                          or being a Vulpekin, you have red–green colour blindness.
 
 trait-uncloneable-name = Uncloneable
 trait-uncloneable-desc = Cannot be cloned
