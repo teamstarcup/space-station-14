@@ -6,6 +6,7 @@ species-name-reptilian = Reptilian
 species-name-slime = Slime Person
 species-name-diona = Diona
 species-name-arachnid = Arachnid
+# starcup: rename moth people to dopterae
 species-name-moth = Doptera
 species-name-skeleton = Skeleton
 species-name-vox = Vox

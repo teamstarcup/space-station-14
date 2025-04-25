@@ -116,6 +116,7 @@ guide-entry-pizza-recipes = Pizzas
 guide-entry-savory-recipes = Savory Foods
 guide-entry-bread-recipes = Breads
 guide-entry-breakfast-recipes = Breakfast Foods
+# starcup: rename moth people to dopterae
 guide-entry-moth-recipes = Doptera Foods
 guide-entry-pasta-recipes = Pastas & Noodles
 guide-entry-dessert-recipes = Desserts & Pastries
