@@ -1,3 +1,5 @@
+# starcup: begin renames of all vulpkanin references to vulpekin
+
 marking-VulpEar-vulp = Vulpekin ears (base)
 marking-VulpEar-vulp-inner = Vulpekin ears (inner)
 marking-VulpEar = Vulpekin
@@ -225,6 +227,7 @@ marking-VulpPointsFadeArms = Vulpekin Points Arms (fade)
 marking-VulpPointsSharpArms-points_sharp-arms = Points (sharp)
 marking-VulpPointsSharpArms = Vulpekin Points Arms (sharp)
 
+# starcup: end renames
 
 marking-VulpHairAdhara = Adhara
 marking-VulpHairAnita = Anita

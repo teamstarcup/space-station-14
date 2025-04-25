@@ -1,3 +1,4 @@
+# starcup: rename vulpkanin to vulpekin
 chat-speech-verb-name-vulpkanin = Vulpekin
 chat-speech-verb-vulpkanin-1 = rawrs
 chat-speech-verb-vulpkanin-2 = barks
