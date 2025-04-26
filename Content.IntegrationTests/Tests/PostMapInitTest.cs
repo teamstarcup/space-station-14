@@ -81,7 +81,8 @@ namespace Content.IntegrationTests.Tests
             "Plasma",
             "Elkridge",
             "Convex",
-            "Relic"
+            "Relic",
+            "Glacier",  // starcup
         };
 
         /// <summary>
