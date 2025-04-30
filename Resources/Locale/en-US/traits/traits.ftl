@@ -24,6 +24,11 @@ trait-paracusia-desc = You hear sounds that aren't really there.
 trait-unrevivable-name = Unrevivable
 trait-unrevivable-desc = You are unable to be revived by defibrillators.
 
+# begin starcup: removed
+# trait-pirate-accent-name = Pirate accent
+# trait-pirate-accent-desc = You can't stop speaking like a pirate!
+# end starcup
+
 trait-accentless-name = Accentless
 trait-accentless-desc = You don't have the accent that your species would usually have
 
@@ -33,8 +38,37 @@ trait-frontal-lisp-desc = You thpeak with a lithp.
 trait-socialanxiety-name = Stutter
 trait-socialanxiety-desc = You speak with a stutter.
 
+# begin starcup: removed (renamed)
+# trait-southern-name = Southern drawl
+# trait-southern-desc = You have a different way of speakin'.
+# end starcup
+
 trait-snoring-name = Snoring
 trait-snoring-desc = You will snore while sleeping.
+
+# begin starcup: removed
+# trait-liar-name = Pathological liar
+# trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+#
+# trait-cowboy-name = Cowboy accent
+# trait-cowboy-desc = You speak with a distinct cowboy accent!
+#
+# trait-german-name = German accent
+# trait-german-desc = You seem to come from space Germany.
+#
+# trait-italian-name = Italian accent
+# trait-italian-desc = Mamma mia! You seem to have lived in space Italy!
+# end starcup
+
+# begin starcup: removed (renamed)
+# trait-french-name = French accent
+# trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+# end starcup
+
+# begin starcup: removed
+# trait-spanish-name = Spanish accent
+# trait-spanish-desc = Hola señor, donde esta la biblioteca.
+# end starcup
 
 trait-painnumbness-name = Numb
 trait-painnumbness-desc = You lack any sense of feeling pain, being unaware of how hurt you may be.

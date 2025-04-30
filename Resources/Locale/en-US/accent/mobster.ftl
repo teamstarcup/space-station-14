@@ -1,11 +1,45 @@
-﻿accent-mobster-words-1 = let me
+﻿# begin starcup: remove prefixes and suffixes
+# accent-mobster-prefix-1 = Nyehh,
+#
+# accent-mobster-suffix-boss-1 = , see?
+# accent-mobster-suffix-boss-2 = , fugeddaboutit.
+# accent-mobster-suffix-boss-3 = , capiche?
+#
+# accent-mobster-suffix-minion-1 = , yeah!
+# accent-mobster-suffix-minion-2 = , boss says!
+# end starcup
+
+accent-mobster-words-1 = let me
 accent-mobster-words-replace-1 = lemme
+
+# begin starcup: removed
+# accent-mobster-words-2 = should
+# accent-mobster-words-replace-2 = oughta
+# end starcup
 
 accent-mobster-words-3 = the
 accent-mobster-words-replace-3 = da
 
 accent-mobster-words-4 = them
 accent-mobster-words-replace-4 = dem
+
+# begin starcup: remove substitutions
+# accent-mobster-words-5 = attack
+# accent-mobster-words-replace-5 = whack
+#
+# accent-mobster-words-6 = kill
+# accent-mobster-words-replace-6 = whack
+# end starcup
+
+# starcup: murder -> murdered
+accent-mobster-words-7 = murdered
+# starcup: whack -> whacked
+accent-mobster-words-replace-7 = whacked
+
+# begin starcup: removed
+# accent-mobster-words-8 = dead
+# accent-mobster-words-replace-8 = sleepin' with da fishies
+# end starcup
 
 accent-mobster-words-7 = murdered
 accent-mobster-words-replace-7 = whacked
@@ -27,6 +61,11 @@ accent-mobster-words-replace-13 = yous
 
 accent-mobster-words-14 = have to
 accent-mobster-words-replace-14 = gotta
+
+# begin starcup: removed
+# accent-mobster-words-15 = going to
+# accent-mobster-words-replace-15 = boutta
+# end starcup
 
 accent-mobster-words-16 = about to
 accent-mobster-words-replace-16 = boutta
