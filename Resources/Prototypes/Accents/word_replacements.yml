@@ -6,11 +6,11 @@
   id: mobster
   wordReplacements:
     accent-mobster-words-1: accent-mobster-words-replace-1
-    accent-mobster-words-2: accent-mobster-words-replace-2
+#    accent-mobster-words-1: accent-mobster-words-replace-2  # starcup: removed
     accent-mobster-words-3: accent-mobster-words-replace-3
     accent-mobster-words-4: accent-mobster-words-replace-4
-    accent-mobster-words-5: accent-mobster-words-replace-5
-    accent-mobster-words-6: accent-mobster-words-replace-6
+#    accent-mobster-words-4: accent-mobster-words-replace-5  # starcup: removed
+#    accent-mobster-words-4: accent-mobster-words-replace-6  # starcup: removed
     accent-mobster-words-7: accent-mobster-words-replace-7
     accent-mobster-words-8: accent-mobster-words-replace-8
     accent-mobster-words-9: accent-mobster-words-replace-9
@@ -19,7 +19,7 @@
     accent-mobster-words-12: accent-mobster-words-replace-12
     accent-mobster-words-13: accent-mobster-words-replace-13
     accent-mobster-words-14: accent-mobster-words-replace-14
-    accent-mobster-words-15: accent-mobster-words-replace-15
+#    accent-mobster-words-14: accent-mobster-words-replace-15  # starcup: removed
     accent-mobster-words-16: accent-mobster-words-replace-16
     accent-mobster-words-17: accent-mobster-words-replace-17
 
@@ -376,6 +376,8 @@
     accent-southern-words-4: accent-southern-words-replace-4
     accent-southern-words-5: accent-southern-words-replace-5
     accent-southern-words-6: accent-southern-words-replace-6
+    accent-southern-words-7: accent-southern-words-replace-7  # starcup: added
+    accent-southern-words-8: accent-southern-words-replace-8  # starcup: added
 
 # For the chat sanitization system
 - type: accent

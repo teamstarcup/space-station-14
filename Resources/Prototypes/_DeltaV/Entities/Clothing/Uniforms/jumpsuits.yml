@@ -52,3 +52,14 @@
     sprite: _DeltaV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
   - type: Clothing
     sprite: _DeltaV/Clothing/Uniforms/Jumpsuit/admin_assistant.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitKilt
+  name: kilt
+  description: A fine bit o' garb for the lad an' lasses.
+  components:
+  - type: Sprite
+    sprite: _DeltaV/Clothing/Uniforms/Jumpsuit/kilt.rsi
+  - type: Clothing
+    sprite: _DeltaV/Clothing/Uniforms/Jumpsuit/kilt.rsi

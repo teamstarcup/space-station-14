@@ -15,3 +15,11 @@ accent-southern-words-replace-5 = ain't
 
 accent-southern-words-6 = are not
 accent-southern-words-replace-6 = ain't
+
+# begin starcup: additions
+accent-southern-words-7 = doesn't have
+accent-southern-words-replace-7 = don't got
+
+accent-southern-words-8 = don't have
+accent-southern-words-replace-8 = don't got
+# end starcup

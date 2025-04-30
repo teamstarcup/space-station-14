@@ -1,0 +1,186 @@
+- type: reagent
+  id: Stubantazine
+  name: reagent-name-stubantazine
+  group: Medicine
+  desc: reagent-desc-stubantazine
+  physicalDesc: reagent-physical-desc-sour
+  flavor: sour
+  color: "#6bb3b5"
+  metabolisms:
+    Medicine:
+      metabolismRate : 0.02
+      effects:
+      - !type:SuppressPain
+        suppressionLevel: Mild
+      - !type:PopupMessage
+        type: Local
+        visualType: Medium
+        messages:
+          - "reagent-effect-painkiller-mild1"
+          - "reagent-effect-painkiller-mild2"
+          - "reagent-effect-painkiller-mild3"
+          - "reagent-effect-painkiller-mild4"
+        probability: 0.08
+      - !type:ChemVomit
+        probability: 0.4
+        conditions:
+          - !type:ReagentThreshold # makes you vomit if you OD
+            min: 14
+      - !type:SatiateHunger # causes digestion inefficiency during overdose
+        factor: -1.2
+        conditions:
+          - !type:ReagentThreshold
+            min: 14
+      - !type:ChemVomit
+        probability: 0.8
+        conditions:
+          - !type:ReagentThreshold # alcohol causes vomiting
+            reagent: Ethanol
+            min: 2
+      - !type:SatiateHunger # causes digestion inefficiency if you drink alcohol
+        factor: -2.0
+        conditions:
+          - !type:ReagentThreshold
+            reagent: Ethanol
+            min: 2
+      - !type:PopupMessage
+        type: Local
+        visualType: Small
+        messages:
+          - "reagent-effect-painkiller-fade" # A decent chance to notify the player when their meds run out
+        probability: 0.35
+        conditions:
+          - !type:ReagentThreshold
+            max: 0.2
+
+- type: reagent
+  id: Soretizone
+  name: reagent-name-soretizone
+  group: Medicine
+  desc: reagent-desc-soretizone
+  physicalDesc: reagent-physical-desc-thick
+  flavor: tingly
+  color: "#2e2c2c"
+  metabolisms:
+    Medicine:
+      metabolismRate : 0.01
+      effects:
+      - !type:SuppressPain
+        suppressionLevel: Normal
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages:
+          - "reagent-effect-painkiller-normal1"
+          - "reagent-effect-painkiller-normal2"
+          - "reagent-effect-painkiller-normal3"
+          - "reagent-effect-painkiller-normal4"
+        probability: 0.085
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.1
+       #conditions:
+       #- !type:ReagentThreshold
+         #min: 14.5 # overdose knocks you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.08
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Stubantazine
+         #min: 5 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Ethanol # lots of alcohol makes it really easy to overdose by increasing your body's absorption of the medicine.
+          min: 20
+        reagent: Soretizone
+        amount: 0.03
+      - !type:PopupMessage
+        type: Local
+        visualType: Medium # stronger painkiller = more noticable fading
+        messages:
+          - "reagent-effect-painkiller-fade" # A decent chance to notify the player when their meds run out
+        probability: 0.4
+        conditions:
+          - !type:ReagentThreshold
+            max: 0.1
+
+- type: reagent
+  id: Agonolexyne
+  name: reagent-name-agonolexyne
+  group: Medicine
+  desc: reagent-desc-agonolexyne
+  physicalDesc: reagent-physical-desc-overpowering
+  flavor: nothing
+  color: "#ffc7c7"
+  metabolisms:
+    Medicine:
+      metabolismRate : 0.01
+      effects:
+      - !type:SuppressPain
+        suppressionLevel: Strong
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages:
+          - "reagent-effect-painkiller-strong1"
+          - "reagent-effect-painkiller-strong2"
+          - "reagent-effect-painkiller-strong3"
+          - "reagent-effect-painkiller-strong4"
+          - "reagent-effect-painkiller-strong5"
+          - "reagent-effect-painkiller-strong6"
+        probability: 0.1
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.1
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Stubantazine
+         #min: 4 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+     #- !type:GenericStatusEffect # DeltaV - Removed all psych med forcesleeps
+       #probability: 0.15
+       #conditions:
+       #- !type:ReagentThreshold
+         #reagent: Soretizone
+         #min: 2 # taking with other painkillers will knock you out
+       #key: ForcedSleep
+       #component: ForcedSleeping
+       #refresh: false
+       #type: Add
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Ethanol # Alcohol makes it really easy to overdose by increasing your body's absorption of the medicine.
+          min: 1
+        reagent: Agonolexyne
+        amount: 0.04
+      - !type:Drunk # OD causes drunkeness
+        conditions:
+          - !type:ReagentThreshold
+            min: 5
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 5.5
+        damage:
+          types:
+            Asphyxiation: 1 # your lungs relax so much you can't breathe, suffocating you on OD
+      - !type:PopupMessage
+        type: Local
+        visualType: Large # stronger painkiller = more noticable fading
+        messages:
+          - "reagent-effect-painkiller-fade" # A decent chance to notify the player when their meds run out
+        probability: 0.5
+        conditions:
+          - !type:ReagentThreshold
+            max: 0.1

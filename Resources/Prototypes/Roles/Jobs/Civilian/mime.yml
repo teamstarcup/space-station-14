@@ -1,7 +1,7 @@
 - type: job
   id: Mime
   name: job-name-mime
-  description: job-description-mime
+  description: job-description-mime-delta # DeltaV
   playTimeTracker: JobMime
   requirements:
     - !type:OverallPlaytimeRequirement
@@ -16,7 +16,7 @@
   - !type:AddComponentSpecial
     components:
     - type: MimePowers
-      preventWriting: true
+      preventWriting: false # DeltaV
     - type: FrenchAccent
 
 - type: startingGear
@@ -26,6 +26,7 @@
     shoes: ClothingShoesColorWhite
     id: MimePDA
     pocket1: CrayonMime
+    pocket2: Paper # DeltaV
     ears: ClothingHeadsetService
   storage:
     back:

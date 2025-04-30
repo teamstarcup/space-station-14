@@ -138,6 +138,8 @@
     - RadiationProtection
     - Drowsiness
     - Adrenaline
+    - InPain # DeltaV - Pain system
+    - SuppressPain # DeltaV - Pain system
   - type: Body
     prototype: Human
     requiredLegs: 2
@@ -266,7 +268,7 @@
     sweatHeatRegulation: 2000
     shiveringHeatRegulation: 2000
     normalBodyTemperature: 310.15
-    thermalRegulationTemperatureThreshold: 10
+    thermalRegulationTemperatureThreshold: 2
   - type: Perishable
   - type: Butcherable
     butcheringType: Spike # TODO human.

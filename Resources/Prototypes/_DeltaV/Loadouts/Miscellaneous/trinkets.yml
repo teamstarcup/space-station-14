@@ -1,0 +1,17 @@
+- type: loadout
+  id: AACTablet
+  storage:
+    back:
+    - AACTablet
+
+- type: loadout
+  id: Cane
+  storage:
+    back:
+    - Cane
+
+- type: loadout
+  id: WhiteCane
+  storage:
+    back:
+    - WhiteCane

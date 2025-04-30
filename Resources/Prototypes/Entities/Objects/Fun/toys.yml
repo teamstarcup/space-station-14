@@ -1018,8 +1018,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieMoth
-  name: moth plushie
-  description: Cute and fluffy moth plushie. Enjoy, bz!
+  name: doptera plushie
+  description: Cute and fluffy doptera plushie. Enjoy, bz! # starcup: moth to doptera
   components:
   - type: Sprite
     state: plushie_moth

@@ -2,6 +2,7 @@
 
 species-name-oni = Oni
 species-name-felinid = Felinid
-species-name-vulpkanin = Vulpkanin
+# starcup: rename vulpkanin to vulpekin
+species-name-vulpkanin = Vulpekin
 species-name-harpy = Harpy
 species-name-rodentia = Rodentia

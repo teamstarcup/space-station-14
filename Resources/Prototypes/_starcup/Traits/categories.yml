@@ -1,0 +1,4 @@
+- type: traitCategory
+  id: Vision
+  name: trait-category-vision
+  maxTraitPoints: 1

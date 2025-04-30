@@ -50,6 +50,9 @@
   - TowelColorSilver
   - TowelColorWhite
   - TowelColorYellow
+  - AACTablet # DeltaV
+  - Cane # DeltaV
+  - WhiteCane #DeltaV
 
 - type: loadoutGroup
   id: Glasses

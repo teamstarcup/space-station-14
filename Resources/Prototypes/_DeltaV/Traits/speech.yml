@@ -1,0 +1,42 @@
+# Accents
+
+- type: trait
+  id: ScottishAccent
+  name: trait-scottish-accent-name
+  description: trait-scottish-accent-desc
+  category: SpeechTraits
+  cost: 2 # Changed weight to 2 in accordance with other accents
+  components:
+    - type: ScottishAccent
+
+- type: trait
+  id: MobsterAccent
+  name: trait-mobster-accent-name
+  description: trait-mobster-accent-desc
+  category: SpeechTraits
+  cost: 2 # Changed weight to 2 in accordance with other accents
+  components:
+    - type: MobsterAccent
+
+- type: trait
+  id: IrishAccent
+  name: trait-irish-accent-name
+  description: trait-irish-accent-desc
+  category: SpeechTraits
+  cost: 2 # Changed weight to 2 in accordance with other accents
+  components:
+    - type: IrishAccent
+
+# Misc
+
+- type: trait
+  id: Hushed
+  name: trait-hushed-name
+  description: trait-hushed-desc
+  category: SpeechTraits
+  cost: 0
+  blacklist:
+    components:
+    - BorgChassis
+  components:
+  - type: Hushed
