@@ -1,0 +1,5 @@
+- type: statusEffect
+  id: InPain
+
+- type: statusEffect
+  id: SuppressPain

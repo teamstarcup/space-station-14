@@ -2,6 +2,8 @@
   id: UltraVision
   name: trait-ultravision-name
   description: trait-ultravision-desc
+  category: Vision # starcup
+  cost: 1 # starcup
   components:
     - type: UltraVision
 
@@ -9,5 +11,7 @@
   id: DogVision
   name: trait-deuteranopia-name
   description: trait-deuteranopia-desc
+  category: Vision # starcup
+  cost: 1 # starcup
   components:
     - type: DogVision
