@@ -4,9 +4,9 @@
   description: job-description-warden
   playTimeTracker: JobWarden
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-      time: 36000 #10 hrs
+    - !type:DepartmentTimeRequirement # starcup
+      department: Security
+      time: 7200 # starcup: 2 hrs
   weight: 5
   startingGear: WardenGear
   icon: "JobIconWarden"
