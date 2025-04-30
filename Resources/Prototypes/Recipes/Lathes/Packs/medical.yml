@@ -35,6 +35,7 @@
   - Hemostat
 
 - type: latheRecipePack
+  parent: MedicalStaticDeltaV # DeltaV
   id: MedicalStatic
   recipes:
   - Implanter
