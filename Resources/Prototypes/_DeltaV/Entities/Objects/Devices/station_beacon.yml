@@ -1,0 +1,8 @@
+#Logistics
+- type: entity
+  parent: DefaultStationBeaconSupply
+  id: DefaultStationBeaconMailroom
+  suffix: Mailroom
+  components:
+  - type: NavMapBeacon
+    defaultText: station-beacon-mailroom
