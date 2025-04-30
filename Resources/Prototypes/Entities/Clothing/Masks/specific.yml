@@ -41,7 +41,7 @@
           type: VoiceMaskBoundUserInterface
     - type: Tag
       tags:
-      - IPCMaskWearable # EE - IPCs
+      - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase

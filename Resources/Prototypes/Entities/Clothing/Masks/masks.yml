@@ -200,7 +200,7 @@
     tags:
     - ClownMask
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
   - type: HideLayerClothing
     slots:
     - Snout
@@ -266,7 +266,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -284,7 +284,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
   - type: HideLayerClothing
     slots:
     - Snout
@@ -467,7 +467,7 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
   - type: HideLayerClothing
     slots:
     - Snout
@@ -490,7 +490,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -509,7 +509,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -528,7 +528,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -547,7 +547,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -566,7 +566,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -585,7 +585,7 @@
     - Snout
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -602,7 +602,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskNeckGaiter
@@ -691,7 +691,7 @@
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 - type: entity
   parent: ClothingMaskGas
@@ -715,7 +715,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable # EE - IPCs
+    - IPCMaskWearable # EinsteinEngines: IPCs
 
 # Entity tables
 - type: entityTable

@@ -105,7 +105,7 @@
     price: 40
   - type: IgnitionSource
     temperature: 700
-  - type: WeldingHealing # Same as Brutepack - EE IPCs
+  - type: WeldingHealing # EinsteinEngines: IPCs, same as brutepack
     damageContainers:
       - Silicon
       - HumanoidSilicon # DeltaV

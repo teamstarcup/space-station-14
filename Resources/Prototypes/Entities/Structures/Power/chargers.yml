@@ -245,7 +245,7 @@
     whitelist:
       components:
       - BorgChassis
-      - Silicon # EE IPCs
+      - Silicon # EinsteinEngines: IPCs
   - type: Construction
     containers:
     - machine_parts

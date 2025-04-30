@@ -159,7 +159,7 @@
     - HumanoidSilicon
     damage:
       groups:
-        Brute: 0 # funny
+        Brute: 0 # DeltaV - prevent damage on application
     bloodlossModifier: -20
   - type: Stack
     stackType: Plastic

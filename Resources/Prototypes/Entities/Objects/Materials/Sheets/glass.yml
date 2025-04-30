@@ -48,7 +48,7 @@
     solutions:
       glass:
         canReact: false
-  # EE - IPC Healing
+  # EinsteinEngines: IPC Healing
   - type: BlindHealing
     damageContainers:
       - Silicon

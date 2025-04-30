@@ -180,5 +180,5 @@ public enum SpeciesNaming : byte
     //End of Nyano code for Oni naming
     TheFirstofLast,
     LastFirst, // DeltaV
-    FirstDashLast, // Goobstation
+    FirstDashLast, // Goobstation: IPC (MKC) naming
 }
