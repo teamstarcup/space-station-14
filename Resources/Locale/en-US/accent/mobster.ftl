@@ -41,9 +41,6 @@ accent-mobster-words-replace-7 = whacked
 # accent-mobster-words-replace-8 = sleepin' with da fishies
 # end starcup
 
-accent-mobster-words-7 = murdered
-accent-mobster-words-replace-7 = whacked
-
 accent-mobster-words-9 = hey
 accent-mobster-words-replace-9 = ey'o
 
