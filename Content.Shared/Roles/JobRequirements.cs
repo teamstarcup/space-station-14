@@ -14,7 +14,8 @@ public static class JobRequirements
         [NotNullWhen(false)] out FormattedMessage? reason,
         IEntityManager entManager,
         IPrototypeManager protoManager,
-        HumanoidCharacterProfile? profile)
+        HumanoidCharacterProfile? profile,
+        bool isWhitelisted) // DeltaV
     {
         var sys = entManager.System<SharedRoleSystem>();
         var requirements = sys.GetJobRequirement(job);
@@ -24,7 +25,7 @@ public static class JobRequirements
 
         foreach (var requirement in requirements)
         {
-            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason))
+            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason, isWhitelisted))
                 return false;
         }
 
@@ -47,5 +48,6 @@ public abstract partial class JobRequirement
         IPrototypeManager protoManager,
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
-        [NotNullWhen(false)] out FormattedMessage? reason);
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        bool isWhitelisted); // DeltaV
 }

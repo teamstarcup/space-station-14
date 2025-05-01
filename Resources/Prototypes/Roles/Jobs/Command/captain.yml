@@ -3,19 +3,22 @@
   name: job-name-captain
   description: job-description-captain
   playTimeTracker: JobCaptain
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 54000 # 15 hours
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      time: 54000 # 15 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 54000 # 15 hours
-    - !type:DepartmentTimeRequirement
-      department: Command
-      time: 54000 # 15 hours
+# begin starcup: command roles are whitelisted
+#  requirements:
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 54000 # 15 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Medical
+#      time: 54000 # 15 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Security
+#      time: 54000 # 15 hours
+#    - !type:DepartmentTimeRequirement
+#      department: Command
+#      time: 54000 # 15 hours
+  whitelisted: true # starcup
+# end starcup
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

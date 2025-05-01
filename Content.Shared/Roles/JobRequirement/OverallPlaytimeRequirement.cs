@@ -21,7 +21,8 @@ public sealed partial class OverallPlaytimeRequirement : JobRequirement
         IPrototypeManager protoManager,
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
-        [NotNullWhen(false)] out FormattedMessage? reason)
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        bool isWhitelisted) // DeltaV
     {
         reason = new FormattedMessage();
 

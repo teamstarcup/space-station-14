@@ -3,18 +3,21 @@
   name: job-name-ce
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
-  requirements:
-    - !type:RoleTimeRequirement
-      role: JobAtmosphericTechnician
-      time: 21600 #6 hrs
-    - !type:RoleTimeRequirement
-      role: JobStationEngineer
-      time: 21600 #6 hrs
-    - !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 36000 #10 hrs
-    - !type:OverallPlaytimeRequirement
-      time: 144000 #40 hrs
+# begin starcup: command roles are whitelisted
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobAtmosphericTechnician
+#      time: 21600 #6 hrs
+#    - !type:RoleTimeRequirement
+#      role: JobStationEngineer
+#      time: 21600 #6 hrs
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 36000 #10 hrs
+#    - !type:OverallPlaytimeRequirement
+#      time: 144000 #40 hrs
+  whitelisted: true # starcup
+# end starcup
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"

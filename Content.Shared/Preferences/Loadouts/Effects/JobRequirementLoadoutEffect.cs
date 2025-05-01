@@ -1,4 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
+using Content.Shared.Players; // DeltaV
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Roles;
 using Robust.Shared.Player;
@@ -25,10 +26,13 @@ public sealed partial class JobRequirementLoadoutEffect : LoadoutEffect
 
         var manager = collection.Resolve<ISharedPlaytimeManager>();
         var playtimes = manager.GetPlayTimes(session);
+        var isWhitelisted = session.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
+
         return Requirement.Check(collection.Resolve<IEntityManager>(),
             collection.Resolve<IPrototypeManager>(),
             profile,
             playtimes,
-            out reason);
+            out reason,
+            isWhitelisted); // DeltaV
     }
 }
