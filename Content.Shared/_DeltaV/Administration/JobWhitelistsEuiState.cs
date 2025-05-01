@@ -3,7 +3,7 @@ using Content.Shared.Roles;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.DeltaV.Administration;
+namespace Content.Shared._DeltaV.Administration;
 
 [Serializable, NetSerializable]
 public sealed class JobWhitelistsEuiState : EuiStateBase

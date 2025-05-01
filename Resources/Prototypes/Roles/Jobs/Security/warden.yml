@@ -4,7 +4,7 @@
   description: job-description-warden
   playTimeTracker: JobWarden
   requirements:
-    - !type:DepartmentTimeRequirement # starcup
+    - !type:DepartmentTimeRequirement # starcup: RoleTimeRequirement -> DepartmentTimeRequirement
       department: Security
       time: 7200 # starcup: 2 hrs
   weight: 5

@@ -3,10 +3,12 @@
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
+# begin starcup
 #  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Medical
 #      time: 14400 #4 hrs
+# end starcup
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo

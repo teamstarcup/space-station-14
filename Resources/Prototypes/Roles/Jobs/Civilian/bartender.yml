@@ -3,10 +3,12 @@
   name: job-name-bartender
   description: job-description-bartender
   playTimeTracker: JobBartender
+# begin starcup
 #  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Civilian
 #      time: 1800
+# end starcup
   startingGear: BartenderGear
   icon: "JobIconBartender"
   supervisors: job-supervisors-hop

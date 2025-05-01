@@ -1,8 +1,8 @@
 using Content.Client.Eui;
-using Content.Shared.DeltaV.Administration;
+using Content.Shared._DeltaV.Administration;
 using Content.Shared.Eui;
 
-namespace Content.Client.DeltaV.Administration.UI;
+namespace Content.Client._DeltaV.Administration.UI;
 
 public sealed class JobWhitelistsEui : BaseEui
 {

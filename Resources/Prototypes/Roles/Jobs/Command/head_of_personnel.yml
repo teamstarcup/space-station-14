@@ -3,6 +3,7 @@
   name: job-name-hop
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
+# begin starcup: command roles are whitelisted
 #  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Engineering
@@ -17,6 +18,7 @@
 #      department: Command
 #      time: 36000 # 10 hours
   whitelisted: true # starcup
+# end starcup
   weight: 20
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

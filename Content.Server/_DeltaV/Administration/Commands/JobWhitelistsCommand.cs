@@ -3,7 +3,7 @@ using Content.Server.EUI;
 using Content.Shared.Administration;
 using Robust.Shared.Console;
 
-namespace Content.Server.DeltaV.Administration.Commands;
+namespace Content.Server._DeltaV.Administration.Commands;
 
 /// <summary>
 /// Opens the job whitelists panel for editing player whitelists.

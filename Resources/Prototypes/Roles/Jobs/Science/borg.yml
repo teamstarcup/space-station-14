@@ -4,10 +4,12 @@
   name: job-name-station-ai
   description: job-description-station-ai
   playTimeTracker: JobStationAi
+# begin starcup
 #  requirements:
 #  - !type:RoleTimeRequirement
 #    role: JobBorg
 #    time: 54000  # 15 hrs
+# end starcup
   whitelisted: true # starcup
   canBeAntag: false
   icon: JobIconStationAi

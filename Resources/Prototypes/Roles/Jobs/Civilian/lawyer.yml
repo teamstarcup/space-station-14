@@ -3,9 +3,11 @@
   name: job-name-lawyer
   description: job-description-lawyer
   playTimeTracker: JobLawyer
+# begin starcup
 #  requirements:
 #    - !type:OverallPlaytimeRequirement
 #      time: 36000 # 10 hrs
+# end starcup
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop

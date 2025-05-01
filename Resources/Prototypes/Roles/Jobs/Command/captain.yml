@@ -3,6 +3,7 @@
   name: job-name-captain
   description: job-description-captain
   playTimeTracker: JobCaptain
+# begin starcup: command roles are whitelisted
 #  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Engineering
@@ -17,6 +18,7 @@
 #      department: Command
 #      time: 54000 # 15 hours
   whitelisted: true # starcup
+# end starcup
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

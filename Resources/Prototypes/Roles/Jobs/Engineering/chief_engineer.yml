@@ -3,6 +3,7 @@
   name: job-name-ce
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
+# begin starcup: command roles are whitelisted
 #  requirements:
 #    - !type:RoleTimeRequirement
 #      role: JobAtmosphericTechnician
@@ -16,6 +17,7 @@
 #    - !type:OverallPlaytimeRequirement
 #      time: 144000 #40 hrs
   whitelisted: true # starcup
+# end starcup
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"

@@ -4,7 +4,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 
-namespace Content.Shared.Roles;
+namespace Content.Shared._DeltaV.Roles.JobRequirement;
 
 /// <summary>
 /// Requires the player be globally whitelisted to play a role.
@@ -13,7 +13,7 @@ namespace Content.Shared.Roles;
 /// Don't use this for jobs, use <c>whitelisted: true</c> on the JobPrototype instead.
 /// </remarks>
 [Serializable, NetSerializable]
-public sealed partial class WhitelistRequirement : JobRequirement
+public sealed partial class WhitelistRequirement : Shared.Roles.JobRequirement
 {
     public override bool Check(IEntityManager entManager,
         IPrototypeManager protoManager,

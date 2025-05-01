@@ -3,6 +3,7 @@
   name: job-name-qm
   description: job-description-qm
   playTimeTracker: JobQuartermaster
+# begin starcup: command roles are whitelisted
 #  requirements:
 #    - !type:RoleTimeRequirement
 #      role: JobCargoTechnician
@@ -16,6 +17,7 @@
 #    - !type:OverallPlaytimeRequirement
 #      time: 144000 #40 hrs
   whitelisted: true
+# end starcup
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"

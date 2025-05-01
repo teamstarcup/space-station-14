@@ -3,10 +3,12 @@
   name: job-name-chef
   description: job-description-chef
   playTimeTracker: JobChef
+# begin starcup
 #  requirements:
 #    - !type:DepartmentTimeRequirement
 #      department: Civilian
 #      time: 1800
+# end starcup
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hop

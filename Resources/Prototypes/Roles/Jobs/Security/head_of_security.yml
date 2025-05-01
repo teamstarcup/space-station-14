@@ -3,6 +3,7 @@
   name: job-name-hos
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
+# begin starcup: command roles are whitelisted
 #  requirements:
 #    - !type:RoleTimeRequirement
 #      role: JobWarden
@@ -15,6 +16,7 @@
 #      time: 108000 # 30 hrs
 #    - !type:OverallPlaytimeRequirement
 #      time: 144000 #40 hrs
+# end starcup
   whitelisted: true # starcup
   weight: 10
   startingGear: HoSGear

@@ -1,17 +1,15 @@
-using System.Threading.Tasks;
 using Content.Server.Administration.Managers;
 using Content.Server.Database;
 using Content.Server.EUI;
 using Content.Server.Players.JobWhitelist;
 using Content.Shared.Administration;
-using Content.Shared.DeltaV.Administration;
+using Content.Shared._DeltaV.Administration;
 using Content.Shared.Eui;
 using Content.Shared.Roles;
-using Robust.Shared.Log;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.DeltaV.Administration;
+namespace Content.Server._DeltaV.Administration;
 
 public sealed class JobWhitelistsEui : BaseEui
 {

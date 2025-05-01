@@ -6,7 +6,7 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client.DeltaV.Administration.UI;
+namespace Content.Client._DeltaV.Administration.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class DepartmentWhitelistPanel : PanelContainer

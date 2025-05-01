@@ -4,9 +4,11 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-nuclear-operative-objective
+# begin starcup
 #  requirements:
 #  - !type:OverallPlaytimeRequirement
 #    time: 18000 # 5h
+# end starcup
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -16,11 +18,13 @@
   setPreference: true
   objective: roles-antag-nuclear-operative-agent-objective
   requirements:
+# begin starcup
 #  - !type:OverallPlaytimeRequirement
 #    time: 18000 # 5h
 #  - !type:RoleTimeRequirement
 #    role: JobChemist
 #    time: 10800 # 3h
+# end starcup
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -30,11 +34,13 @@
   setPreference: true
   objective: roles-antag-nuclear-operative-commander-objective
   requirements:
+# begin starcup
 #  - !type:OverallPlaytimeRequirement
 #    time: 18000 # 5h
 #  - !type:DepartmentTimeRequirement
 #    department: Security
 #    time: 18000 # 5h
+# end starcup
   - !type:WhitelistRequirement # DeltaV - Commander is an "hrp" role
   # should be changed to nukie playtime when thats tracked (wyci)
   guides: [ NuclearOperatives ]
