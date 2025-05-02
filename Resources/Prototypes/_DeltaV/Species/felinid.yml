@@ -6,7 +6,7 @@
   sprites: MobHumanSprites
   markingLimits: MobFelinidMarkingLimits
   dollPrototype: MobFelinidDummy
-  skinColoration: HumanToned
+  skinColoration: Hues # starcup
   baseScale: "0.8, 0.8"
 
 - type: markingPoints
