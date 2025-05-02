@@ -8,6 +8,7 @@
   dollPrototype: MobFelinidDummy
   skinColoration: Hues # starcup
   baseScale: "0.8, 0.8"
+  minHeight: 0.9 # starcup: height adjustments
 
 - type: markingPoints
   id: MobFelinidMarkingLimits

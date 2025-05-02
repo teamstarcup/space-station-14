@@ -17,6 +17,10 @@
   naming: FirstDashLast
   sexes:
   - Unsexed
+# begin starcup: height adjustments
+  minHeight: 0.85
+  maxHeight: 1.05
+# end starcup
 
 # The lack of a layer means that
 # this person cannot have round-start anything

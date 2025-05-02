@@ -12,7 +12,10 @@
   femaleFirstNames: NamesRodentiaFemale
   lastNames: NamesRodentiaLast
   naming: LastFirst
-  baseScale: "0.8, 0.8"
+# begin starcup: height adjustments
+  baseScale: "0.75, 0.75"
+  minHeight: 0.9
+# end starcup
 
 - type: speciesBaseSprites
   id: MobRodentiaSprites
