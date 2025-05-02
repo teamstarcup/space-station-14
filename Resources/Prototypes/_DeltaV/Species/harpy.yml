@@ -6,7 +6,7 @@
   sprites: MobHarpySprites
   markingLimits: MobHarpyMarkingLimits
   dollPrototype: MobHarpyDummy
-  skinColoration: HumanToned
+  skinColoration: Hues # starcup
   baseScale: "0.9, 0.9"
 
 - type: speciesBaseSprites
