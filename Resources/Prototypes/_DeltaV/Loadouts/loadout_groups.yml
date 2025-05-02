@@ -7,6 +7,7 @@
   loadouts:
   - CourierHead
   - MailCarrierHead
+
 # starcup - commenting out for now
 #- type: loadoutGroup
 #  id: CourierNeck
@@ -124,3 +125,12 @@
   loadouts:
   - HoPGloves
   - InspectionGloves
+
+# Species
+- type: loadoutGroup
+  id: GroupHumanoidSilicon
+  name: loadout-group-humanoid-silicon
+  minLimit: 1
+  hidden: true
+  loadouts:
+  - EmergencyIPCBox

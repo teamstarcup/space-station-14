@@ -4,6 +4,13 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-initial-infected-objective
+# begin starcup: mkc
+  requirements:
+  - !type:SpeciesRequirement
+    inverted: true
+    species:
+    - IPC
+# end starcup
   guides: [ Zombies ]
 
 - type: antag
@@ -12,4 +19,11 @@
   antagonist: true
   setPreference: false
   objective: roles-antag-zombie-objective
+# begin starcup: mkc
+  requirements:
+  - !type:SpeciesRequirement
+    inverted: true
+    species:
+    - IPC
+# end starcup
   guides: [ Zombies ]

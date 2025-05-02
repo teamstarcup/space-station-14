@@ -16,6 +16,7 @@
     - Felinid
     - Oni
     - Rodentia
+    - IPC # starcup: MKC
 
 - type: guideEntry
   id: Arachnid
@@ -51,3 +52,10 @@
   id: Vox
   name: species-name-vox
   text: "/ServerInfo/Guidebook/Mobs/Vox.xml"
+
+# Begin starcup: MKC
+- type: guideEntry
+  id: IPC
+  name: species-name-ipc
+  text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
+# End starcup
