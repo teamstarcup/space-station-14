@@ -8,18 +8,18 @@ public enum FootPrintVisuals : byte
     BareFootPrint,
     ShoesPrint,
     SuitPrint,
-    Dragging
+    Dragging,
 }
 
 [Serializable, NetSerializable]
 public enum FootPrintVisualState : byte
 {
     State,
-    Color
+    Color,
 }
 
 [Serializable, NetSerializable]
 public enum FootPrintVisualLayers : byte
 {
-    Print
+    Print,
 }

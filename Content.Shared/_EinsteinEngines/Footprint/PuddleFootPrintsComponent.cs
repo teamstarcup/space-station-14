@@ -3,9 +3,9 @@ namespace Content.Shared._EinsteinEngines.FootPrint;
 [RegisterComponent]
 public sealed partial class PuddleFootPrintsComponent : Component
 {
-    [ViewVariables()]
+    [ViewVariables]
     public float SizeRatio = 0.2f;
 
-    [ViewVariables()]
+    [ViewVariables]
     public float OffPercent = 80f;
 }
