@@ -1,0 +1,22 @@
+- type: gameMapPool
+  id: StarcupDefaultMapPool
+  maps:
+  - Amber
+  - Bagel
+  - Box
+  - Convex
+  #- Core
+  - Elkridge
+  - Fland
+  - Glacier # starcup: ported from Delta-V. enabled.
+  #- Gate
+  - Loop
+  - Marathon
+  - Meta
+  - Oasis
+  - Omega
+  - Packed
+  - Plasma
+  - Reach
+  - Saltern # starcup: wasn't on the list for some reason? enabled.
+  #- Train

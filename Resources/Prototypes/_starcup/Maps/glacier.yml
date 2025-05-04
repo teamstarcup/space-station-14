@@ -4,7 +4,7 @@
   mapPath: /Maps/_starcup/glacier.yml
   maxRandomOffset: 0
   randomRotation: false
-  minPlayers: 1  # starcup: 15 (Delta-V) -> 1
+  minPlayers: 0  # starcup: 15 (Delta-V) -> 0
   maxPlayers: 60
   stations:
     Glacier:
