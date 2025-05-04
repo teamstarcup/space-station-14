@@ -27,6 +27,8 @@
         Slash: 1.2
         Piercing: 1.2
         Asphyxiation: 1.35
+  - type: Hunger
+  - type: Thirst
   - type: Damageable
     damageModifierSet: Oni
   - type: Body

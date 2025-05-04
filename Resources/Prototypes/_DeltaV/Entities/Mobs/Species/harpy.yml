@@ -100,6 +100,8 @@
         - MobLayer
   - type: Body
     prototype: Harpy
+  - type: Hunger
+  - type: Thirst
   - type: Damageable
     damageModifierSet: Harpy
   - type: MeleeWeapon

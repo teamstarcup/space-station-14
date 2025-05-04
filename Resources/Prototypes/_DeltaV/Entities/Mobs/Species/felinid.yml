@@ -26,6 +26,8 @@
         - MobLayer
   - type: Body
     prototype: Felinid
+  - type: Hunger
+  - type: Thirst
   - type: Damageable
     damageModifierSet: Felinid
   - type: MeleeWeapon
