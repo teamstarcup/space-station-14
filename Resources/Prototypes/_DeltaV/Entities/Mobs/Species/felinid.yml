@@ -39,9 +39,9 @@
 #  - type: DiseaseCarrier
 #    naturalImmunities:
 #    - OwOnavirus
-  - type: Thieving
-    stealthy: true
-    stripTimeReduction: 1
+#  - type: Thieving
+#    stealthy: true
+#    stripTimeReduction: 1
   - type: Speech
     speechSounds: Alto
     speechVerb: Felinid
