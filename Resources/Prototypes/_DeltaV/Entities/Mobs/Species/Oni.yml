@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseMobSpeciesOrganic
+  parent: BaseMobSpeciesOrganic # starcup: changed from BaseMobHuman for consistency
   name: Urist McOni
   id: MobOniBase
   abstract: true
@@ -27,8 +27,10 @@
         Slash: 1.2
         Piercing: 1.2
         Asphyxiation: 1.35
+# begin starcup: added for parental change
   - type: Hunger
   - type: Thirst
+# end starcup
   - type: Damageable
     damageModifierSet: Oni
   - type: Body
