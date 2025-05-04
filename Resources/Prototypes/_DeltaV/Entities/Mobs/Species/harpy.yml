@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Urist McHarpy
-  parent: BaseMobSpeciesOrganic
+  parent: BaseMobSpeciesOrganic # starcup: changed from BaseMobHuman for consistency
   id: MobHarpyBase
   abstract: true
   components:
@@ -100,6 +100,10 @@
         - MobLayer
   - type: Body
     prototype: Harpy
+# begin starcup: added for parental change
+  - type: Hunger
+  - type: Thirst
+# end starcup
   - type: Damageable
     damageModifierSet: Harpy
   - type: MeleeWeapon
