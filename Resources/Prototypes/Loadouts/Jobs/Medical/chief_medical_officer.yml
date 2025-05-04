@@ -50,9 +50,11 @@
   id: ChiefMedicalOfficerMantle
   equipment:
     neck: ClothingNeckMantleCMO
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterCMO
+# begin starcup: remove mantle role timers
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: MasterCMO
+# end starcup
 
 - type: startingGear
   id: ChiefMedicalOfficerMantle

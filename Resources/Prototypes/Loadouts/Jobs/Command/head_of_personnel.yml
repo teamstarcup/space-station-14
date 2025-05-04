@@ -45,9 +45,11 @@
   id: HoPMantle
   equipment:
     neck: ClothingNeckMantleHOP
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoP
+# begin starcup: remove mantle role timers
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: MasterHoP
+# end
 
 - type: startingGear
   id: HoPMantle

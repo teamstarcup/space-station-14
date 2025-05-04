@@ -60,9 +60,11 @@
   id: HeadofSecurityMantle
   equipment:
     neck: ClothingNeckMantleHOS
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterHoS
+# begin starcup: remove mantle role timers
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: MasterHoS
+# end starcup
 
 - type: startingGear
   id: HeadofSecurityMantle
