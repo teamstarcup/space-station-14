@@ -67,6 +67,37 @@
 
 - type: entity
   parent: Pill
+  id: PillStubantazine
+  suffix: Stubantazine 10u
+  components:
+  - type: Sprite
+    state: pill3
+  - type: Pill
+    pillType: 2
+  - type: Label
+    currentLabel: stubantazine 10u
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Stubantazine
+          Quantity: 10
+
+- type: entity
+  parent: PillCanister
+  id: PillCanisterStubantazine
+  suffix: Stubantazine 10u, 5
+  components:
+  - type: Label
+    currentLabel: stubantazine 10u
+  - type: StorageFill
+    contents:
+    - id: PillStubantazine
+      amount: 5
+
+- type: entity
+  parent: Pill
   id: PillSoretizone
   suffix: Soretizone 10u
   components:
@@ -94,4 +125,35 @@
   - type: StorageFill
     contents:
     - id: PillSoretizone
+      amount: 5
+
+- type: entity
+  parent: Pill
+  id: PillAgonolexyne
+  suffix: agonolexyne 5u
+  components:
+  - type: Sprite
+    state: pill20
+  - type: Pill
+    pillType: 19
+  - type: Label
+    currentLabel: agonolexyne 5u
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 20
+        reagents:
+        - ReagentId: Agonolexyne
+          Quantity: 5
+
+- type: entity
+  parent: PillCanister
+  id: PillCanisterAgonolexyne
+  suffix: Agonolexyne 5u, 5
+  components:
+  - type: Label
+    currentLabel: agonolexyne 5u
+  - type: StorageFill
+    contents:
+    - id: PillAgonolexyne
       amount: 5
