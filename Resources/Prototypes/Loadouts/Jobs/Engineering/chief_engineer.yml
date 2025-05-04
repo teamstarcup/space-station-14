@@ -49,9 +49,11 @@
   id: ChiefEngineerMantle
   equipment:
     neck: ClothingNeckMantleCE
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterCE
+# begin starcup: remove mantle role timers
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: MasterCE
+# end starcup
 
 - type: startingGear
   id: ChiefEngineerMantle

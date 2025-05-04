@@ -53,11 +53,13 @@
 
 - type: loadout
   id: QuartermasterMantle
-  equipment: 
+  equipment:
     neck: ClothingNeckMantleQM
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: MasterQM
+# begin starcup: remove mantle role timers
+#  effects:
+#  - !type:GroupLoadoutEffect
+#    proto: MasterQM
+# end starcup
 
 - type: startingGear
   id: QuartermasterMantle
