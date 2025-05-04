@@ -240,7 +240,7 @@
   - type: Material
   - type: PhysicalComposition
     materialComposition:
-      RawUranium: 300 # DeltaV
+      RawUranium: 300 # DeltaV - was 100
   - type: PointLight
     radius: 1.2
     energy: 0.8
@@ -339,7 +339,7 @@
           Quantity: 0.1
   - type: PhysicalComposition
     materialComposition:
-      Coal: 200 # DeltaV
+      Coal: 200 # DeltaV - was 100
   - type: Item
     heldPrefix: coal
 
