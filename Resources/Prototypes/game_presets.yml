@@ -9,7 +9,7 @@
     - MeteorSwarmScheduler
     - RampingStationEventScheduler
     - SpaceTrafficControlEventScheduler
-    - # SpaceTrafficControlFriendlyEventScheduler # starcup: SpaceTrafficControlEventScheduler already spawns these.
+   # - SpaceTrafficControlFriendlyEventScheduler # starcup: SpaceTrafficControlEventScheduler already spawns these.
     - BasicRoundstartVariation
 
 - type: gamePreset
