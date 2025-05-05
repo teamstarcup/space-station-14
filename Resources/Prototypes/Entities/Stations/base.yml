@@ -61,17 +61,17 @@
           stationGrid: false
           paths:
           - /Maps/Ruins/abandoned_outpost.yml
-          - /Maps/Ruins/chunked_tcomms.yml
+          - # /Maps/Ruins/chunked_tcomms.yml # starcup: needs rework
           - /Maps/Ruins/biodome_satellite.yml
-          - /Maps/Ruins/derelict.yml
+          - # /Maps/Ruins/derelict.yml # starcup: disable pending merge of rework PRs
           - /Maps/Ruins/djstation.yml
-          - /Maps/Ruins/empty_flagship.yml
+          - # /Maps/Ruins/empty_flagship.yml # starcup: far too big
           - /Maps/Ruins/old_ai_sat.yml
-          - /Maps/Ruins/ruined_prison_ship.yml
-          - /Maps/Ruins/syndicate_dropship.yml
-          - /Maps/Ruins/whiteship_ancient.yml
+          - # /Maps/Ruins/ruined_prison_ship.yml # starcup: needs rework
+          - # /Maps/Ruins/syndicate_dropship.yml # starcup: needs outer turrets removed
+          - # /Maps/Ruins/whiteship_ancient.yml # starcup: disable pending merge of rework PRs
           - /Maps/Ruins/whiteship_bluespacejumper.yml
-          - /Maps/Ruins/wrecklaimer.yml
+          - # /Maps/Ruins/wrecklaimer.yml #starcup: disable pending rework of minimum spawn distance
         vgroid: !type:DungeonSpawnGroup
           minimumDistance: 300
           maximumDistance: 350
