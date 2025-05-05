@@ -10,3 +10,8 @@
   typingState: rodentia0
   offset: 0, 0.2 # 0625
 
+- type: typingIndicator
+  id: aac
+  spritePath: /Textures/_DeltaV/Effects/speech.rsi
+  typingState: aac0
+  offset: -0.05, 0.1
