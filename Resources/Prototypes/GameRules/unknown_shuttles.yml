@@ -5,11 +5,11 @@
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
     - id: UnknownShuttleCargoLost
-    - id: UnknownShuttleTravelingCuisine
+   # - id: UnknownShuttleTravelingCuisine #starcup: disabled
     - id: UnknownShuttleDisasterEvacPod
-    - id: UnknownShuttleHonki
-    - id: UnknownShuttleNTQuark
-    - id: UnknownShuttleCruiser
+   # - id: UnknownShuttleHonki # starcup: disabled pending rework of clown loot (and possible removal of honkbots)
+   # - id: UnknownShuttleNTQuark # starcup: great concept, but the time limit to detonation makes it less ideal for a random spawn
+   # - id: UnknownShuttleCruiser # starcup: shaped like a penis. come on, people.
     - id: UnknownShuttleCryptid
     - id: UnknownShuttleEternal
     - id: UnknownShuttleFlatline
@@ -18,8 +18,8 @@
     - id: UnknownShuttleJoe
     - id: UnknownShuttleLambordeere
     - id: UnknownShuttleMeatZone
-    - id: UnknownShuttleMicroshuttle
-    - id: UnknownShuttleSpacebus
+   # - id: UnknownShuttleMicroshuttle # starcup: disabled pending rework making it turn slower
+   # - id: UnknownShuttleSpacebus # starcup: disabled
 
 - type: entityTable
   id: UnknownShuttlesFreelanceTable
@@ -31,9 +31,9 @@
   id: UnknownShuttlesHostileTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
-    - id: LoneOpsSpawn
+   # - id: LoneOpsSpawn # starcup: disabled to prevent undesired random loneop spawns
     - id: UnknownShuttleManOWar
-    - id: UnknownShuttleInstigator
+   # - id: UnknownShuttleInstigator # starcup: disabled for balance purposes
 
 # Shuttle Game Rules
 
