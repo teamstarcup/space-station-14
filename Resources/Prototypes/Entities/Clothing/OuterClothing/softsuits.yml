@@ -12,7 +12,7 @@
   - type: Tag
     tags:
     - SuitEVA
-    - MonkeyWearable
+#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
     - WhitelistChameleon
     - HidesHarpyWings
 
@@ -30,7 +30,7 @@
   - type: Tag
     tags:
     - SuitEVA
-    - MonkeyWearable
+#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
     - WhitelistChameleon
     - HidesHarpyWings
 
@@ -73,7 +73,7 @@
   - type: Tag
     tags:
     - SuitEVA
-    - MonkeyWearable
+#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
     - WhitelistChameleon
     - HidesHarpyWings
 

@@ -912,8 +912,10 @@
 - type: Tag
   id: MonkeyCube
 
-- type: Tag
-  id: MonkeyWearable
+# starcup: remove outerwear whitelist for monkeys
+#- type: Tag
+#  id: MonkeyWearable
+# end starcup
 
 - type: Tag
   id: Mop

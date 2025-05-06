@@ -550,7 +550,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSyndie
   - type: Tag
     tags:
-    - MonkeyWearable
+#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
