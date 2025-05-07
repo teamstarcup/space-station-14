@@ -2,7 +2,7 @@
   id: Packed
   mapName: 'Packed'
   mapPath: /Maps/packed.yml
-  minPlayers: 7
+  minPlayers: 0 # starcup: reduced from 7 -> 0
   maxPlayers: 35
   stations:
     Packed:
