@@ -310,7 +310,7 @@
       priority: 1
       lightningExplode: false
     - type: ComplexInteraction
-    #- type: Carriable
+    - type: Carriable
     #- type: Targeting
     #- type: SurgeryTarget
     #- type: LayingDown
