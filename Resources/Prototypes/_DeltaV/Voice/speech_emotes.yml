@@ -2,6 +2,7 @@
   id: Hiss
   name: nyan-chat-emote-name-hiss
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/hiss.png
   available: false
   whitelist:
     components:
@@ -20,6 +21,7 @@
   id: Meow
   name: nyan-chat-emote-name-meow
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/meow.png
   available: false
   whitelist:
     components:
@@ -44,6 +46,7 @@
   id: Mew
   name: nyan-chat-emote-name-mew
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/mew.png
   available: false
   whitelist:
     components:
@@ -62,6 +65,7 @@
   id: Growl
   name: chat-emote-name-growl
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/growl.png
   available: false
   whitelist:
     components:
@@ -80,6 +84,7 @@
   id: Purr
   name: chat-emote-name-purr
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/purr.png
   available: false
   whitelist:
     components:
