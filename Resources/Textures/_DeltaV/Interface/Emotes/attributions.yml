@@ -11,11 +11,6 @@
   copyright: "created by dootythefrooty"
   source: "https://github.com/dootythefrooty"
 
-- files: ["gnash.png"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Extracted from https://github.com/tgstation/tgstation/blob/master/icons/effects/effects.dmi , then modified by Blackdutchie"
-  source: "https://github.com/tgstation/tgstation"
-
 - files: ["ring.png"]
   license: "CC-BY-SA-3.0"
   copyright: "Extracted from https://github.com/tgstation/tgstation/blob/22e6ce8a6bed9356e312fabe5e7552f81b9bf19f/icons/obj/bureaucracy.dmi , then modified by Blackdutchie"

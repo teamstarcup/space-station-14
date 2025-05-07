@@ -152,8 +152,6 @@
 #      collection: BikeHorn
     Weh:
       collection: Weh
-    Gnash:
-      collection: FeroxiGnashes
     Gasp:
       collection: HarpyGasp
     DefaultDeathgasp:
