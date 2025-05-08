@@ -16,7 +16,7 @@
     - id: HandheldGPSBasic
     - id: RadioHandheld
     - id: AppraisalTool
-    - id: MiniJetpackFilled
+    - id: MiniJetpackFilled # starcup: give salvage mini jetpacks at roundstart
     # - id: FireExtinguisher # starcup: replaced by MiniJetpackFilled
     - id: Flare
       prob: 0.3
