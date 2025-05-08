@@ -22,6 +22,7 @@
     JugSodium: 2
     JugSugar: 3
     JugSulfur: 1
+    JugWeldingFuel: 1 # starcup: don't force chemists to hunt maints for welding fuel
   contrabandInventory:
     DrinkLithiumFlask: 1
     StrangePill: 3

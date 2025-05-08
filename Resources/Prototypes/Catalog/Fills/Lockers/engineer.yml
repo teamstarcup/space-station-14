@@ -91,6 +91,7 @@
       - id: ClothingMaskGasAtmos
       - id: ClothingOuterSuitAtmosFire
       - id: ClothingHeadHelmetAtmosFire
+      - id: ClothingHandsGlovesColorYellow # starcup: atmos techs should have insuls
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
@@ -107,6 +108,7 @@
       - id: ClothingMaskGasAtmos
       - id: ClothingOuterSuitAtmosFire
       - id: ClothingHeadHelmetAtmosFire
+      - id: ClothingHandsGlovesColorYellow # starcup: atmos techs should have insuls
       - id: GasAnalyzer
       - id: MedkitOxygenFilled
       - id: HolofanProjector
