@@ -103,6 +103,7 @@
 # begin starcup: added for parental change
   - type: Hunger
   - type: Thirst
+  - type: Carriable
 # end starcup
   - type: Damageable
     damageModifierSet: Harpy
