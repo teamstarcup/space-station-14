@@ -125,6 +125,7 @@
   - type: StorageFill
     contents:
         - id: OxygenTankFilled
+        - id: ClothingShoesBootsMag # starcup: give atmos techs magboots
         - id: ClothingOuterHardsuitAtmos
         - id: ClothingMaskBreath
   - type: AccessReader
@@ -138,9 +139,9 @@
   components:
   - type: StorageFill
     contents:
-        - id: OxygenTankFilled
-        - id: ClothingOuterHardsuitSecurity
-        - id: ClothingMaskBreath
+      - id: OxygenTankFilled
+      - id: ClothingOuterHardsuitSecurity
+      - id: ClothingMaskBreath
   - type: AccessReader
     access: [["Security"]]
 
