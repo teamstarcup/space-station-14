@@ -2,6 +2,7 @@
   id: Hiss
   name: nyan-chat-emote-name-hiss
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/hiss.png
   available: false
   whitelist:
     components:
@@ -20,6 +21,7 @@
   id: Meow
   name: nyan-chat-emote-name-meow
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/meow.png
   available: false
   whitelist:
     components:
@@ -44,6 +46,7 @@
   id: Mew
   name: nyan-chat-emote-name-mew
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/mew.png
   available: false
   whitelist:
     components:
@@ -62,6 +65,7 @@
   id: Growl
   name: chat-emote-name-growl
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/growl.png
   available: false
   whitelist:
     components:
@@ -80,6 +84,7 @@
   id: Purr
   name: chat-emote-name-purr
   category: Vocal
+  icon: _DeltaV/Interface/Emotes/purr.png
   available: false
   whitelist:
     components:
@@ -98,6 +103,7 @@
 - type: emote
   id: HarpyHonk
   name: delta-chat-emote-name-honk
+  icon: Interface/Emotes/honk.png
   category: Vocal
   available: false
   whitelist:
@@ -116,6 +122,7 @@
 - type: emote
   id: HarpyRing
   name: delta-chat-emote-name-ring
+  icon: _DeltaV/Interface/Emotes/ring.png
   category: Vocal
   available: false
   whitelist:
@@ -135,6 +142,7 @@
 - type: emote
   id: HarpyPew
   name: delta-chat-emote-name-pew
+  icon: Objects/Weapons/Guns/Battery/antiquelasergun.rsi/base.png
   category: Vocal
   available: false
   whitelist:
@@ -152,6 +160,7 @@
 - type: emote
   id: HarpyBang
   name: delta-chat-emote-name-bang
+  icon: Objects/Weapons/Grenades/grenade.rsi/icon.png
   category: Vocal
   available: false
   whitelist:
@@ -170,6 +179,7 @@
 - type: emote
   id: HarpyBeep
   name: delta-chat-emote-name-beep
+  icon: Interface/Emotes/beep.png
   category: Vocal
   available: false
   whitelist:
@@ -188,6 +198,7 @@
 - type: emote
   id: HarpyRev
   name: delta-chat-emote-name-rev
+  icon: Structures/Machines/grinder.rsi/grinder_beaker_attached.png
   category: Vocal
   available: false
   whitelist:
@@ -206,6 +217,7 @@
 - type: emote
   id: HarpyCaw
   name: delta-chat-emote-name-caw
+  icon: _DeltaV/Interface/Emotes/caw.png
   category: Vocal
   available: false
   whitelist:
@@ -221,10 +233,29 @@
     - cawing
     - cawed
 
+- type: emote
+  id: HarpySquish
+  name: delta-chat-emote-name-harpysquish
+  icon: Interface/Emotes/squish.png
+  category: Vocal
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [squishes.]
+  chatTriggers:
+    - squish
+    - squishing
+    - squishes
+
 #Vulpkanin
 - type: emote
   id: Bark
   name: delta-chat-emote-name-bark
+  icon: _DeltaV/Interface/Emotes/bark.png
   category: Vocal
   available: false
   whitelist:
@@ -243,6 +274,7 @@
 - type: emote
   id: Snarl
   name: delta-chat-emote-name-snarl
+  icon: _DeltaV/Interface/Emotes/snarl.png
   category: Vocal
   available: false
   whitelist:
@@ -261,6 +293,7 @@
 - type: emote
   id: Whine
   name: delta-chat-emote-name-whine
+  icon: _DeltaV/Interface/Emotes/whine.png
   category: Vocal
   available: false
   whitelist:
@@ -279,6 +312,7 @@
 - type: emote
   id: Howl
   name: delta-chat-emote-name-howl
+  icon: _DeltaV/Interface/Emotes/howl.png
   category: Vocal
   available: false
   whitelist:
@@ -297,6 +331,7 @@
 - type: emote
   id: Awoo
   name: delta-chat-emote-name-awoo
+  icon: _DeltaV/Interface/Emotes/awoo.png
   category: Vocal
   available: false
   whitelist:
