@@ -30,9 +30,18 @@ public sealed class RampingStationEventSchedulerSystem : GameRuleSystem<RampingS
 
         // Worlds shittiest probability distribution
         // Got a complaint? Send them to
-        component.MaxChaos = _random.NextFloat(component.AverageChaos - component.AverageChaos / 4, component.AverageChaos + component.AverageChaos / 4);
+        // Begin starcup changes
+        // component.MaxChaos = _random.NextFloat(component.AverageChaos - component.AverageChaos / 4, component.AverageChaos + component.AverageChaos / 4);
         // This is in minutes, so *60 for seconds (for the chaos calc)
-        component.EndTime = _random.NextFloat(component.AverageEndTime - component.AverageEndTime / 4, component.AverageEndTime + component.AverageEndTime / 4) * 60f;
+        // component.EndTime = _random.NextFloat(component.AverageEndTime - component.AverageEndTime / 4, component.AverageEndTime + component.AverageEndTime / 4) * 60f;
+        // starcup: Removed and replaced with simplified formulas
+
+        component.MaxChaos = _random.NextFloat(component.AverageChaos * 0.9f, component.AverageChaos * 1.25f);
+        // starcup: 0.75 -> 0.9. Ensures that MaxChaos is always at least 4.0 to prevent rounds from being too slow-paced.
+        component.EndTime = _random.NextFloat(component.AverageEndTime * 0.75f, component.AverageEndTime) * 60f;
+        // starcup: component.AverageEndTime * 1.25 -> component.AverageEndTime. Ensures that EndTime will never be longer than our AverageEndTime of 150 minutes.
+        // End starcup changes
+
         component.StartingChaos = component.MaxChaos / 10;
 
         PickNextEventTime(uid, component);
