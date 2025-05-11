@@ -140,6 +140,7 @@
   - type: StorageFill
     contents:
       - id: OxygenTankFilled
+      - id: JetpackSecurityFilled # starcup: give sec jetpacks
       - id: ClothingOuterHardsuitSecurity
       - id: ClothingMaskBreath
   - type: AccessReader
