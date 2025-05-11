@@ -1,0 +1,10 @@
+# Janitor flashlight
+- type: loadout
+  id: JanitorFlashlight
+  equipment:
+    pocket1: FlashlightLantern
+
+- type: loadout
+  id: JanitorLantern
+  equipment:
+    pocket1: Lantern
