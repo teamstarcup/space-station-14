@@ -329,7 +329,7 @@
     - id: ClothingShoesBootsJack
     - id: DoorRemoteSecurity
     - id: HoloprojectorSecurity
-    - id: HoSIDCard
+    - id: HoSIDCard # starcup: added spare ID
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
     - id: WeaponDisabler
