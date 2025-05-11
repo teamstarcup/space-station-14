@@ -7,4 +7,4 @@
 - type: loadout
   id: JanitorLantern
   equipment:
-    pocket1: Lantern
+    pocket1: Lantern # They're in the pocket because the filled Janitor belt wasn't cooperating w/loadout.
