@@ -14,7 +14,7 @@
       prob: 0.50
     - id: ClothingHeadsetAltCargo
     - id: DoorRemoteCargo
-    - id: QuartermasterIDCard
+    - id: QuartermasterIDCard # starcup: added spare ID
     - id: RubberStampApproved
     - id: RubberStampDenied
     - id: RubberStampQm
@@ -153,7 +153,7 @@
     children:
     - id: AccessConfigurator
     - id: BoxEncryptionKeyEngineering
-    - id: CEIDCard
+    - id: CEIDCard # starcup: added spare ID
     - id: CigarCase
       prob: 0.15
     - id: ClothingBeltChiefEngineerFilled
@@ -215,7 +215,7 @@
     - id: ClothingHeadHatBeretCmo
     - id: ClothingHeadsetAltMedical
     - id: ClothingMaskSterile
-    - id: CMOIDCard
+    - id: CMOIDCard # starcup: added spare ID
     - id: DoorRemoteMedical
     - id: HandheldCrewMonitor
     - id: Hypospray
@@ -272,7 +272,7 @@
     - id: DoorRemoteResearch
     - id: HandTeleporter
     - id: ProtolatheMachineCircuitboard
-    - id: RDIDCard
+    - id: RDIDCard # starcup: added spare ID
     - id: ResearchComputerCircuitboard
     - id: RubberStampRd
 
