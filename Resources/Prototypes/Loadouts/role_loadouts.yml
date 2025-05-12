@@ -142,6 +142,7 @@
   - Survival
   - Trinkets
   - JanitorPlunger
+  - JanitorLight # starcup: adds a choice between flashlights/lanterns. who goers there
   - GroupSpeciesBreathTool
 
 - type: roleLoadout

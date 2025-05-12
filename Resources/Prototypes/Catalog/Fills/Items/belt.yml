@@ -82,7 +82,7 @@
       - id: SprayBottleSpaceCleaner
       - id: CleanerGrenade
         amount: 2
-      - id: FlashlightLantern
+ #     - id: FlashlightLantern # starcup: removed for redundancy with new flashlight/lantern loadout options.
       - id: LightReplacer
 
 - type: entity
