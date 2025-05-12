@@ -10,6 +10,7 @@
       - id: ClothingMaskBreath
       - id: EmergencyOxygenTankFilled
       - id: EmergencyMedipen
+      - id: SpaceMedipen # starcup: added to help players survive spacings
       - id: Flare
       - id: FoodPSB # DeltaV - replace nutribrick with PSB
       - id: DrinkWaterBottleFull
