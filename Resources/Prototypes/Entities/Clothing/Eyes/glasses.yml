@@ -65,6 +65,8 @@
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
+  - type: VisionCorrection  # starcup: engineering goggles correct for short-sightedness (with slight nerf, default 2.0)
+    correctionPower: 1.7
 
 - type: entity
   parent: ClothingEyesBase
