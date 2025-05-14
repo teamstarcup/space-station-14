@@ -78,12 +78,13 @@
   components:
   - type: StorageFill
     contents:
-      - id: Soap #Make a soap group and pick between when i'm not lazy
+ #     - id: Soap #Make a soap group and pick between when i'm not lazy # starcup: removed this because soap isn't really needed to start with.
       - id: SprayBottleSpaceCleaner
       - id: CleanerGrenade
         amount: 2
  #     - id: FlashlightLantern # starcup: removed for redundancy with new flashlight/lantern loadout options.
       - id: LightReplacer
+      - id: TrashBag # starcup: picking up trash is basically the first thing a janitor does at shift start
 
 - type: entity
   id: ClothingBeltMedicalFilled
