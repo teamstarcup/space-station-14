@@ -134,8 +134,10 @@
     - id: DoorRemoteService
     - id: HoPIDCard
     - id: IDComputerCircuitboard
-    - id: FundingAllocationComputerCircuitboard
-    - id: CargoRequestServiceComputerCircuitboard
+#    begin starcup: disable departmental economy
+#    - id: FundingAllocationComputerCircuitboard
+#    - id: CargoRequestServiceComputerCircuitboard
+#    end starcup
     - id: RubberStampApproved
     - id: RubberStampDenied
     - id: RubberStampHop
@@ -167,7 +169,7 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
-    - id: CargoRequestEngineeringComputerCircuitboard
+#    - id: CargoRequestEngineeringComputerCircuitboard # starcup: disable departmental economy
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
@@ -227,7 +229,7 @@
     - id: HandheldCrewMonitor
     - id: Hypospray
     - id: MedicalTechFabCircuitboard
-    - id: CargoRequestMedicalComputerCircuitboard
+#    - id: CargoRequestMedicalComputerCircuitboard # starcup: disable departmental economy
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
@@ -282,7 +284,7 @@
     - id: ProtolatheMachineCircuitboard
     - id: RDIDCard # starcup: added spare ID
     - id: ResearchComputerCircuitboard
-    - id: CargoRequestScienceComputerCircuitboard
+#    - id: CargoRequestScienceComputerCircuitboard # starcup: disable departmental economy
     - id: RubberStampRd
 
 # Hardsuit table, used for suit storage as well
@@ -341,7 +343,7 @@
     - id: HoSIDCard # starcup: added spare ID
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
-    - id: CargoRequestSecurityComputerCircuitboard
+#    - id: CargoRequestSecurityComputerCircuitboard # starcup: disable departmental economy
     - id: WeaponDisabler
     - id: WantedListCartridge
     - id: DrinkHosFlask
