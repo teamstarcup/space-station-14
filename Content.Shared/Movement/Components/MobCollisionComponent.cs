@@ -45,7 +45,7 @@ public sealed partial class MobCollisionComponent : Component
     /// Strength of the pushback for entities. This is combined between the 2 entities being pushed.
     /// </summary>
     [DataField, AutoNetworkedField]
-    public float Strength = 50f;
+    public float Strength = 0f; // starcup: disable mob collisions
 
     // Yes I know, I will deal with it if I ever refactor collision layers due to misuse.
     // If anything it probably needs some assurance on mobcollisionsystem for it.
