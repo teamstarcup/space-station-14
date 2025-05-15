@@ -1,7 +1,7 @@
 - type: cargoProduct
   id: FoodHydroCoDairy
   icon:
-    sprite: DeltaV/Objects/Consumable/Drinks/powdered_drinks.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/powdered_drinks.rsi
     state: icon-order-dairy
   product: CrateHydroCoDairy
   cost: 1500
@@ -11,7 +11,7 @@
 - type: cargoProduct
   id: FoodHydroCoJuice
   icon:
-    sprite: DeltaV/Objects/Consumable/Drinks/powdered_drinks.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/powdered_drinks.rsi
     state: icon-order-juices
   product: CrateHydroCoJuice
   cost: 1500
