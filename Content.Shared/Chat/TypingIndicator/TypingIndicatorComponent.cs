@@ -1,4 +1,4 @@
-﻿using Robust.Shared.GameStates;
+using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Chat.TypingIndicator;
@@ -7,14 +7,14 @@ namespace Content.Shared.Chat.TypingIndicator;
 ///     Show typing indicator icon when player typing text in chat box.
 ///     Added automatically when player poses entity.
 /// </summary>
-[RegisterComponent, NetworkedComponent, AutoGenerateComponentState] // DeltaV - AutoGenerateComponentState required for AutoNetworkedField
-[Access(typeof(SharedTypingIndicatorSystem))]
+// [Access(typeof(SharedTypingIndicatorSystem))] CD - Restricted access breaks synth trait because it rewrites the speech bubble over the default race indicator
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState] // CD - AutoGenerateComponentState fixes a bug with synth trait
 public sealed partial class TypingIndicatorComponent : Component
 {
     /// <summary>
     ///     Prototype id that store all visual info about typing indicator.
     /// </summary>
-    [DataField("proto")]
+    [DataField("proto"), AutoNetworkedField] // CD - AutoNetworkedField fixes a bug in synth trait
     public ProtoId<TypingIndicatorPrototype> TypingIndicatorPrototype = "default";
 
     /// <summary>
