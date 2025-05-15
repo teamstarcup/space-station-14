@@ -7,7 +7,7 @@
   flavor: atomicpunch
   color: "#d04949"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/atomicpunch.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/atomicpunch.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -30,7 +30,7 @@
   flavor: pinkdrink
   color: "#d04949"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/pinkdrink.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/pinkdrink.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -51,7 +51,7 @@
   flavor: bubbletea
   color: "#d2b18c"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/bubbletea.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/bubbletea.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

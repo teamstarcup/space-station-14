@@ -7,7 +7,7 @@
   flavor: soju
   color: "#DDDDDD"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/sojuglass.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/sojuglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -30,7 +30,7 @@
   flavor: orangecreamcicle
   color: "#efaa16"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/orangecreamcicle.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/orangecreamcicle.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -53,7 +53,7 @@
   flavor: silverjack
   color: "#978647"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/silverjack.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/silverjack.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -76,7 +76,7 @@
   flavor: brainbomb
   color: "#6f7a2c"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/brainbomb.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/brainbomb.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -112,7 +112,7 @@
   flavor: funny
   color: "#94001c"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/clownblood.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/clownblood.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -135,7 +135,7 @@
   flavor: circusjuice
   color: "#c47872"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/circusjuice.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/circusjuice.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -161,7 +161,7 @@
   flavor: sapopicante
   color: "#c0501a"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/sapopicante.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/sapopicante.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -186,7 +186,7 @@
   flavor: graveyard
   color: "#4f1b1b"
   metamorphicSprite:
-    sprite: _DeltaVObjects/Consumable/Drinks/graveyard.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/graveyard.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

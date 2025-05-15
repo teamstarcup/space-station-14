@@ -11,7 +11,7 @@
         - ReagentId: Soju
           Quantity: 100
   - type: Sprite
-    sprite: _DeltaVObjects/Consumable/Drinks/sojubottle.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/sojubottle.rsi
 
 - type: entity
   parent: DrinkGlassBase
@@ -27,7 +27,7 @@
         - ReagentId: Sake
           Quantity: 100
   - type: Sprite
-    sprite: _DeltaVObjects/Consumable/Drinks/saketokkuri.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/saketokkuri.rsi
 
 - type: entity
   parent: DrinkBottleGlassBaseFull
@@ -42,7 +42,7 @@
         - ReagentId: Holywater
           Quantity: 100
   - type: Sprite
-    sprite: _DeltaVObjects/Consumable/Drinks/flaskholywater.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/flaskholywater.rsi
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottleGlassBaseFull]
   id: DrinkAngobittersBottleFull

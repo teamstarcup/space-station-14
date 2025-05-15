@@ -12,7 +12,7 @@
         - ReagentId: OrangeCreamice
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/orangecreamcicle.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/orangecreamcicle.rsi
     state: icon
 
 - type: entity
@@ -29,7 +29,7 @@
         - ReagentId: Silverjack
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/silverjack.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/silverjack.rsi
     state: icon
 
 - type: entity
@@ -46,7 +46,7 @@
         - ReagentId: Brainbomb
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/brainbomb.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/brainbomb.rsi
     state: icon
 
 - type: entity
@@ -63,7 +63,7 @@
         - ReagentId: ClownBlood
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/clownblood.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/clownblood.rsi
     state: icon
 
 - type: entity
@@ -80,7 +80,7 @@
         - ReagentId: CircusJuice
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/circusjuice.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/circusjuice.rsi
     state: icon
 
 - type: entity
@@ -97,7 +97,7 @@
         - ReagentId: SapoPicante
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/sapopicante.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/sapopicante.rsi
     state: icon
 
 - type: entity
@@ -114,7 +114,7 @@
         - ReagentId: Graveyard
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/graveyard.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/graveyard.rsi
     state: icon
 
 - type: entity
@@ -131,7 +131,7 @@
         - ReagentId: AtomicPunch
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/atomicpunch.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/atomicpunch.rsi
     state: icon
 
 - type: entity
@@ -148,7 +148,7 @@
         - ReagentId: PinkDrink
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/pinkdrink.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/pinkdrink.rsi
     state: icon
 
 - type: entity
@@ -165,7 +165,7 @@
         - ReagentId: BubbleTea
           Quantity: 30
   - type: Icon
-    sprite: _DeltaVObjects/Consumable/Drinks/bubbletea.rsi
+    sprite: _DeltaV/Objects/Consumable/Drinks/bubbletea.rsi
     state: icon
 - type: entity
   parent: DrinkGlass
