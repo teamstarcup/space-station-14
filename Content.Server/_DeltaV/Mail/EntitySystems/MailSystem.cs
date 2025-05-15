@@ -19,6 +19,7 @@ using Content.Server.Station.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Access;
+using Content.Shared.Cargo.Components;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Damage;
 using Content.Shared._DeltaV.Mail;
@@ -242,7 +243,10 @@ namespace Content.Server._DeltaV.Mail.EntitySystems
                 if (_stationSystem.GetOwningStation(uid) != station)
                     continue;
 
-                _cargoSystem.UpdateBankAccount((station, account), component.Bounty);
+                _cargoSystem.UpdateBankAccount(
+                    (station, account),
+                    component.Bounty,
+                    _cargoSystem.CreateAccountDistribution((station, account)));
             }
         }
 
@@ -299,8 +303,10 @@ namespace Content.Server._DeltaV.Mail.EntitySystems
                 if (_stationSystem.GetOwningStation(uid) != station)
                     continue;
 
-                _cargoSystem.UpdateBankAccount((station, account), component.Penalty);
-                return;
+                _cargoSystem.UpdateBankAccount(
+                    (station, account),
+                    component.Penalty,
+                    _cargoSystem.CreateAccountDistribution((station, account)));
             }
         }
 
