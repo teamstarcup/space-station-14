@@ -33,6 +33,7 @@
   - type: Tag
     tags:
     - ClothMade
+    - Recyclable
     - WhitelistChameleon
     - MonkeyWearable # starcup
   - type: StaticPrice
