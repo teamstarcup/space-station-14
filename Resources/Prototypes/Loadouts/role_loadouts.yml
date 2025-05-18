@@ -40,6 +40,7 @@
 - type: roleLoadout
   id: JobPassenger
   groups:
+  - Scarfs # DeltaV
   - GroupTankHarness
   - PassengerJumpsuit
   - CommonBackpack
@@ -58,6 +59,7 @@
   groups:
   - GroupTankHarness
   - BartenderHead
+  - BartenderNeck # DeltaV
   - BartenderJumpsuit
   - CommonBackpack
   - BartenderOuterClothing
@@ -69,6 +71,7 @@
 - type: roleLoadout
   id: JobServiceWorker
   groups:
+  - Scarfs # DeltaV
   - GroupTankHarness
   - BartenderJumpsuit
   - CommonBackpack
@@ -94,6 +97,7 @@
 - type: roleLoadout
   id: JobLibrarian
   groups:
+  - LibrarianNeck # DeltaV
   - GroupTankHarness
   - LibrarianJumpsuit
   - CommonBackpack
@@ -134,6 +138,7 @@
   groups:
   - GroupTankHarness
   - JanitorHead
+  - JanitorNeck # DeltaV
   - JanitorJumpsuit
   - JanitorGloves
   - CommonBackpack
@@ -149,6 +154,7 @@
   groups:
   - GroupTankHarness
   - BotanistHead
+  - BotanistNeck # DeltaV
   - BotanistJumpsuit
   - BotanistBackpack
   - BotanistOuterClothing
@@ -162,6 +168,7 @@
   groups:
   - GroupTankHarness
   - ClownHead
+  - Scarfs # DeltaV
   - ClownJumpsuit
   - ClownBackpack
   - ClownOuterClothing
@@ -176,6 +183,7 @@
   - GroupTankHarness
   - MimeHead
   - MimeMask
+  - MimeNeck # DeltaV
   - MimeJumpsuit
   - MimeBackpack
   - MimeOuterClothing
@@ -218,6 +226,7 @@
   groups:
   - GroupTankHarness
   - CargoTechnicianHead
+  - CargoTechnicianNeck # DeltaV
   - CargoTechnicianJumpsuit
   - CargoTechnicianBackpack
   - CargoTechnicianOuterClothing
@@ -231,6 +240,7 @@
   id: JobSalvageSpecialist
   groups:
   - GroupTankHarness
+  - SalvageSpecialistNeck # DeltaV
   - SalvageSpecialistBackpack
   - SalvageSpecialistOuterClothing
   - SalvageSpecialistShoes
@@ -269,6 +279,7 @@
   groups:
   - GroupTankHarness
   - StationEngineerHead
+  - StationEngineerNeck # DeltaV
   - StationEngineerJumpsuit
   - StationEngineerBackpack
   - StationEngineerOuterClothing
@@ -282,6 +293,7 @@
   id: JobAtmosphericTechnician
   groups:
   - GroupTankHarness
+  - AtmosphericTechnicianNeck # DeltaV
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianOuterClothing
@@ -355,6 +367,7 @@
   id: JobWarden
   groups:
   - WardenHead
+  - SecurityNeck # DeltaV
   - WardenJumpsuit
   - SecurityBackpack
   - SecurityBelt
@@ -369,6 +382,7 @@
   id: JobSecurityOfficer
   groups:
   - SecurityHead
+  - SecurityNeck # DeltaV
   - SecurityJumpsuit
   - SecurityBackpack
   - SecurityOuterClothing
@@ -384,7 +398,8 @@
   id: JobDetective
   groups:
   - DetectiveHead
-  - DetectiveNeck
+# - DetectiveNeck
+  - SecurityNeck # DeltaV - replace DetectiveNeck for incongruence
   - DetectiveJumpsuit
   - SecurityBackpack
   - DetectiveOuterClothing
@@ -397,6 +412,8 @@
 - type: roleLoadout
   id: JobSecurityCadet
   groups:
+  - SecurityCadetHead # DeltaV
+  - SecurityNeck # DeltaV
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - SurvivalSecurity
@@ -426,6 +443,7 @@
   groups:
   - GroupTankHarness
   - MedicalDoctorHead
+  - MedicalDoctorNeck # DeltaV
   - MedicalMask
   - MedicalDoctorJumpsuit
   - MedicalGloves
@@ -453,6 +471,7 @@
   id: JobChemist
   groups:
   - GroupTankHarness
+  - ChemistNeck # DeltaV
   - MedicalMask
   - ChemistJumpsuit
   - MedicalGloves
@@ -469,6 +488,7 @@
   - GroupTankHarness
   - ParamedicHead
   - MedicalMask
+  - MedicalDoctorNeck # DeltaV
   - ParamedicJumpsuit
   - MedicalGloves
   - MedicalBackpack
@@ -504,6 +524,7 @@
 - type: roleLoadout
   id: JobPsychologist
   groups:
+  - Scarfs # DeltaV
   - GroupTankHarness
   - PsychologistJumpsuit
   - MedicalBackpack

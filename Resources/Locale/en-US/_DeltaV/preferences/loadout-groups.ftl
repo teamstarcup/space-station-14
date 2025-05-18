@@ -1,3 +1,32 @@
+# Service
+loadout-group-bartender-neck = Bartender neck
+
+loadout-group-librarian-neck = Librarian neck
+
+loadout-group-janitor-neck = Janitor neck
+
+loadout-group-botanist-neck = Botanist neck
+
+loadout-group-mime-neck = Mime neck
+
+loadout-group-musician-neck = Musician neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
+loadout-group-botanist-neck
+
 # Command
 loadout-group-admin-assistant-head = Administrative Assistant head
 loadout-group-admin-assistant-jumpsuit = Administrative Assistant jumpsuit
@@ -15,10 +44,32 @@ loadout-group-courier-backpack = Courier backpack
 loadout-group-courier-id = Courier PDA
 
 loadout-group-cargo-assistant-head = Cargo Assistant head
+loadout-group-cargo-assistant-neck = Cargo Assistant neck
 loadout-group-cargo-assistant-jumpsuit = Cargo Assistant jumpsuit
 loadout-group-cargo-assistant-backpack = Cargo Assistant backpack
 loadout-group-cargo-assistant-outerclothing = Cargo Assistant outer clothing
 loadout-group-cargo-assistant-shoes = Cargo Assistant shoes
 
+loadout-group-salvage-specialist-neck = Salvage Specialist neck
+
+# Security
+loadout-group-security-cadet-head = Security Cadet head
+
+loadout-group-security-neck = Security neck
+
+loadout-group-medical-doctor-neck = Medical Doctor neck
+
+loadout-group-chemist-neck = Chemist neck
+
+# Engineering
+loadout-group-station-engineer-neck = Station Engineer neck
+
+loadout-group-atmospheric-technician-neck = Atmospheric Technician neck
+
+
+
 # Species
 loadout-group-humanoid-silicon = Silicon-friendly survival box
+
+# Scarfs
+loadout-group-scarfs = Scarves

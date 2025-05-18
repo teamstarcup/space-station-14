@@ -51,6 +51,9 @@
   - TowelColorWhite
   - TowelColorYellow
   - AACTablet # DeltaV
+  - GoldRing # DeltaV
+  - SilverRing # DeltaV
+  - HandheldStationMap # starcup
   - Cane # DeltaV
   - WhiteCane #DeltaV
 
@@ -1340,6 +1343,7 @@
   - YellowBoxingGloves
 
 # Other
+
 - type: loadoutGroup
   id: SurvivalSyndicate
   name: loadout-group-survival-syndicate

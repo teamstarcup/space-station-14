@@ -1,3 +1,69 @@
+## Bartender
+- type: loadoutGroup
+  id: BartenderNeck
+  name: loadout-group-bartender-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBlack
+  - ScarfPurple
+  - ScarfNonbinary #starcup
+  - ScarfRainbow #starcup
+
+## Librarian
+- type: loadoutGroup
+  id: LibrarianNeck
+  name: loadout-group-librarian-neck
+  minLimit: 0
+  loadouts:
+  - ScarfGreen
+  - ScarfRed
+  - ScarfLesbian #starcup
+  - ScarfNonbinary #starcup
+
+## Janitor
+- type: loadoutGroup
+  id: JanitorNeck
+  name: loadout-group-janitor-neck
+  minLimit: 0
+  loadouts:
+  - ScarfPurple
+  - ScarfAce #starcup
+  - ScarfNonbinary #starcup
+
+## Botanist
+- type: loadoutGroup
+  id: BotanistNeck
+  name: loadout-group-botanist-neck
+  minLimit: 0
+  loadouts:
+  - ScarfGreen
+  - ScarfBrown
+  - ScarfSyndieGreen #starcup
+
+## Mime
+- type: loadoutGroup
+  id: MimeNeck
+  name: loadout-group-mime-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBlack
+  - ScarfZebra
+  - ScarfAce # starcup
+
+## Musician
+- type: loadoutGroup
+  id: MusicianNeck
+  name: loadout-group-musician-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBlack
+  - ScarfPurple
+  - ScarfZebra
+  - ScarfTrans # starcup
+  - ScarfNonbinary #starcup
+  - ScarfRainbow #starcup
+  - ScarfLesbian #starcup
+
 # Logistics
 ## Courier
 - type: loadoutGroup
@@ -9,13 +75,14 @@
   - MailCarrierHead
 
 # starcup - commenting out for now
-#- type: loadoutGroup
-#  id: CourierNeck
-#  name: loadout-group-courier-neck
-#  minLimit: 0
-#  loadouts:
-#  - ScarfBrown
-#  - ScarfBlue
+# also starcup - adding back in, it's scarf time baby!!
+- type: loadoutGroup
+  id: CourierNeck
+  name: loadout-group-courier-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBrown
+  - ScarfBlue
 
 - type: loadoutGroup
   id: CourierJumpsuit
@@ -41,6 +108,14 @@
   - CargoTechnicianBackpack
   - CargoTechnicianSatchel
   - CargoTechnicianDuffel
+
+  ## Cargo Technician
+- type: loadoutGroup
+  id: CargoTechnicianNeck
+  name: loadout-group-cargo-technician-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBrown
 
 - type: loadoutGroup
   id: CourierShoes
@@ -94,6 +169,16 @@
   - BlackShoes
   - CargoWinterBoots
 
+## Salvage Specialist
+- type: loadoutGroup
+  id: SalvageSpecialistNeck
+  name: loadout-group-salvage-specialist-neck
+  minLimit: 0
+  loadouts:
+  - ScarfBrown
+  - ScarfLesbian # starcup
+  - ScarfBisexual # starcup - it's the axes is the thing
+
 # Command
 ## Administrative Assistant
 - type: loadoutGroup
@@ -125,6 +210,95 @@
   loadouts:
   - HoPGloves
   - InspectionGloves
+
+# Security
+## Security Cadet
+- type: loadoutGroup
+  id: SecurityCadetHead
+  name: loadout-group-security-cadet-head
+  minLimit: 0
+  loadouts:
+  - MimeFrenchBeret
+  - SecurityHelmet # starcup
+
+## Security Officer
+- type: loadoutGroup
+  id: SecurityNeck
+  name: loadout-group-security-neck
+  minLimit: 0
+  loadouts:
+  - ScarfRed
+  - ScarfSyndieRed # starcup
+
+# Medical
+## Medical Doctor
+- type: loadoutGroup
+  id: MedicalDoctorNeck
+  name: loadout-group-medical-doctor-neck
+  minLimit: 0
+  loadouts:
+  - Stethoscope
+  - ScarfBlue
+  - ScarfPan #starcup
+  - ScarfTrans #starcup
+
+## Chemist
+- type: loadoutGroup
+  id: ChemistNeck
+  name: loadout-group-chemist-neck
+  minLimit: 0
+  loadouts:
+  - ChemistTie
+  - ScarfOrange
+  - ScarfTrans # starcup
+  - ScarfBlue
+
+# Engineering
+## Station Engineer
+- type: loadoutGroup
+  id: StationEngineerNeck
+  name: loadout-group-station-engineer-neck
+  minLimit: 0
+  loadouts:
+  - ScarfOrange
+  - ScarfLesbian #starcup
+
+## Atmospheric Technician
+- type: loadoutGroup
+  id: AtmosphericTechnicianNeck
+  name: loadout-group-atmospheric-technician-neck
+  minLimit: 0
+  loadouts:
+  - ScarfLightBlue
+  - ScarfOrange
+  - ScarfLesbian #starcup
+  - ScarfRainbow # starcup - I'm sure at this point you understand I won't be justifying any of these assignments
+
+# Misc
+## DeltaV
+- type: loadoutGroup
+  id: Scarfs
+  name: loadout-group-scarfs
+  minLimit: 0
+  loadouts:
+  - ScarfRed
+  - ScarfBlue
+  - ScarfLightBlue
+  - ScarfGreen
+  - ScarfPurple
+  - ScarfBrown
+  - ScarfOrange
+  - ScarfBlack
+  - ScarfZebra
+  - ScarfSyndieRed #starcup
+  - ScarfSyndieGreen #starcup
+  - ScarfAce # starcup
+  - ScarfBiSexual # starcup
+  - ScarfLesbian # starcup
+  - ScarfPan # starcup
+  - ScarfNonbinary # starcup
+  - ScarfRainbow # starcup
+  - ScarfTrans # scarfcup - why not take some pride in our beautiful loadout display?
 
 # Species
 - type: loadoutGroup
