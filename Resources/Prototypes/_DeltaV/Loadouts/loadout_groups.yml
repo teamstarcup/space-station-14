@@ -74,8 +74,6 @@
   - CourierHead
   - MailCarrierHead
 
-# starcup - commenting out for now
-# also starcup - adding back in, it's scarf time baby!!
 - type: loadoutGroup
   id: CourierNeck
   name: loadout-group-courier-neck
