@@ -248,7 +248,6 @@
   name: loadout-group-chemist-neck
   minLimit: 0
   loadouts:
-  - ChemistTie
   - ScarfOrange
   - ScarfTrans # starcup
   - ScarfBlue
