@@ -11,22 +11,6 @@ loadout-group-mime-neck = Mime neck
 
 loadout-group-musician-neck = Musician neck
 
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
-loadout-group-botanist-neck
-
 # Command
 loadout-group-admin-assistant-head = Administrative Assistant head
 loadout-group-admin-assistant-jumpsuit = Administrative Assistant jumpsuit
