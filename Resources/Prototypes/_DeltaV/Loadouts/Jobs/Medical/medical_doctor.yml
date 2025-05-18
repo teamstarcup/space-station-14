@@ -1,0 +1,5 @@
+# Neck
+- type: loadout
+  id: Stethoscope
+  equipment:
+    neck: ClothingNeckStethoscope
