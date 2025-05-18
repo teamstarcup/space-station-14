@@ -36,6 +36,8 @@ loadout-group-cargo-assistant-shoes = Cargo Assistant shoes
 
 loadout-group-salvage-specialist-neck = Salvage Specialist neck
 
+loadout-group-cargo-technician-neck = Cargo Technician neck
+
 # Security
 loadout-group-security-cadet-head = Security Cadet head
 
