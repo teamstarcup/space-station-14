@@ -70,7 +70,7 @@ namespace Content.Server.StationEvents.Events
 
         private void Spark(EntityUid uid, GasLeakRuleComponent component)
         {
-            if (RobustRandom.NextFloat() <= component.SparkChance)
+            if (RobustRandom.NextFloat() <= component.SparkChance) // # starcup: this chance was effectively removed in GasLeakRuleComponents.cs for balance
             {
                 if (!component.FoundTile ||
                     component.TargetGrid == default ||
