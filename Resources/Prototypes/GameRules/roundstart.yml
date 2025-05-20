@@ -22,8 +22,8 @@
     rules:
     - id: Thief
       prob: 0.5
-    - id: SubWizard
-      prob: 0.05
+   # - id: SubWizard # starcup: removed pending reworks for balance
+   #   prob: 0.05
 
 - type: entity
   parent: BaseGameRule
@@ -237,7 +237,7 @@
     definitions:
     - prefRoles: [ HeadRev ]
       max: 3
-      playerRatio: 15
+      playerRatio: 25 # starcup: 15 -> 25, antags that target specific roles need larger shifts to ensure those roles are actually filled
       briefing:
         text: head-rev-role-greeting
         color: CornflowerBlue
@@ -317,7 +317,7 @@
   parent: BaseGameRule
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 30 # starcup: 20 -> 30, zombie gamemode wants more players than others
     delay:
       min: 600
       max: 900

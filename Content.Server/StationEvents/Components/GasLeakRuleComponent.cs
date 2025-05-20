@@ -43,5 +43,5 @@ public sealed partial class GasLeakRuleComponent : Component
 
     public int MinimumGas = 1000;
     public int MaximumGas = 4000;
-    public float SparkChance = 0.05f;
+    public float SparkChance = 0.00f; // starcup: 0.05f -> 0.00f, removed to prevent random plasma/trit fires and spark-related deaths
 }

@@ -4,7 +4,7 @@
   groups:
   - GroupTankHarness
   - CourierHead
-#  - CourierNeck # starcup - commented out for now
+  - CourierNeck
   - CourierJumpsuit
   - CourierOuterClothing
   - CourierPDA

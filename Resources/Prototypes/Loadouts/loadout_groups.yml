@@ -53,8 +53,12 @@
   - TowelColorWhite
   - TowelColorYellow
   - AACTablet # DeltaV
+  - GoldRing # DeltaV
+  - SilverRing # DeltaV
+  - HandheldStationMap # starcup
   - Cane # DeltaV
   - WhiteCane #DeltaV
+  - CDDogtags # Cosmatic Drift
 
 - type: loadoutGroup
   id: Glasses
@@ -1356,6 +1360,7 @@
   - YellowBoxingGloves
 
 # Other
+
 - type: loadoutGroup
   id: SurvivalSyndicate
   name: loadout-group-survival-syndicate
