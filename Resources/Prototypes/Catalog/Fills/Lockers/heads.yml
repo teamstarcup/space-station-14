@@ -7,9 +7,9 @@
     - id: CargoBountyComputerCircuitboard
     - id: CargoRequestComputerCircuitboard
     - id: CargoSaleComputerCircuitboard
-    - id: CargoShuttleComputerCircuitboard
     - id: CargoShuttleConsoleCircuitboard
     - id: SalvageMagnetMachineCircuitboard
+    - id: SalvageJobBoardComputerCircuitboard
     - id: CigPackGreen
       prob: 0.50
     - id: ClothingHeadsetAltCargo
@@ -19,6 +19,7 @@
     - id: RubberStampDenied
     - id: RubberStampQm
     - id: AstroNavCartridge
+    - id: ClothingHandsKnuckleDustersQM
 
 - type: entity
   id: LockerQuarterMasterFilled
@@ -52,6 +53,10 @@
     - id: SpaceCash1000
     - id: WeaponDisabler
     - id: ClothingEyesGlassesCommand
+    - id: HeadSkeleton # A skull to accompany your skeleton crew
+      conditions:
+      - !type:PlayerCountCondition
+        max: 15
 
 # No laser table + Laser table
 - type: entityTable
@@ -130,6 +135,10 @@
     - id: DoorRemoteService
     - id: HoPIDCard
     - id: IDComputerCircuitboard
+#    begin starcup: disable departmental economy
+#    - id: FundingAllocationComputerCircuitboard
+#    - id: CargoRequestServiceComputerCircuitboard
+#    end starcup
     - id: RubberStampApproved
     - id: RubberStampDenied
     - id: RubberStampHop
@@ -161,9 +170,11 @@
     - id: ClothingHandsGlovesColorYellow
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
+#    - id: CargoRequestEngineeringComputerCircuitboard # starcup: disable departmental economy
     - id: RCD
     - id: RCDAmmo
     - id: RubberStampCE
+    - id: MetalFoamGrenade
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -220,6 +231,7 @@
     - id: HandheldCrewMonitor
     - id: Hypospray
     - id: MedicalTechFabCircuitboard
+#    - id: CargoRequestMedicalComputerCircuitboard # starcup: disable departmental economy
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
@@ -274,6 +286,7 @@
     - id: ProtolatheMachineCircuitboard
     - id: RDIDCard # starcup: added spare ID
     - id: ResearchComputerCircuitboard
+#    - id: CargoRequestScienceComputerCircuitboard # starcup: disable departmental economy
     - id: RubberStampRd
 
 # Hardsuit table, used for suit storage as well
@@ -332,6 +345,7 @@
     - id: HoSIDCard # starcup: added spare ID
     - id: RubberStampHos
     - id: SecurityTechFabCircuitboard
+#    - id: CargoRequestSecurityComputerCircuitboard # starcup: disable departmental economy
     - id: WeaponDisabler
     - id: WantedListCartridge
     - id: DrinkHosFlask
@@ -382,7 +396,6 @@
   - type: StorageFill
     contents:
     - id: WeaponRevolverDeckard
-    - id: ClothingOuterHardsuitBasic
     - id: JetpackBlue
     - id: SpaceCash1000
     - id: BeachBall

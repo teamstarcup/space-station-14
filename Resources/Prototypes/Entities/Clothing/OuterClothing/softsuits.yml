@@ -12,14 +12,14 @@
   - type: Tag
     tags:
     - SuitEVA
-#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
+    - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
 
 #Syndicate EVA
 - type: entity
   parent: [ ClothingOuterEVASuitBase, BaseSyndicateContraband ]
-  id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
+  id: ClothingOuterEVASuitSyndicate
   name: syndicate EVA suit
   description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
   components:
@@ -30,7 +30,7 @@
   - type: Tag
     tags:
     - SuitEVA
-#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
+    - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
 
@@ -73,7 +73,7 @@
   - type: Tag
     tags:
     - SuitEVA
-#    - MonkeyWearable # starcup: remove outerwear whitelist for monkeys
+    - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
 

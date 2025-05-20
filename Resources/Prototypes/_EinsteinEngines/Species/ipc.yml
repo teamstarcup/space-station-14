@@ -49,6 +49,12 @@
 - type: markingPoints
   id: MobIPCMarkingLimits
   points:
+    Hair:
+      points: 1 # starcup: changed from 0
+      required: false
+    FacialHair:
+      points: 1 # starcup: changed from 0
+      required: false
     Head:
       points: 1
       required: true

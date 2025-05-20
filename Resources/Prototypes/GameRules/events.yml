@@ -231,6 +231,7 @@
         nameSegments:
         - NamesNinjaTitle
         - NamesNinja
+        nameFormat: name-format-ninja
       mindRoles:
       - MindRoleNinja
 
@@ -317,6 +318,7 @@
         nameSegments:
         - NamesWizardFirst
         - NamesWizardLast
+        nameFormat: name-format-wizard
       mindRoles:
       - MindRoleWizard
 
@@ -531,7 +533,7 @@
     weight: 3.5 # starcup: 5.5 -> 3.5, don't want loneops being a very common event
     minimumPlayers: 20
     maxOccurrences: 3 # starcup: added, don't want a revolving door of loneop events on survival
-    duration: 1
+    duration: null # LoneOpsSpawn needs an infinite duration so that it inherits the NukeOpsRule things of an actually appropriate end scrreen (not always "Neutral outcome!") and... ending the game if the station is nuked.
   - type: RuleGrids
   - type: LoadMapRule
     gridPath: /Maps/Shuttles/ShuttleEvent/striker.yml
@@ -552,6 +554,7 @@
         nameSegments:
         - NamesSyndicatePrefix
         - NamesSyndicateNormal
+        nameFormat: name-format-nukie-generic
       - type: NpcFactionMember
         factions:
         - Syndicate
@@ -643,6 +646,19 @@
     - Service
     blacklist:
     - External # don't space everything
+
+- type: entity
+  parent: BaseGameRule
+  id: SmugglerStashVariationPass
+  components:
+  - type: StationEvent
+    earliestStart: 0
+    duration: 1
+    minimumPlayers: 1
+    maxOccurrences: 2
+    weight: 10
+  - type: RandomSpawnRule
+    prototype: RandomSatchelSpawner
 
 - type: entity
   parent: BaseGameRule
