@@ -1,3 +1,4 @@
+
 # starcup: removed figurines-hop-4
 # figurines-hop-4 = You can get AA if you fill out the form.
 
@@ -118,7 +119,7 @@ figurines-warden-2 = Do you want to go for a walk? Please say yes.
 figurines-warden-3 = No, you don't need lethals for that.
 figurines-warden-4 = Outside? Where's that?
 
-starcup: added figurines-detective-6
+# starcup: added figurines-detective-6
 figurines-detective-1 = The butler did it.
 figurines-detective-2 = I need some whiskey after this.
 figurines-detective-3 = Chameleon fibers? How did a chameleon get in here?
