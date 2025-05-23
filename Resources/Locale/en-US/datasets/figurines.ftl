@@ -270,7 +270,7 @@ figurines-cmo-2 = You have HOW MUCH toxin damage?!
 figurines-cmo-3 = Oh, is it the salvagers again?
 figurines-cmo-4 = Tell Death I said "Better luck next time".
 
-# starcup: removed figurines-chemist-2 through 6 
+# starcup: removed figurines-chemist-2 through 6
 # figurines-chemist-2 = We need to cook.
 # figurines-chemist-3 = I am the one who knocks!
 # figurines-chemist-4 = Say my name.
@@ -297,8 +297,8 @@ figurines-paramedic-3 = Be there in a jiffy!
 figurines-paramedic-4 = Don't worry, I've got you!
 
 # starcup: removed figurines-doctor-4 through 5
-figurines-doctor-4 = Just a week away...
-figurines-doctor-5 = I knew it...
+# figurines-doctor-4 = Just a week away...
+# figurines-doctor-5 = I knew it...
 
 # starcup: added figurines-doctor-4
 figurines-doctor-1 = The patient is already dead!
@@ -322,7 +322,7 @@ figurines-librarian-13 = ...It's a tale as old as time...
 figurines-librarian-14 = ...That's all she wrote.
 
 # starcup: removed figurines-chaplain-5
-figurines-chaplain-5 = Anyone want to be sacrificed?
+# figurines-chaplain-5 = Anyone want to be sacrificed?
 
 # starcup: added figurines-chaplain-5, fixed formatting on figurines-chaplain-2
 figurines-chaplain-1 = Would you like to join my cul-- I mean religion.
@@ -333,8 +333,8 @@ figurines-chaplain-5 = There are more things in space than are dreamt of in your
 figurines-chaplain-6 = Vampires aren't real.
 
 # starcup: removed figurines-chef-4 and 6
-figurines-chef-4 = That'll be 1000 spesos
-figurines-chef-6 = Where'd Pun Pun go? No idea...
+# figurines-chef-4 = That'll be 1000 spesos
+# figurines-chef-6 = Where'd Pun Pun go? No idea...
 
 # starcup: added figurines-chef-4 and 6
 figurines-chef-1 = I swear it's not human meat.
