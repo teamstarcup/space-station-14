@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 
 namespace Content.Server._DeltaV.Cargo.Systems;
 
-public sealed partial class LogisticStatsSystem : SharedCargoSystem
+public sealed partial class LogisticStatsSystem : EntitySystem
 {
     public override void Initialize()
     {
