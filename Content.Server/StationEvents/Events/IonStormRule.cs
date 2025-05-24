@@ -1,4 +1,4 @@
-using Content.Server._CD.Traits; // CD - synth trait
+using Content.Server._CosmaticDrift.Traits; // CD - synth trait
 using Content.Server.Silicons.Laws;
 using Content.Server.StationEvents.Components;
 using Content.Shared.GameTicking.Components;
@@ -29,7 +29,7 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
         var synthQuery = EntityQueryEnumerator<SynthComponent>();
         while (synthQuery.MoveNext(out var ent, out var synthComp))
         {
-            if (RobustRandom.Prob(synthComp.AlertChance))
+            if (!RobustRandom.Prob(synthComp.AlertChance))
                 continue;
 
             if (!TryComp<ActorComponent>(ent, out var actor))

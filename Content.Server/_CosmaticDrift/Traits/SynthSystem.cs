@@ -4,7 +4,7 @@ using Content.Shared.Chat.TypingIndicator;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server._CD.Traits;
+namespace Content.Server._CosmaticDrift.Traits;
 
 public sealed class SynthSystem : EntitySystem
 {

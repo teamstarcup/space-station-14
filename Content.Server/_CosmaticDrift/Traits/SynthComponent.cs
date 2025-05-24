@@ -1,4 +1,4 @@
-namespace Content.Server._CD.Traits;
+namespace Content.Server._CosmaticDrift.Traits;
 
 /// <summary>
 /// Set players' blood to coolant, and is used to notify them of ion storms
@@ -10,5 +10,5 @@ public sealed partial class SynthComponent : Component
     /// The chance that the synth is alerted of an ion storm
     /// </summary>
     [DataField]
-    public float AlertChance = 0.3f;
+    public float AlertChance = 0.7f;
 }
