@@ -8,13 +8,13 @@
   id: FigurinesPassenger
   values:
     prefix: figurines-passenger-
-    count: 5
+    count: 4 # starcup: 5 -> 4
 
 - type: localizedDataset
   id: FigurinesGreytider
   values:
     prefix: figurines-greytider-
-    count: 6
+    count: 5 # starcup: 6 -> 5
 
 - type: localizedDataset
   id: FigurinesClown
@@ -38,7 +38,7 @@
   id: FigurinesMusician
   values:
     prefix: figurines-musician-
-    count: 5
+    count: 7 # starcup: 5 -> 7
 
 - type: localizedDataset
   id: FigurinesBoxer
@@ -50,43 +50,43 @@
   id: FigurinesCaptain
   values:
     prefix: figurines-captain-
-    count: 8
+    count: 5 # starcup: 8 -> 5
 
 - type: localizedDataset
   id: FigurinesHoS
   values:
     prefix: figurines-hos-
-    count: 5
+    count: 4 # starcup: 5 -> 4
 
 - type: localizedDataset
   id: FigurinesWarden
   values:
     prefix: figurines-warden-
-    count: 6
+    count: 4 # starcup: 6 -> 4
 
 - type: localizedDataset
   id: FigurinesDetective
   values:
     prefix: figurines-detective-
-    count: 5
+    count: 6 # starcup: 5 -> 6
 
 - type: localizedDataset
   id: FigurinesSecurity
   values:
     prefix: figurines-security-
-    count: 10
+    count: 4 # starcup: 10 -> 4
 
 - type: localizedDataset
   id: FigurinesLawyer
   values:
     prefix: figurines-lawyer-
-    count: 5
+    count: 6 # starcup: 5 -> 6
 
 - type: localizedDataset
   id: FigurinesCargoTech
   values:
     prefix: figurines-cargotech-
-    count: 6
+    count: 4 # starcup: 6 -> 4
 
 - type: localizedDataset
   id: FigurinesSalvage
@@ -98,7 +98,7 @@
   id: FigurinesQM
   values:
     prefix: figurines-qm-
-    count: 9
+    count: 7 # starcup: 9 -> 7
 
 - type: localizedDataset
   id: FigurinesCE
@@ -110,19 +110,19 @@
   id: FigurinesEngineer
   values:
     prefix: figurines-engineer-
-    count: 7
+    count: 5 # starcup: 7 -> 5
 
 - type: localizedDataset
   id: FigurinesAtmosTech
   values:
     prefix: figurines-atmostech-
-    count: 7
+    count: 5 # starcup: 7 -> 5
 
 - type: localizedDataset
   id: FigurinesRD
   values:
     prefix: figurines-rd-
-    count: 6
+    count: 7 # starcup: 6 -> 7
 
 - type: localizedDataset
   id: FigurinesScientist
@@ -134,25 +134,25 @@
   id: FigurinesCMO
   values:
     prefix: figurines-cmo-
-    count: 5
+    count: 4 # starcup: 5 -> 4
 
 - type: localizedDataset
   id: FigurinesChemist
   values:
     prefix: figurines-chemist-
-    count: 6
+    count: 4 # starcup: 6 -> 4
 
 - type: localizedDataset
   id: FigurinesParamedic
   values:
     prefix: figurines-paramedic-
-    count: 5
+    count: 4 # starcup: 5 -> 4
 
 - type: localizedDataset
   id: FigurinesDoctor
   values:
     prefix: figurines-doctor-
-    count: 5
+    count: 4 # starcup: 5 -> 4
 
 - type: localizedDataset
   id: FigurinesLibrarian
@@ -176,7 +176,7 @@
   id: FigurinesBartender
   values:
     prefix: figurines-bartender-
-    count: 7
+    count: 6 # starcup: 7 -> 6
 
 - type: localizedDataset
   id: FigurinesBotanist
@@ -188,7 +188,7 @@
   id: FigurinesJanitor
   values:
     prefix: figurines-janitor-
-    count: 9
+    count: 6 # starcup: 9 -> 6
 
 - type: localizedDataset
   id: FigurinesNukie
@@ -218,7 +218,7 @@
   id: FigurinesWizard
   values:
     prefix: figurines-wizard-
-    count: 4
+    count: 5 # starcup: 4 -> 5
 
 - type: localizedDataset
   id: FigurinesSpaceDragon
