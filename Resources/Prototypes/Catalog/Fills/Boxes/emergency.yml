@@ -29,6 +29,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
     - id: DrinkWaterBottleFull
@@ -51,6 +52,7 @@
     - id: ClothingMaskBreath
     - id: ExtendedEmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
@@ -69,6 +71,7 @@
     - id: ClothingMaskBreath
     - id: ExtendedEmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
     - id: DrinkWaterBottleFull
@@ -92,6 +95,7 @@
     - id: ClothingMaskGasSecurity
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
@@ -110,6 +114,7 @@
     - id: ClothingMaskGasSecurity
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
@@ -133,6 +138,7 @@
     - id: ClothingMaskBreathMedical
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
@@ -151,6 +157,7 @@
     - id: ClothingMaskBreathMedical
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
     - id: DrinkWaterBottleFull
@@ -179,6 +186,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyFunnyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodPSB # DeltaV - replace nutribrick with PSB
     - id: DrinkWaterBottleFull
@@ -196,6 +204,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
     - id: DrinkWaterBottleFull
@@ -212,6 +221,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodBreadBaguette
     - id: DrinkWaterBottleFull
@@ -226,6 +236,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodBreadBaguette
     - id: DrinkWaterBottleFull
@@ -246,6 +257,7 @@
     - id: ClothingMaskBreath
     - id: EmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodBreadBaguetteCotton
     - id: DrinkWaterBottleFull
@@ -262,6 +274,7 @@
     - id: ClothingMaskGasSyndicate
     - id: ExtendedEmergencyOxygenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
   - type: Sprite
@@ -279,6 +292,7 @@
     - id: ClothingMaskGasSyndicate
     - id: ExtendedEmergencyNitrogenTankFilled
     - id: EmergencyMedipen
+    - id: SpaceMedipen # starcup: added to help players survive spacings
     - id: Flare
     - id: FoodSnackNutribrick
   - type: Sprite
